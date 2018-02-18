@@ -1,0 +1,23 @@
+{
+  "name": "keynote",
+  "description": "",
+  "main": "",
+  "authors": [
+    "HRMNT <flatron123ASD>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aos": "^2.2.0",
+    "normalize-css": "^7.0.0",
+    "owl.carousel": "^2.2.1",
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

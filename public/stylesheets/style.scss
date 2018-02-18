@@ -1,0 +1,217 @@
+@import "config.scss";
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=cyrillic');
+$black: #041125;
+$yellow: #DEAE23;
+* {
+  box-sizing: border-box;
+}
+
+.main-page {
+  height: 100vh;
+  position: relative;
+  .background-layer {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    background-image: url("/images/background.png");
+    background-size: cover;
+  }
+  .dark-layer {
+    z-index: -1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .header {
+    width: 100%;
+    position: sticky;
+    height: 8rem;
+    .logo {
+      height: 4rem;
+    }
+  }
+  .info {
+    height: calc(100% - 8rem) !important;
+    h1, h2 {
+      color: white;
+      font-size: 3.8rem;
+      letter-spacing: 2px;
+      font-family: "Mont-Heavy";
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-family: "Mont-Light";
+
+    }
+  }
+}
+.lessons {
+  background-color: #f6f8f8;
+  .tac{
+    height: 12rem;
+  }
+  h3{
+    font-size: 3rem;
+    color: $yellow;
+  }
+  .column-box{
+    margin-bottom: 1.25rem;
+    &:nth-last-child(n){
+      padding-right: 0.625rem!important;
+    }
+    &:nth-last-child(n+1){
+      padding-left: 0.625rem!important;
+    }
+    a{
+      text-decoration: none;
+    }
+    .item{
+      background-color: white;
+      height: 15rem;
+      border-radius: 10px;
+      border: 1px solid #efefef;
+      padding: 2.5rem;
+      .media-side{
+        width: 20%;
+        img{
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .info-side{
+        width: 80%;
+        h4{
+          font-family: "Open Sans";
+          font-weight: 300;
+
+          .course-name{
+            color: $yellow;
+            font-size: 2.2rem;
+
+          }
+          .course-count{
+            margin-left: 1rem;
+            color: $black;
+            font-size: 1.6rem;
+
+          }
+
+        }
+        p{
+          font-family: "Open Sans";
+          color: $black;
+          font-weight: 300;
+          font-size: 1.4rem;
+        }
+
+      }
+    }
+  }
+}
+.mentors{
+  .header{
+    height: 12rem;
+    h3{
+      font-size: 3rem;
+      font-family: Mont-Heavy;
+      letter-spacing: 2px;
+    }
+  }
+  .list{
+    .teacher{
+      img{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .about{
+
+      }
+    }
+  }
+}
+.feedback-form{
+  padding-left: calc(6.625rem + 15px);
+  padding-right: calc(6.625rem + 15px);
+  padding-bottom: 3rem;
+  .tac{
+    height: 12rem;
+    h3{
+      color:$black;
+      font-family: "Mont-Heavy";
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+  }
+  .feedback-details{
+    .info{
+      height: 30rem;
+      padding-right: 0.625rem!important;
+      .conver{
+        border: 1px solid #efefef;
+        box-shadow: 0 0 5px #efefef;
+        border-radius: 1rem;
+        position: relative;
+        form{
+          position: relative;
+          width: 60%;
+          h4{
+            color: $black;
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+            font-family: Mont-Heavy;
+          }
+          input{
+            border: 0;
+            border-bottom: 1px solid #efefef;
+            width: 100%;
+            outline: none;
+          }
+          .break_line{
+            position: absolute;
+            right: 0;
+            top:10%;
+            width: 1px;
+            height: 80%;
+            background-color: #efefef;
+          }
+        }
+        .our-info{
+          width: 40%;
+          .item{
+            h4{
+              font-weight: 500;
+              font-family: Mont-Heavy;
+            }
+            p{
+
+              color: #332512;
+              font-size: 1.3rem;
+            }
+          }
+        }
+        .bookmark{
+          position: absolute;
+          height: 4rem;
+          transform: scaleX(-1);
+          right: 4%;
+          top:0;
+        }
+      }
+      iframe{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .map{
+      padding-left: 0.625rem!important;
+
+    }
+
+
+  }
+}

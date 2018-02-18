@@ -2,6 +2,7 @@
 html {
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
 
 }
 
@@ -10,13 +11,9 @@ html {
 @media (min-width: 768px)  { html { font-size: 56.3%; } }  // 56.3% = 9px
 @media (min-width: 992px)  { html { font-size: 62.5%; } }  // 62.5% = 10px
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   width: 100%;
-  height: 100%;
+  height: auto;
   font-size: 1.6rem;
   margin:0;
   background-size:cover;

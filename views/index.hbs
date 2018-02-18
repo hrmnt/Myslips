@@ -8,14 +8,27 @@
     <link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap-grid.min.css'/>
     <link rel="stylesheet" href="/libs/aos/dist/aos.css"/>
     <link rel="stylesheet" href="/libs/owl.carousel/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="/libs/owl.carousel/dist/assets/owl.theme.default.min.css"/>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
-<body>
+<body class="body">
+<navigation class="navigation ">
+    <div class="div"></div>
+
+</navigation>
 <section class="main-page w-100">
     <div class="background-layer w-100 h-100"></div>
     <div class="dark-layer w-100 h-100"></div>
-    <nav class="header d-flex align-items-center px-5">
-        <img class="logo" src="/images/logo_white.png" alt="">
+    <nav id="header" class="sticky d-flex align-items-center justify-content-between px-5">
+        <img id="white-logo" class="logo show" src="/images/logo_white.png" alt="">
+        <img id="black-logo" class="logo " src="/images/logo_black.png" alt="">
+        <div id="hamburger" class="hamburger__wrapper js-hamburger">
+            <div class="hamburger">
+                <span id="first-line"></span>
+                <span id="second-line"></span>
+                <span id="third-line"></span>
+            </div>
+        </div>
     </nav>
     <div class="info d-flex flex-column align-items-center  justify-content-center">
         <h1>Lorem ipsum dolor sit amet.</h1>
@@ -31,7 +44,7 @@
     <div class="container-fluid w-100 ">
         <div class="row w-100 m-0 px-5 ">
 
-            <div data-aos="fade-in" class="col-md-6 column-box d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
@@ -50,7 +63,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 column-box d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
@@ -70,7 +83,7 @@
                 </a>
             </div>
 
-            <div class="col-md-6 column-box d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
@@ -90,7 +103,7 @@
                 </a>
             </div>
 
-            <div class="col-md-6 column-box d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
@@ -109,7 +122,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 column-box d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
@@ -128,7 +141,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-6 column-box d-flex justify-content-center align-items-center">
+            <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
@@ -155,24 +168,140 @@
 <section class="mentors w-100 d-flex flex-column">
     <div class="header w-100 d-flex justify-content-center align-items-center">
         <h3>Наш состав:</h3>
-    </div>
-    <div class="list container d-flex flex-column ">
-        <div class="owl-carousel owl-theme">
-            <div class="teacher d-flex align-items-center justify-content-around">
-                <img src="/images/Joha.jpg" alt="">
-                <div class="about">
-                    <h4>Jakhanger Kazhiyev</h4>
-                    <h5>Front-end, Scratch</h5>
-                    <p>lorem50</p>
-                </div>
 
+    </div>
+    <div class="list  d-flex flex-column ">
+        <div class="owl-carousel ">
+
+            <div class="teacher d-flex align-items-center justify-content-center">
+                <div class="content  flex-column align-items-center justify-content-around">
+
+                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <div class="info w-100 h-100   align-items-center justify-content-around">
+                        <div class="triangle"></div>
+                        <div class="triangle big"></div>
+                        <div class="more h-100 d-flex align-items-center justify-content-center">
+                            <ul >
+                                <li>
+                                    <p>Age:19</p>
+                                </li>
+
+                                <li>
+                                    <p>Status:Senior</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about h-100 pl-3 d-flex flex-column justify-content-between">
+                            <div class="tn-first d-flex flex-column justify-content-center">
+                                <h4>Jakhanger Kazhiyev</h4>
+                                <h5>Front-end, Scratch</h5>
+                            </div>
+                            <div class="tn-last d-flex">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
+            <div class="teacher d-flex align-items-center justify-content-center">
+                <div class="content  flex-column align-items-center justify-content-around">
+
+                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <div class="info w-100 h-100   align-items-center justify-content-around">
+                        <div class="triangle"></div>
+                        <div class="triangle big"></div>
+                        <div class="more h-100 d-flex align-items-center justify-content-center">
+                            <ul >
+                                <li>
+                                    <p>Age:19</p>
+                                </li>
+
+                                <li>
+                                    <p>Status:Senior</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about h-100 pl-3 d-flex flex-column justify-content-between">
+                            <div class="tn-first d-flex flex-column justify-content-center">
+                                <h4>Jakhanger Kazhiyev</h4>
+                                <h5>Front-end, Scratch</h5>
+                            </div>
+                            <div class="tn-last d-flex">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="teacher d-flex align-items-center justify-content-center">
+                <div class="content  flex-column align-items-center justify-content-around">
+
+                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <div class="info w-100 h-100   align-items-center justify-content-around">
+                        <div class="triangle"></div>
+                        <div class="triangle big"></div>
+                        <div class="more h-100 d-flex align-items-center justify-content-center">
+                            <ul >
+                                <li>
+                                    <p>Age:19</p>
+                                </li>
+
+                                <li>
+                                    <p>Status:Senior</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about h-100 pl-3 d-flex flex-column justify-content-between">
+                            <div class="tn-first d-flex flex-column justify-content-center">
+                                <h4>Jakhanger Kazhiyev</h4>
+                                <h5>Front-end, Scratch</h5>
+                            </div>
+                            <div class="tn-last d-flex">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="teacher d-flex align-items-center justify-content-center">
+                <div class="content  flex-column align-items-center justify-content-around">
+
+                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <div class="info w-100 h-100   align-items-center justify-content-around">
+                        <div class="triangle"></div>
+                        <div class="triangle big"></div>
+                        <div class="more h-100 d-flex align-items-center justify-content-center">
+                            <ul >
+                                <li>
+                                    <p>Age:19</p>
+                                </li>
+
+                                <li>
+                                    <p>Status:Senior</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about h-100 pl-3 d-flex flex-column justify-content-between">
+                            <div class="tn-first d-flex flex-column justify-content-center">
+                                <h4>Jakhanger Kazhiyev</h4>
+                                <h5>Front-end, Scratch</h5>
+                            </div>
+                            <div class="tn-last d-flex">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -241,10 +370,13 @@
 
     </div>
 </section>
+<footer class="footer w-100">
 
-<script type="javascript" src="/libs/jquery/dist/jquery.js"></script>
-<script type="javascript" src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
-<script type="javascript" src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+</footer>
+
+<script  src="/libs/jquery/dist/jquery.js"></script>
+<script  src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script  src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/libs/aos/dist/aos.js"></script>
 <script src="/javascripts/main.js"></script>
 

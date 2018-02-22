@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/libs/normalize-css/normalize.css'/>
+    <link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap-grid.min.css'/>
+    <link rel="stylesheet" href="/libs/aos/dist/aos.css"/>
+    <link rel="stylesheet" href="/libs/owl.carousel/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="/libs/owl.carousel/dist/assets/owl.theme.default.min.css"/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body class="lesson-page">
+<navigation class="navigation ">
+    <div class="div"></div>
+
+</navigation>
+<nav id="header" class="sticky  d-flex align-items-center justify-content-between px-5">
+    <a href="/"><img id="black-logo" class="logo show " src="/images/logo_black.png" alt=""></a>
+    <a href="/"><img id="white-logo" class="logo " src="/images/logo_black.png" alt=""></a>
+    <div id="hamburger" class="hamburger__wrapper js-hamburger">
+        <div class="hamburger">
+            <span id="first-line"></span>
+            <span id="second-line"></span>
+            <span id="third-line"></span>
+        </div>
+    </div>
+</nav>
+<section class="path d-flex flex-column">
+    <div class="info h-100 d-flex flex-column justify-content-center w-100">
+        <h3>{{lesson.name}}</h3>
+        <p>{{lesson.description}}</p>
+    </div>
+</section>
+<section class="steps d-flex">
+    <div class="roadmap">
+        <div class="preface">
+            <h4>Воплоти свои мечты в реальность</h4>
+            <p class="main-idea">На этом с HTML мы завершаем и переходим к языку CSS. CSS – это язык описания внешнего
+                вида
+                документа, написанного с использованием языка разметки. Название произошло от англ. Cascading Style
+                Sheets —
+                каскадные таблицы стилей.</p>
+        </div>
+        <div class="">
+            {{#each sylabus}}
+                <div class="sylabus-week w-100 d-flex flex-column ">
+
+                    <div class="ss">
+                        <h4>{{title}}</h4>
+                        <p>{{description}}</p>
+                    </div>
+                    {{#each lessons}}
+                        <div class="w-100 d-flex align-items-center mb-4 justify-content-between">
+                            <div class="circle-big d-flex align-items-center justify-content-center">
+                                <div class="circle-small"></div>
+                                {{#if connected}}
+                                    <div class="connector"></div>
+                                {{/if}}
+                            </div>
+                            <div class="item d-flex  align-items-center">
+
+                                <img class="lesson-img mr-5" src="{{img}}" alt="">
+                                <div class="i-tb d-flex flex-column h-100 justify-content-center">
+                                    <h5>{{name}}</h5>
+                                    <p>{{description}}</p>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="days d-flex flex-column justify-content-around">
+                                    <ul>
+                                        {{#each lesson}}
+                                            <li>{{text}}</li>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    {{/each}}
+                </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="lessons d-none d-md-flex flex-column align-items-center">
+        <div class="courses-type d-flex align-items-center justify-content-center flex-column">
+            <div class="bezel d-flex align-items-center justify-content-center mb-5">
+                <img src="{{lesson.img}}" alt="">
+            </div>
+            <h5>
+               {{lesson.name}}
+            </h5>
+        </div>
+        <div class="navigation-courses">
+            <h5>Другие курсы:</h5>
+            <ul>
+                <li>
+                    <a href="html">
+                        HTML/CSS
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        Python
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Android
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        IOS
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Scratch
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Design
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</section>
+<section class="feedback-form w-100 d-flex flex-column align-items-center">
+    <div class="tac d-flex align-items-center justify-content-center">
+        <h3>Свяжитесь с нами</h3>
+    </div>
+    <div class="feedback-details w-100 d-flex  row">
+        <div class="info d-flex col-md-6 p-0">
+            <div class="conver w-100 h-100 d-flex">
+                <form class=" h-100 d-flex flex-column justify-content-around p-5" action="">
+                    <div>
+                        <h4>Имя:</h4>
+                        <input type="text" name="name" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <h4>Номер телефона:</h4>
+                        <input type="text" name="phone" placeholder="+7-(708)-000-00-00">
+                    </div>
+                    <div>
+                        <h4>Курс который хотите пройти:</h4>
+                        <input class="mb-0" type="text" name="course" placeholder="HTML/CSS">
+                    </div>
+                    <div class="break_line"></div>
+                </form>
+                <div class="our-info p-5 d-flex flex-column justify-content-around">
+                    <div class="item">
+                        <h4>Tel:</h4>
+                        <p>+7 708 723 34 51</p>
+                    </div>
+                    <div class="item">
+                        <h4>Email:</h4>
+                        <p>Keynote@gmail.com</p>
+                    </div>
+                    <div class="item">
+                        <h4>Address:</h4>
+                        <p>Almaty st.Kazhimukana 17</p>
+                    </div>
+                </div>
+                <img class="bookmark" src="/images/lesson/bookmark.svg" alt="">
+            </div>
+        </div>
+        <div class="col-md-6 info map">
+            <a class="dg-widget-link"
+               href="http://2gis.kz/almaty/firm/70000001029135976/center/76.914927,43.236892/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                на карте Алматы</a>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.kz/almaty/center/76.914927,40.236892/zoom/16/routeTab/rsType/bus/to/76.914927,43.236892╎SmArt.Point, коворкинг-центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                проезд до SmArt.Point, коворкинг-центр</a></div>
+            <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <script charset="utf-8">new DGWidgetLoader({
+                "width": 640,
+                "height": 640,
+                "borderRadius": "10px",
+                "borderColor": "#a3a3a3",
+                "pos": {"lat": 43.236892, "lon": 76.914927, "zoom": 16},
+                "opt": {"city": "almaty"},
+                "org": [{"id": "70000001029135976"}]
+            });</script>
+            <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите
+                его в настройках вашего браузера.
+            </noscript>
+        </div>
+
+
+    </div>
+</section>
+
+<script src="/libs/jquery/dist/jquery.js"></script>
+<script src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/libs/aos/dist/aos.js"></script>
+<script src="/javascripts/main.js"></script>
+
+</body>
+</html>

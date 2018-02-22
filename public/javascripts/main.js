@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     })
     function onScroll() {
-        window.scrollY >= origOffsetY != headerIsFixed && (
+        window.scrollY >= origOffsetY + 30 != headerIsFixed && (
             headerIsFixed = !headerIsFixed,
                 header.classList.toggle("fixed", headerIsFixed)
         );

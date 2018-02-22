@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>{{title}}</title>
     <link rel='stylesheet' href='/libs/normalize-css/normalize.css'/>
     <link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap.min.css'/>
@@ -15,13 +17,17 @@
 <navigation class="navigation ">
     <div class="div"></div>
 
+
 </navigation>
 <section class="main-page w-100">
-    <div class="background-layer w-100 h-100"></div>
+    <div class="background-layer first w-100 h-100"></div>
+    <div class="background-layer second w-100 h-100"></div>
+    <div class="background-layer third w-100 h-100"></div>
+    <div class="background-layer four w-100 h-100"></div>
     <div class="dark-layer w-100 h-100"></div>
     <nav id="header" class="sticky d-flex align-items-center justify-content-between px-5">
-        <img id="white-logo" class="logo show" src="/images/logo_white.png" alt="">
-        <img id="black-logo" class="logo " src="/images/logo_black.png" alt="">
+        <a href="/"><img id="white-logo" class="logo show" src="/images/logo_white.png" alt=""></a>
+        <a href="/"><img id="black-logo" class="logo " src="/images/logo_black.png" alt=""></a>
         <div id="hamburger" class="hamburger__wrapper js-hamburger">
             <div class="hamburger">
                 <span id="first-line"></span>
@@ -42,13 +48,13 @@
 
     </div>
     <div class="container-fluid w-100 ">
-        <div class="row w-100 m-0 px-5 ">
+        <div class="row w-100 m-0">
 
             <div data-aos="fade-down" class="col-md-6 column-box d-flex justify-content-center align-items-center">
-                <a href="">
+                <a href="/lesson/html">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/html.svg" alt="">
+                            <img src="/images/mainpage/html.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <h4 class="mb-3">
@@ -67,7 +73,7 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/javascript.svg" alt="">
+                            <img src="/images/mainpage/javascript.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <h4 class="mb-3">
@@ -87,7 +93,7 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/ruby.svg" alt="">
+                            <img src="/images/mainpage/ruby.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <h4 class="mb-3">
@@ -107,7 +113,7 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/python.svg" alt="">
+                            <img src="/images/mainpage/python.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <h4 class="mb-3">
@@ -126,7 +132,7 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/android.svg" alt="">
+                            <img src="/images/mainpage/android.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <h4 class="mb-3">
@@ -145,7 +151,7 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/ios.svg" alt="">
+                            <img src="/images/mainpage/ios.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <h4 class="mb-3">
@@ -176,7 +182,7 @@
             <div class="teacher d-flex align-items-center justify-content-center">
                 <div class="content  flex-column align-items-center justify-content-around">
 
-                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <img class="preview-img" src="/images/mainpage/Joha.jpg" alt="">
                     <div class="info w-100 h-100   align-items-center justify-content-around">
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
@@ -208,7 +214,7 @@
             <div class="teacher d-flex align-items-center justify-content-center">
                 <div class="content  flex-column align-items-center justify-content-around">
 
-                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <img class="preview-img" src="/images/mainpage/Joha.jpg" alt="">
                     <div class="info w-100 h-100   align-items-center justify-content-around">
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
@@ -240,7 +246,7 @@
             <div class="teacher d-flex align-items-center justify-content-center">
                 <div class="content  flex-column align-items-center justify-content-around">
 
-                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <img class="preview-img" src="/images/mainpage/Joha.jpg" alt="">
                     <div class="info w-100 h-100   align-items-center justify-content-around">
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
@@ -272,7 +278,7 @@
             <div class="teacher d-flex align-items-center justify-content-center">
                 <div class="content  flex-column align-items-center justify-content-around">
 
-                    <img class="preview-img" src="/images/Joha.jpg" alt="">
+                    <img class="preview-img" src="/images/mainpage/Joha.jpg" alt="">
                     <div class="info w-100 h-100   align-items-center justify-content-around">
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
@@ -305,6 +311,9 @@
         </div>
 
     </div>
+</section>
+<section class="fee-of-companies">
+
 </section>
 <section class="feedback-form w-100 d-flex flex-column align-items-center">
     <div class="tac d-flex align-items-center justify-content-center">
@@ -342,7 +351,7 @@
                         <p>Almaty st.Kazhimukana 17</p>
                     </div>
                 </div>
-                <img class="bookmark" src="/images/bookmark.svg" alt="">
+                <img class="bookmark" src="/images/mainpage/bookmark.svg" alt="">
             </div>
         </div>
         <div class="col-md-6 info map">
@@ -370,8 +379,26 @@
 
     </div>
 </section>
-<footer class="footer w-100">
-
+<footer class="footer w-100 d-flex align-items-start justify-content-center">
+    <!--<div class="d-flex h-100 align-items-center justify-content-around py-4 flex-column">-->
+        <!--<h4 class="company-name">KEYNOTE</h4>-->
+        <!--<div class="social d-flex align-items-center justify-content-around">-->
+            <!--<a href="">-->
+                <!--<img src="/images/mainpage/instagram-logo.svg" alt="">-->
+            <!--</a>-->
+            <!--<a href="">-->
+                <!--<img src="/images/mainpage/close-envelope.svg" alt="">-->
+            <!--</a>-->
+            <!--<a href="">-->
+                <!--<img src="/images/mainpage/facebook-logo.svg" alt="">-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<h5 class="email">keynote@gmail.com</h5>-->
+        <!--<h5 class="address">Almaty, st.Abylaikhana 8, 256 off </h5>-->
+    <!--</div>-->
+    <div class="header d-flex justify-content-center align-items-center">
+        <img class="logo" src="/images/mainpage/logo_white.png" alt="">
+    </div>
 </footer>
 
 <script  src="/libs/jquery/dist/jquery.js"></script>

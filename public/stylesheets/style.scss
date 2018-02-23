@@ -39,13 +39,17 @@ body {
   background-color: transparent;
   top: 1px;
   z-index: 50;
-  .logo {
-    height: 3.66rem;
+  a{
     display: none;
-    transition: all 0.4s ease;
+  }
+  .show{
+    display: block;
+    .logo{
+      height: 3.66rem;
+      transition: all 0.4s ease;
 
-    &.show{
       display: block;
+
     }
 
   }
@@ -339,6 +343,11 @@ body {
       text-transform: uppercase;
       font-family: "Mont-Heavy";
       font-weight: 500;
+      text-align: center;
+      @media (max-width: 798px) {
+        font-size: 3rem;
+
+      }
     }
     h2 {
       font-size: 2.8rem;
@@ -350,6 +359,10 @@ body {
 
 .lessons {
   background-color: #f6f8f8;
+  @media (max-width: 798px) {
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+  }
   .tac {
     height: 12rem;
   }
@@ -375,15 +388,29 @@ body {
       border-radius: 10px;
       border: 1px solid #efefef;
       padding: 2.5rem;
+      @media(max-width: 798px){
+        height: auto;
+        flex-direction: column;
+      }
       .media-side {
         width: 20%;
         img {
           height: 100%;
           object-fit: cover;
         }
+        @media(max-width: 798px){
+          width: 100%;
+          margin-bottom: 1rem;
+          img{
+            height: 10rem;
+          }
+        }
       }
       .info-side {
         width: 80%;
+        @media(max-width: 798px){
+          width: 100%;
+        }
         h4 {
           font-family: "Open Sans";
           font-weight: 300;
@@ -525,6 +552,9 @@ body {
   padding-left: calc(6.625rem + 15px);
   padding-right: calc(6.625rem + 15px);
   padding-bottom: 3rem;
+  @media (max-width: 798px) {
+    padding: 2rem 2rem;
+  }
   .tac {
     height: 12rem;
     h3 {
@@ -538,14 +568,27 @@ body {
     .info {
       height: 30rem;
       padding-right: 0.625rem !important;
+      @media (max-width: 798px) {
+        height: auto;
+        padding-right: 0!important;
+        margin-bottom: 2rem;
+      }
       .conver {
         border: 1px solid #efefef;
         box-shadow: 0 0 5px #efefef;
         border-radius: 1rem;
         position: relative;
+        @media (max-width: 798px) {
+          flex-direction: column;
+
+        }
         form {
           position: relative;
           width: 60%;
+          @media (max-width: 798px) {
+            width: 100%;
+
+          }
           h4 {
             color: $black;
             font-size: 1.6rem;
@@ -565,11 +608,24 @@ body {
             width: 1px;
             height: 80%;
             background-color: #efefef;
+            @media (max-width:798px) {
+              top:inherit;
+              bottom: 0;
+              right: 0;
+              width: 100%;
+              height: 1px;
+            }
           }
         }
         .our-info {
           width: 40%;
+          @media (max-width: 798px) {
+            width: 100%;
+            padding-top: 2rem;
+            height: 26rem;
+          }
           .item {
+            height: 5rem;
             h4 {
               font-weight: 500;
               font-family: Mont-Heavy;
@@ -596,7 +652,10 @@ body {
     }
     .map {
       padding-left: 0.625rem !important;
-
+      @media (max-width: 798px) {
+        padding-left: 0!important;
+        height: 40rem;
+      }
     }
 
   }
@@ -611,10 +670,26 @@ body {
     width: 90%;
     height: 5rem;
     border-bottom: 1px solid #e7e7e7;;
+    .social{
+      img{
+        height: 3rem;
+        object-fit: cover;
+      }
+    }
+    .address{
+      img{
+        height: 2rem;
+        margin-right: 5px;
+      }
+      p{
+        color: white;
+        font-size: 1.4rem;
+      }
+    }
     .logo{
       height: 3.5rem;
-
     }
+
   }
 }
 

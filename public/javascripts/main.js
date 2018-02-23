@@ -4,9 +4,16 @@ $(document).ready(function () {
         animateOut: 'slideOutDown',
         animateIn: 'flipInX',
         center: true,
-        items:3,
+        items:1,
         loop:true,
-
+        responsive:{
+            600:{
+                items:3
+            }
+        },
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true
     });
 
     $("#hamburger").click(function () {

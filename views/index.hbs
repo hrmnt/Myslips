@@ -26,8 +26,8 @@
     <div class="background-layer four w-100 h-100"></div>
     <div class="dark-layer w-100 h-100"></div>
     <nav id="header" class="sticky d-flex align-items-center justify-content-between px-5">
-        <a href="/"><img id="white-logo" class="logo show" src="/images/logo_white.png" alt=""></a>
-        <a href="/"><img id="black-logo" class="logo " src="/images/logo_black.png" alt=""></a>
+        <a id="white-logo" class="show"  href="/"><img class="logo " src="/images/logo_white.png" alt=""></a>
+        <a id="black-logo" href="/"><img  class="logo " src="/images/logo_black.png" alt=""></a>
         <div id="hamburger" class="hamburger__wrapper js-hamburger">
             <div class="hamburger">
                 <span id="first-line"></span>
@@ -396,9 +396,27 @@
         <!--<h5 class="email">keynote@gmail.com</h5>-->
         <!--<h5 class="address">Almaty, st.Abylaikhana 8, 256 off </h5>-->
     <!--</div>-->
-    <div class="header d-flex justify-content-center align-items-center">
-        <img class="logo" src="/images/mainpage/logo_white.png" alt="">
+    <div class="header d-flex justify-content-between align-items-center">
+        <div class="social col">
+            <a href="https://www.instagram.com/keynote.studies/">
+            <img src="/images/instagram-logo.svg" alt="">
+            </a>
+            <a href="https://www.facebook.com/groups/246941362511468/?ref=bookmarks">
+            <img src="/images/facebook-logo.svg" alt="">
+            </a>
+            <a href="mailto:keynote.studies@gmail.com">
+            <img src="/images/close-envelope.svg" alt="">
+            </a>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+            <img class="logo" src="/images/logo_white.png" alt="">
+
+        </div>
+        <div class="address col d-flex justify-content-end">
+            <p><img src="/images/telephone.svg" alt="">:+7-(708)-000-00-00</p>
+        </div>
     </div>
+    <div class="read-about"></div>
 </footer>
 
 <script  src="/libs/jquery/dist/jquery.js"></script>

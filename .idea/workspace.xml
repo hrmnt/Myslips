@@ -2,75 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/0737c91902e3a042b95daf6edb7edc90.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/099cee8c368e6076c6870472671fd993.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/21c57e684f07660567a46d437273bd02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/2b23d8ec3439c21cc54ede4f0dd5993f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/2eeec1bb4d6813a25d1d9f7e60a4dff0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/331d88610d7a32e80d18ad373e147d91.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/351fddcba9e58d497dc0e265f27d7efe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/46d9bd50aa058cae030c89e84e7b4630.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/53c530222e06475042a37b576ae25c40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/541b641e7ebde24471860f3096421fe7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/5d9be6fa74dbb0f71303b7b418f4c6eb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/60043c36fcbee68febb132046eb57639.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/62dd92e8bc35bd00ab2bc19ee55ce8db.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/656852caee14f9a268f50cf04880f365.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/657e63aa1f97088d80ff5363376910f6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/862168bb406b37ed97a202c38589ac9e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/b9e1d169066de65711a316dcd0ba9a1c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/c301252e1cd48344505a04d4e202567c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/c304d918a913ecf10be07967be1694c3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/d7dfa7b81a710544fb4dae3bfcd7c844.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/dbcd06c240f47a8cb4ed850fef596580.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/deb9a3930553e9eed042519f5b36a1a9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/ea54d24f77bf105f6e1d360118e8370d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/eb6a8e9a7bf91635f4a43bbb6792c46f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/f5ddbc21c4e2196acc032a42ddf35d4c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/f892fcb642c7720714349174714dc0f1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/warm.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/animation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/chrome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/Joha.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/common_desktop-bc7745fcb84b0eebdddd882839bc5487.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/entryChunk-www-c2096c4238caee3a71bc.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/gestalt-e6a8d37f18d97a1acf1da941c6da4afc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-1-8c4b52644f0f13b1e977.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-15-911e6dc45cc7c710319b.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-16-fd5b5877460995dedd0d.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-51-5fbf0aae5dc39456f5cc.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-53-164888c38828ddf9cecb.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-6-032c692cf02984c1d44c.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-67-dd3e59b8be4c8ea767f1.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-82-3434cdd4d8a0bfac5f3c.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/pjs-locale-ru_RU-lite-509582c8d4926d36626b.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/(7) Pinterest_files/vendor-react-62b50be453a63eb8d53f.js.Без названия" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/close-envelope.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/facebook-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/instagram-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/chrome.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/html-5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/html-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/html-lesson.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/iphone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/safari.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/bookmark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/html.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/lesson.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/background.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/android.svg" afterPath="$PROJECT_DIR$/public/images/mainpage/android.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/bookmark.svg" afterPath="$PROJECT_DIR$/public/images/lesson/bookmark.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/html.svg" afterPath="$PROJECT_DIR$/public/images/lesson/html.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/ios.svg" afterPath="$PROJECT_DIR$/public/images/mainpage/ios.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/javascript.svg" afterPath="$PROJECT_DIR$/public/images/mainpage/javascript.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/python.svg" afterPath="$PROJECT_DIR$/public/images/mainpage/python.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/ruby.svg" afterPath="$PROJECT_DIR$/public/images/mainpage/ruby.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/telephone.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/close-envelope.svg" afterPath="$PROJECT_DIR$/public/images/close-envelope.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/facebook-logo.svg" afterPath="$PROJECT_DIR$/public/images/facebook-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/instagram-logo.svg" afterPath="$PROJECT_DIR$/public/images/instagram-logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/config.css" afterPath="$PROJECT_DIR$/public/stylesheets/config.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/config.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/config.css.map" />
@@ -79,9 +15,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/lesson.hbs" afterPath="$PROJECT_DIR$/views/lesson.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -100,8 +34,8 @@
           <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1564">
-                  <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+                <state relative-caret-position="165">
+                  <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -110,18 +44,38 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="986">
+                <state relative-caret-position="870">
                   <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+                <state relative-caret-position="699">
+                  <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/index.hbs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="457">
+                  <caret line="415" column="10" lean-forward="true" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -134,28 +88,33 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="709" column="16" lean-forward="false" selection-start-line="709" selection-start-column="16" selection-end-line="709" selection-end-column="16" />
+                <state relative-caret-position="461">
+                  <caret line="681" column="25" lean-forward="false" selection-start-line="681" selection-start-column="25" selection-end-line="681" selection-end-column="25" />
                   <folding>
                     <element signature="e#479#504#0" expanded="false" />
                     <element signature="e#518#813#0" expanded="false" />
-                    <element signature="e#1114#1326#0" expanded="false" />
-                    <element signature="e#1350#1432#0" expanded="false" />
-                    <element signature="e#1485#1543#0" expanded="false" />
-                    <element signature="e#1608#1640#0" expanded="false" />
-                    <element signature="e#1705#1737#0" expanded="false" />
-                    <element signature="e#1752#1874#0" expanded="false" />
-                    <element signature="e#1904#1970#0" expanded="false" />
-                    <element signature="e#2163#2391#0" expanded="false" />
-                    <element signature="e#2494#2534#0" expanded="false" />
-                    <element signature="e#2538#2662#0" expanded="false" />
-                    <element signature="e#2677#2754#0" expanded="false" />
-                    <element signature="e#2769#2790#0" expanded="false" />
-                    <element signature="e#2804#2881#0" expanded="false" />
-                    <element signature="e#2893#3058#0" expanded="false" />
-                    <element signature="e#3078#3180#0" expanded="false" />
-                    <element signature="e#3190#3312#0" expanded="false" />
-                    <element signature="e#3582#3769#0" expanded="false" />
+                    <element signature="e#1146#1358#0" expanded="false" />
+                    <element signature="e#1382#1464#0" expanded="false" />
+                    <element signature="e#1517#1575#0" expanded="false" />
+                    <element signature="e#1640#1672#0" expanded="false" />
+                    <element signature="e#1737#1769#0" expanded="false" />
+                    <element signature="e#1784#1906#0" expanded="false" />
+                    <element signature="e#1936#2002#0" expanded="false" />
+                    <element signature="e#2195#2423#0" expanded="false" />
+                    <element signature="e#2526#2566#0" expanded="false" />
+                    <element signature="e#2570#2694#0" expanded="false" />
+                    <element signature="e#2709#2786#0" expanded="false" />
+                    <element signature="e#2801#2822#0" expanded="false" />
+                    <element signature="e#2836#2913#0" expanded="false" />
+                    <element signature="e#2925#3090#0" expanded="false" />
+                    <element signature="e#3110#3212#0" expanded="false" />
+                    <element signature="e#3222#3344#0" expanded="false" />
+                    <element signature="e#3614#3801#0" expanded="false" />
+                    <element signature="e#3874#5149#0" expanded="false" />
+                    <element signature="e#5152#5314#0" expanded="false" />
+                    <element signature="e#5317#5583#0" expanded="false" />
+                    <element signature="e#5586#5814#0" expanded="false" />
+                    <element signature="e#5817#5979#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -167,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style</find>
       <find>margin</find>
       <find>bod</find>
       <find>mb-5</find>
@@ -193,6 +151,11 @@
       <find>/images/</find>
       <find>/images/mainpage/</find>
       <find>main-ide</find>
+      <find>lessons</find>
+      <find>.feed</find>
+      <find>.les</find>
+      <find>.show</find>
+      <find>.footer</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
@@ -215,12 +178,12 @@
         <option value="$PROJECT_DIR$/public/stylesheets/config.scss" />
         <option value="$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lesson.scss" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/views/lesson.hbs" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
       </list>
     </option>
   </component>
@@ -235,10 +198,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,39 +219,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_work" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_work" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_work" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_work" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_work" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -300,14 +264,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
-      <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\mainpage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\mainpage" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
+      <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\mainpage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,6 +318,7 @@
       <workItem from="1519239799849" duration="10776000" />
       <workItem from="1519274803561" duration="868000" />
       <workItem from="1519298945562" duration="47000" />
+      <workItem from="1519353878086" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1518959599970</created>
@@ -372,20 +338,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73508000" />
+    <option name="totallyTimeSpent" value="76274000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25818452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -406,8 +372,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25818452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -432,13 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -467,23 +426,28 @@
           <folding>
             <element signature="e#479#504#0" expanded="false" />
             <element signature="e#518#813#0" expanded="false" />
-            <element signature="e#1114#1326#0" expanded="false" />
-            <element signature="e#1350#1432#0" expanded="false" />
-            <element signature="e#1485#1543#0" expanded="false" />
-            <element signature="e#1608#1640#0" expanded="false" />
-            <element signature="e#1705#1737#0" expanded="false" />
-            <element signature="e#1752#1874#0" expanded="false" />
-            <element signature="e#1904#1970#0" expanded="false" />
-            <element signature="e#2163#2391#0" expanded="false" />
-            <element signature="e#2494#2534#0" expanded="false" />
-            <element signature="e#2538#2662#0" expanded="false" />
-            <element signature="e#2677#2754#0" expanded="false" />
-            <element signature="e#2769#2790#0" expanded="false" />
-            <element signature="e#2804#2881#0" expanded="false" />
-            <element signature="e#2893#3058#0" expanded="false" />
-            <element signature="e#3078#3180#0" expanded="false" />
-            <element signature="e#3190#3312#0" expanded="false" />
-            <element signature="e#3582#3769#0" expanded="false" />
+            <element signature="e#1146#1358#0" expanded="false" />
+            <element signature="e#1382#1464#0" expanded="false" />
+            <element signature="e#1517#1575#0" expanded="false" />
+            <element signature="e#1640#1672#0" expanded="false" />
+            <element signature="e#1737#1769#0" expanded="false" />
+            <element signature="e#1784#1906#0" expanded="false" />
+            <element signature="e#1936#2002#0" expanded="false" />
+            <element signature="e#2195#2423#0" expanded="false" />
+            <element signature="e#2526#2566#0" expanded="false" />
+            <element signature="e#2570#2694#0" expanded="false" />
+            <element signature="e#2709#2786#0" expanded="false" />
+            <element signature="e#2801#2822#0" expanded="false" />
+            <element signature="e#2836#2913#0" expanded="false" />
+            <element signature="e#2925#3090#0" expanded="false" />
+            <element signature="e#3110#3212#0" expanded="false" />
+            <element signature="e#3222#3344#0" expanded="false" />
+            <element signature="e#3614#3801#0" expanded="false" />
+            <element signature="e#3874#5149#0" expanded="false" />
+            <element signature="e#5152#5314#0" expanded="false" />
+            <element signature="e#5317#5583#0" expanded="false" />
+            <element signature="e#5586#5814#0" expanded="false" />
+            <element signature="e#5817#5979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -543,13 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/jquery/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/jquery/bower.json" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -578,40 +536,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.carousel.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2315" lean-forward="false" selection-start-line="5" selection-start-column="2315" selection-end-line="5" selection-end-column="2315" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="143" column="23" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.theme.default.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.video.play.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.carousel.css" />
+    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.theme.default.min.css" />
+    <entry file="file://$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.video.play.png" />
     <entry file="file://$PROJECT_DIR$/views/lesson.html" />
-    <entry file="file://$PROJECT_DIR$/public/images/facebook-logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/lesson.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -656,13 +585,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/background.png" />
-    <entry file="file://$PROJECT_DIR$/public/images/close-envelope.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/html-lesson.svg" />
     <entry file="file://$PROJECT_DIR$/public/images/lesson/html-lesson.svg">
       <provider selected="true" editor-type-id="text-editor">
@@ -672,13 +594,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/instagram-logo.png" />
-    <entry file="file://$PROJECT_DIR$/public/images/instagram-logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/html.svg" />
     <entry file="file://$PROJECT_DIR$/public/images/lesson/html.svg">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,51 +637,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="5" column="108" lean-forward="false" selection-start-line="5" selection-start-column="108" selection-end-line="5" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="709" column="16" lean-forward="false" selection-start-line="709" selection-start-column="16" selection-end-line="709" selection-end-column="16" />
-          <folding>
-            <element signature="e#479#504#0" expanded="false" />
-            <element signature="e#518#813#0" expanded="false" />
-            <element signature="e#1114#1326#0" expanded="false" />
-            <element signature="e#1350#1432#0" expanded="false" />
-            <element signature="e#1485#1543#0" expanded="false" />
-            <element signature="e#1608#1640#0" expanded="false" />
-            <element signature="e#1705#1737#0" expanded="false" />
-            <element signature="e#1752#1874#0" expanded="false" />
-            <element signature="e#1904#1970#0" expanded="false" />
-            <element signature="e#2163#2391#0" expanded="false" />
-            <element signature="e#2494#2534#0" expanded="false" />
-            <element signature="e#2538#2662#0" expanded="false" />
-            <element signature="e#2677#2754#0" expanded="false" />
-            <element signature="e#2769#2790#0" expanded="false" />
-            <element signature="e#2804#2881#0" expanded="false" />
-            <element signature="e#2893#3058#0" expanded="false" />
-            <element signature="e#3078#3180#0" expanded="false" />
-            <element signature="e#3190#3312#0" expanded="false" />
-            <element signature="e#3582#3769#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
+        <state relative-caret-position="870">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
@@ -774,16 +647,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="699">
+          <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/close-envelope.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/facebook-logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/instagram-logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/telephone.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="681" column="25" lean-forward="false" selection-start-line="681" selection-start-column="25" selection-end-line="681" selection-end-column="25" />
+          <folding>
+            <element signature="e#479#504#0" expanded="false" />
+            <element signature="e#518#813#0" expanded="false" />
+            <element signature="e#1146#1358#0" expanded="false" />
+            <element signature="e#1382#1464#0" expanded="false" />
+            <element signature="e#1517#1575#0" expanded="false" />
+            <element signature="e#1640#1672#0" expanded="false" />
+            <element signature="e#1737#1769#0" expanded="false" />
+            <element signature="e#1784#1906#0" expanded="false" />
+            <element signature="e#1936#2002#0" expanded="false" />
+            <element signature="e#2195#2423#0" expanded="false" />
+            <element signature="e#2526#2566#0" expanded="false" />
+            <element signature="e#2570#2694#0" expanded="false" />
+            <element signature="e#2709#2786#0" expanded="false" />
+            <element signature="e#2801#2822#0" expanded="false" />
+            <element signature="e#2836#2913#0" expanded="false" />
+            <element signature="e#2925#3090#0" expanded="false" />
+            <element signature="e#3110#3212#0" expanded="false" />
+            <element signature="e#3222#3344#0" expanded="false" />
+            <element signature="e#3614#3801#0" expanded="false" />
+            <element signature="e#3874#5149#0" expanded="false" />
+            <element signature="e#5152#5314#0" expanded="false" />
+            <element signature="e#5317#5583#0" expanded="false" />
+            <element signature="e#5586#5814#0" expanded="false" />
+            <element signature="e#5817#5979#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="415" column="10" lean-forward="true" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="10" />
           <folding />
         </state>
       </provider>

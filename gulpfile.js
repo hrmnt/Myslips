@@ -15,7 +15,7 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("views/*.hbs").on('change', browserSync.reload);
     gulp.watch("public/stylesheets/*.css", browserSync.reload);
     gulp.watch("public/routes/*.js", browserSync.reload);
-    gulp.watch("public/stylesheets/*.css", ["autoprefixer", browserSync.reload]);
+    // gulp.watch("public/stylesheets/*.css", ["autoprefixer", browserSync.reload]);
 });
 
 // Compile sass into CSS & auto-inject into browsers

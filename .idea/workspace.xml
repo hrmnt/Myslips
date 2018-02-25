@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/public/javascripts/main.js" line="19" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/telephone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/drawing.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/java.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mainpage/sketch.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo_black.png" afterPath="$PROJECT_DIR$/public/images/logo_black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo_white.png" afterPath="$PROJECT_DIR$/public/images/logo_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_1.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_2.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_3.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_4.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/close-envelope.svg" afterPath="$PROJECT_DIR$/public/images/close-envelope.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/facebook-logo.svg" afterPath="$PROJECT_DIR$/public/images/facebook-logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/instagram-logo.svg" afterPath="$PROJECT_DIR$/public/images/instagram-logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/config.css" afterPath="$PROJECT_DIR$/public/stylesheets/config.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/config.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/config.css.map" />
@@ -16,6 +24,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/lesson.hbs" afterPath="$PROJECT_DIR$/views/lesson.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,14 +37,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5245536">
+    <splitter split-orientation="horizontal" split-proportion="0.50223213">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+                <state relative-caret-position="1275">
+                  <caret line="75" column="49" lean-forward="false" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -44,7 +53,7 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="870">
+                <state relative-caret-position="986">
                   <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
                   <folding />
                 </state>
@@ -54,7 +63,7 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="699">
+                <state relative-caret-position="799">
                   <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
                   <folding />
                 </state>
@@ -64,8 +73,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+                <state relative-caret-position="1479">
+                  <caret line="87" column="50" lean-forward="false" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -74,8 +83,8 @@
           <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="457">
-                  <caret line="415" column="10" lean-forward="true" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="10" />
+                <state relative-caret-position="503">
+                  <caret line="460" column="0" lean-forward="false" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -88,33 +97,15 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="681" column="25" lean-forward="false" selection-start-line="681" selection-start-column="25" selection-end-line="681" selection-end-column="25" />
+                <state relative-caret-position="336">
+                  <caret line="553" column="7" lean-forward="true" selection-start-line="553" selection-start-column="7" selection-end-line="553" selection-end-column="7" />
                   <folding>
-                    <element signature="e#479#504#0" expanded="false" />
-                    <element signature="e#518#813#0" expanded="false" />
-                    <element signature="e#1146#1358#0" expanded="false" />
-                    <element signature="e#1382#1464#0" expanded="false" />
-                    <element signature="e#1517#1575#0" expanded="false" />
-                    <element signature="e#1640#1672#0" expanded="false" />
-                    <element signature="e#1737#1769#0" expanded="false" />
-                    <element signature="e#1784#1906#0" expanded="false" />
-                    <element signature="e#1936#2002#0" expanded="false" />
-                    <element signature="e#2195#2423#0" expanded="false" />
-                    <element signature="e#2526#2566#0" expanded="false" />
-                    <element signature="e#2570#2694#0" expanded="false" />
-                    <element signature="e#2709#2786#0" expanded="false" />
-                    <element signature="e#2801#2822#0" expanded="false" />
-                    <element signature="e#2836#2913#0" expanded="false" />
-                    <element signature="e#2925#3090#0" expanded="false" />
-                    <element signature="e#3110#3212#0" expanded="false" />
-                    <element signature="e#3222#3344#0" expanded="false" />
-                    <element signature="e#3614#3801#0" expanded="false" />
-                    <element signature="e#3874#5149#0" expanded="false" />
-                    <element signature="e#5152#5314#0" expanded="false" />
-                    <element signature="e#5317#5583#0" expanded="false" />
-                    <element signature="e#5586#5814#0" expanded="false" />
-                    <element signature="e#5817#5979#0" expanded="false" />
+                    <element signature="e#480#505#0" expanded="false" />
+                    <element signature="e#5348#5514#0" expanded="false" />
+                    <element signature="e#5517#5751#0" expanded="false" />
+                    <element signature="e#5754#5988#0" expanded="false" />
+                    <element signature="e#5991#6157#0" expanded="false" />
+                    <element signature="e#6172#6218#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -126,42 +117,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>margin</find>
-      <find>bod</find>
-      <find>mb-5</find>
-      <find>mb-3</find>
-      <find>640</find>
-      <find>header</find>
-      <find>cd</find>
-      <find>add</find>
-      <find>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;    &lt;title&gt;{{title}}&lt;/title&gt;    &lt;link rel='stylesheet' href='/libs/normalize-css/normalize.css'/&gt;    &lt;link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap.min.css'/&gt;    &lt;link rel='stylesheet' href='/libs/bootstrap/dist/css/bootstrap-grid.min.css'/&gt;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/libs/aos/dist/aos.css&quot;/&gt;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/libs/owl.carousel/dist/assets/owl.carousel.min.css&quot;/&gt;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/libs/owl.carousel/dist/assets/owl.theme.default.min.css&quot;/&gt;    &lt;link rel='stylesheet' href='/stylesheets/style.css'/&gt;&lt;/head&gt;&lt;body class=&quot;body&quot;&gt;&lt;navigation class=&quot;navigation &quot;&gt;    &lt;div class=&quot;div&quot;&gt;&lt;/div&gt;&lt;/navigation&gt;&lt;section class=&quot;main-page w-100&quot;&gt;    &lt;div class=&quot;background-layer w-100 h-100&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;dark-layer w-100 h-100&quot;&gt;&lt;/div&gt;    &lt;nav id=&quot;header&quot; class=&quot;sticky d-flex align-items-center justify-content-between px-5&quot;&gt;        &lt;img id=&quot;white-logo&quot; class=&quot;logo show&quot; src=&quot;/images/logo_white.png&quot; alt=&quot;&quot;&gt;        &lt;img id=&quot;black-logo&quot; class=&quot;logo &quot; src=&quot;/images/logo_black.png&quot; alt=&quot;&quot;&gt;        &lt;div id=&quot;hamburger&quot; class=&quot;hamburger__wrapper js-hamburger&quot;&gt;            &lt;div class=&quot;hamburger&quot;&gt;                &lt;span id=&quot;first-line&quot;&gt;&lt;/span&gt;                &lt;span id=&quot;second-line&quot;&gt;&lt;/span&gt;                &lt;span id=&quot;third-line&quot;&gt;&lt;/span&gt;            &lt;/div&gt;        &lt;/div&gt;    &lt;/nav&gt;    &lt;div class=&quot;info d-flex flex-column align-items-center  justify-content-center&quot;&gt;        &lt;h1&gt;Lorem ipsum dolor sit amet.&lt;/h1&gt;        &lt;h2&gt;Lorem ipsum dolor sit.&lt;/h2&gt;    &lt;/div&gt;&lt;/section&gt;&lt;section   class=&quot;lessons w-100 p-5 d-flex flex-column align-items-center &quot;&gt;    &lt;div class=&quot;tac w-100 d-flex justify-content-center flex-column align-items-center mb-4&quot;&gt;        &lt;h3&gt;Lorem ipsum.&lt;/h3&gt;        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fuga.&lt;/p&gt;    &lt;/div&gt;    &lt;div class=&quot;container-fluid w-100 &quot;&gt;        &lt;div class=&quot;row w-100 m-0 px-5 &quot;&gt;            &lt;div data-aos=&quot;fade-down&quot; class=&quot;col-md-6 column-box d-flex justify-content-center align-items-center&quot;&gt;                &lt;a href=&quot;&quot;&gt;                    &lt;div class=&quot;item w-100 d-flex &quot;&gt;                        &lt;div class=&quot;media-side h-100 d-flex align-items-center justify-content-center&quot;&gt;                            &lt;img src=&quot;/images/html.svg&quot; alt=&quot;&quot;&gt;                        &lt;/div&gt;                        &lt;div class=&quot;info-side h-100 d-flex flex-column justify-content-center pl-4&quot;&gt;                            &lt;h4 class=&quot;mb-3&quot;&gt;                                &lt;span class=&quot;course-name&quot;&gt;HTML/CSS&lt;/span&gt;                                &lt;span class=&quot;course-count&quot;&gt;8 courses&lt;/span&gt;                            &lt;/h4&gt;                            &lt;p class=&quot;m-0&quot;&gt;                                Learn the fundamentals of design, front-end development, and crafting user experiences                                that are easy on the eyes.                            &lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/a&gt;            &lt;/div&gt;            &lt;div data-aos=&quot;fade-down&quot; class=&quot;col-md-6 column-box d-flex justify-content-center align-items-center&quot;&gt;                &lt;a href=&quot;&quot;&gt;                    &lt;div class=&quot;item w-100 d-flex &quot;&gt;                        &lt;div class=&quot;media-side h-100 d-flex align-items-center justify-content-center&quot;&gt;                            &lt;img src=&quot;/images/javascript.svg&quot; alt=&quot;&quot;&gt;                        &lt;/div&gt;                        &lt;div class=&quot;info-side h-100 d-flex flex-column justify-content-center pl-4&quot;&gt;                            &lt;h4 class=&quot;mb-3&quot;&gt;                                &lt;span class=&quot;course-name&quot;&gt;JavaScript&lt;/span&gt;                                &lt;span class=&quot;course-count&quot;&gt;17 courses&lt;/span&gt;                            &lt;/h4&gt;                            &lt;p class=&quot;m-0&quot;&gt;                                Learn the fundamentals of design, front-end development, and crafting user experiences                                that are easy on the eyes.                            &lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/a&gt;            &lt;/div&gt;            &lt;div data-aos=&quot;fade-down&quot; class=&quot;col-md-6 column-box d-flex justify-content-center align-items-center&quot;&gt;                &lt;a href=&quot;&quot;&gt;                    &lt;div class=&quot;item w-100 d-flex &quot;&gt;                        &lt;div class=&quot;media-side h-100 d-flex align-items-center justify-content-center&quot;&gt;                            &lt;img src=&quot;/images/ruby.svg&quot; alt=&quot;&quot;&gt;                        &lt;/div&gt;                        &lt;div class=&quot;info-side h-100 d-flex flex-column justify-content-center pl-4&quot;&gt;                            &lt;h4 class=&quot;mb-3&quot;&gt;                                &lt;span class=&quot;course-name&quot;&gt;Ruby&lt;/span&gt;                                &lt;span class=&quot;course-count&quot;&gt;8 courses&lt;/span&gt;                            &lt;/h4&gt;                            &lt;p class=&quot;m-0&quot;&gt;                                Learn the fundamentals of design, front-end development, and crafting user experiences                                that are easy on the eyes.                            &lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/a&gt;            &lt;/div&gt;            &lt;div data-aos=&quot;fade-down&quot; class=&quot;col-md-6 column-box d-flex justify-content-center align-items-center&quot;&gt;                &lt;a href=&quot;&quot;&gt;                    &lt;div class=&quot;item w-100 d-flex &quot;&gt;                        &lt;div class=&quot;media-side h-100 d-flex align-items-center justify-content-center&quot;&gt;                            &lt;img src=&quot;/images/python.svg&quot; alt=&quot;&quot;&gt;                        &lt;/div&gt;                        &lt;div class=&quot;info-side h-100 d-flex flex-column justify-content-center pl-4&quot;&gt;                            &lt;h4 class=&quot;mb-3&quot;&gt;                                &lt;span class=&quot;course-name&quot;&gt;Python&lt;/span&gt;                                &lt;span class=&quot;course-count&quot;&gt;8 courses&lt;/span&gt;                            &lt;/h4&gt;                            &lt;p class=&quot;m-0&quot;&gt;                                Learn the fundamentals of design, front-end development, and crafting user experiences                                that are easy on the eyes.                            &lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/a&gt;            &lt;/div&gt;            &lt;div data-aos=&quot;fade-down&quot; class=&quot;col-md-6 column-box d-flex justify-content-center align-items-center&quot;&gt;                &lt;a href=&quot;&quot;&gt;                    &lt;div class=&quot;item w-100 d-flex &quot;&gt;                        &lt;div class=&quot;media-side h-100 d-flex align-items-center justify-content-center&quot;&gt;                            &lt;img src=&quot;/images/android.svg&quot; alt=&quot;&quot;&gt;                        &lt;/div&gt;                        &lt;div class=&quot;info-side h-100 d-flex flex-column justify-content-center pl-4&quot;&gt;                            &lt;h4 class=&quot;mb-3&quot;&gt;                                &lt;span class=&quot;course-name&quot;&gt;Android&lt;/span&gt;                                &lt;span class=&quot;course-count&quot;&gt;8 courses&lt;/span&gt;                            &lt;/h4&gt;                            &lt;p class=&quot;m-0&quot;&gt;                                Learn the fundamentals of design, front-end development, and crafting user experiences                                that are easy on the eyes.                            &lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/a&gt;            &lt;/div&gt;            &lt;div data-aos=&quot;fade-down&quot; class=&quot;col-md-6 column-box d-flex justify-content-center align-items-center&quot;&gt;                &lt;a href=&quot;&quot;&gt;                    &lt;div class=&quot;item w-100 d-flex &quot;&gt;                        &lt;div class=&quot;media-side h-100 d-flex align-items-center justify-content-center&quot;&gt;                            &lt;img src=&quot;/images/ios.svg&quot; alt=&quot;&quot;&gt;                        &lt;/div&gt;                        &lt;div class=&quot;info-side h-100 d-flex flex-column justify-content-center pl-4&quot;&gt;                            &lt;h4 class=&quot;mb-3&quot;&gt;                                &lt;span class=&quot;course-name&quot;&gt;IOS&lt;/span&gt;                                &lt;span class=&quot;course-count&quot;&gt;8 courses&lt;/span&gt;                            &lt;/h4&gt;                            &lt;p class=&quot;m-0&quot;&gt;                                Learn the fundamentals of design, front-end development, and crafting user experiences                                that are easy on the eyes.                            &lt;/p&gt;                        &lt;/div&gt;                    &lt;/div&gt;                &lt;/a&gt;            &lt;/div&gt;        &lt;/div&gt;    &lt;/div&gt;&lt;/section&gt;&lt;section class=&quot;mentors w-100 d-flex flex-column&quot;&gt;    &lt;div class=&quot;header w-100 d-flex justify-content-center align-items-center&quot;&gt;        &lt;h3&gt;Наш состав:&lt;/h3&gt;    &lt;/div&gt;    &lt;div class=&quot;owl-carousel&quot;&gt;        &lt;div&gt; Your Content &lt;/div&gt;        &lt;div&gt; Your Content &lt;/div&gt;        &lt;div&gt; Your Content &lt;/div&gt;        &lt;div&gt; Your Content &lt;/div&gt;        &lt;div&gt; Your Content &lt;/div&gt;        &lt;div&gt; Your Content &lt;/div&gt;        &lt;div&gt; Your Content &lt;/div&gt;    &lt;/div&gt;&lt;/section&gt;&lt;section class=&quot;feedback-form w-100 d-flex flex-column align-items-center&quot;&gt;    &lt;div class=&quot;tac d-flex align-items-center justify-content-center&quot;&gt;        &lt;h3&gt;Свяжитесь с нами&lt;/h3&gt;    &lt;/div&gt;    &lt;div class=&quot;feedback-details w-100 d-flex  row&quot;&gt;        &lt;div class=&quot;info d-flex col-md-6 p-0&quot;&gt;            &lt;div class=&quot;conver w-100 h-100 d-flex&quot;&gt;                &lt;form class=&quot; h-100 d-flex flex-column justify-content-around p-5&quot; action=&quot;&quot;&gt;                    &lt;div&gt;                        &lt;h4&gt;Имя:&lt;/h4&gt;                        &lt;input type=&quot;text&quot; name=&quot;name&quot; placeholder=&quot;John Doe&quot;&gt;                    &lt;/div&gt;                    &lt;div&gt;                        &lt;h4&gt;Номер телефона:&lt;/h4&gt;                        &lt;input type=&quot;text&quot; name=&quot;phone&quot; placeholder=&quot;+7-(708)-000-00-00&quot;&gt;                    &lt;/div&gt;                    &lt;div&gt;                        &lt;h4&gt;Курс который хотите пройти:&lt;/h4&gt;                        &lt;input class=&quot;mb-0&quot; type=&quot;text&quot; name=&quot;course&quot; placeholder=&quot;HTML/CSS&quot;&gt;                    &lt;/div&gt;                    &lt;div class=&quot;break_line&quot;&gt;&lt;/div&gt;                &lt;/form&gt;                &lt;div class=&quot;our-info p-5 d-flex flex-column justify-content-around&quot;&gt;                    &lt;div class=&quot;item&quot;&gt;                        &lt;h4&gt;Tel:&lt;/h4&gt;                        &lt;p&gt;+7 708 723 34 51&lt;/p&gt;                    &lt;/div&gt;                    &lt;div class=&quot;item&quot;&gt;                        &lt;h4&gt;Email:&lt;/h4&gt;                        &lt;p&gt;Keynote@gmail.com&lt;/p&gt;                    &lt;/div&gt;                    &lt;div class=&quot;item&quot;&gt;                        &lt;h4&gt;Address:&lt;/h4&gt;                        &lt;p&gt;Almaty st.Kazhimukana 17&lt;/p&gt;                    &lt;/div&gt;                &lt;/div&gt;                &lt;img class=&quot;bookmark&quot; src=&quot;/images/bookmark.svg&quot; alt=&quot;&quot;&gt;            &lt;/div&gt;        &lt;/div&gt;        &lt;div class=&quot;col-md-6 info map&quot;&gt;            &lt;a class=&quot;dg-widget-link&quot;               href=&quot;http://2gis.kz/almaty/firm/70000001029135976/center/76.914927,43.236892/zoom/16?utm_medium=widget-source&amp;utm_campaign=firmsonmap&amp;utm_source=bigMap&quot;&gt;Посмотреть                на карте Алматы&lt;/a&gt;            &lt;div class=&quot;dg-widget-link&quot;&gt;&lt;a                    href=&quot;http://2gis.kz/almaty/center/76.914927,40.236892/zoom/16/routeTab/rsType/bus/to/76.914927,43.236892╎SmArt.Point, коворкинг-центр?utm_medium=widget-source&amp;utm_campaign=firmsonmap&amp;utm_source=route&quot;&gt;Найти                проезд до SmArt.Point, коворкинг-центр&lt;/a&gt;&lt;/div&gt;            &lt;script charset=&quot;utf-8&quot; src=&quot;https://widgets.2gis.com/js/DGWidgetLoader.js&quot;&gt;&lt;/script&gt;            &lt;script charset=&quot;utf-8&quot;&gt;new DGWidgetLoader({                &quot;width&quot;: 640,                &quot;height&quot;: 640,                &quot;borderRadius&quot;:&quot;10px&quot;,                &quot;borderColor&quot;: &quot;#a3a3a3&quot;,                &quot;pos&quot;: {&quot;lat&quot;: 43.236892, &quot;lon&quot;: 76.914927, &quot;zoom&quot;: 16},                &quot;opt&quot;: {&quot;city&quot;: &quot;almaty&quot;},                &quot;org&quot;: [{&quot;id&quot;: &quot;70000001029135976&quot;}]            });&lt;/script&gt;            &lt;noscript style=&quot;color:#c00;font-size:16px;font-weight:bold;&quot;&gt;Виджет карты использует JavaScript. Включите                его в настройках вашего браузера.            &lt;/noscript&gt;        &lt;/div&gt;    &lt;/div&gt;&lt;/section&gt;&lt;script  src=&quot;/libs/jquery/dist/jquery.js&quot;&gt;&lt;/script&gt;&lt;script  src=&quot;/libs/owl.carousel/dist/owl.carousel.min.js&quot;&gt;&lt;/script&gt;&lt;script  src=&quot;/libs/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/libs/aos/dist/aos.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/javascripts/main.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</find>
-      <find>analitics</find>
-      <find>owl.</find>
-      <find>owl.v</find>
-      <find>meno</find>
-      <find>mentir</find>
-      <find>background-la</find>
-      <find>tac</find>
-      <find>info</find>
-      <find>footer</find>
-      <find>stick</find>
-      <find>close-en</find>
-      <find>html-lesson</find>
-      <find>html-5</find>
-      <find>/images/</find>
-      <find>/images/mainpage/</find>
-      <find>main-ide</find>
-      <find>lessons</find>
       <find>.feed</find>
       <find>.les</find>
       <find>.show</find>
       <find>.footer</find>
+      <find>top:</find>
+      <find>cir</find>
+      <find>circle</find>
+      <find>media-</find>
+      <find>5c5e70</find>
+      <find>f9eed7</find>
+      <find>F9EED7</find>
+      <find>8h279</find>
+      <find>279</find>
+      <find>ff8945</find>
+      <find>tac</find>
+      <find>3.66</find>
+      <find>owl</find>
+      <find>lesson</find>
+      <find>pri</find>
+      <find>12 недель</find>
+      <find>ment</find>
+      <find>price</find>
+      <find>3b3c45</find>
+      <find>stick</find>
+      <find>sticky</find>
+      <find>face</find>
+      <find>stat</find>
+      <find>bar</find>
+      <find>line</find>
+      <find>bars</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
       <replace>mb-4</replace>
       <replace>/images/mainpage/</replace>
       <replace>/images/lesson/</replace>
+      <replace>24 занятия / 12 недель</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,8 +171,10 @@
         <option value="$PROJECT_DIR$/public/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/lesson.scss" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/lesson.hbs" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/views/lesson.hbs" />
+        <option value="$PROJECT_DIR$/public/images/mainpage/java.svg" />
+        <option value="$PROJECT_DIR$/public/images/mainpage/drawing.svg" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
@@ -198,10 +192,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="723" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,37 +216,33 @@
         <subPane>
           <expand>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_work" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_work" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="web_work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_work" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="mainpage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,10 +254,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\mainpage" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
@@ -319,6 +308,8 @@
       <workItem from="1519274803561" duration="868000" />
       <workItem from="1519298945562" duration="47000" />
       <workItem from="1519353878086" duration="2766000" />
+      <workItem from="1519540079197" duration="8640000" />
+      <workItem from="1519570291478" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1518959599970</created>
@@ -338,48 +329,50 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76274000" />
+    <option name="totallyTimeSpent" value="101459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25669643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5029762" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2837607" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5029762" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28473178" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2837607" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25669643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,67 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#479#504#0" expanded="false" />
-            <element signature="e#518#813#0" expanded="false" />
-            <element signature="e#1146#1358#0" expanded="false" />
-            <element signature="e#1382#1464#0" expanded="false" />
-            <element signature="e#1517#1575#0" expanded="false" />
-            <element signature="e#1640#1672#0" expanded="false" />
-            <element signature="e#1737#1769#0" expanded="false" />
-            <element signature="e#1784#1906#0" expanded="false" />
-            <element signature="e#1936#2002#0" expanded="false" />
-            <element signature="e#2195#2423#0" expanded="false" />
-            <element signature="e#2526#2566#0" expanded="false" />
-            <element signature="e#2570#2694#0" expanded="false" />
-            <element signature="e#2709#2786#0" expanded="false" />
-            <element signature="e#2801#2822#0" expanded="false" />
-            <element signature="e#2836#2913#0" expanded="false" />
-            <element signature="e#2925#3090#0" expanded="false" />
-            <element signature="e#3110#3212#0" expanded="false" />
-            <element signature="e#3222#3344#0" expanded="false" />
-            <element signature="e#3614#3801#0" expanded="false" />
-            <element signature="e#3874#5149#0" expanded="false" />
-            <element signature="e#5152#5314#0" expanded="false" />
-            <element signature="e#5317#5583#0" expanded="false" />
-            <element signature="e#5586#5814#0" expanded="false" />
-            <element signature="e#5817#5979#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -639,32 +571,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="986">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
+        <state relative-caret-position="799">
           <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -673,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,47 +610,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/mainpage/sketch.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/mainpage/algorithm.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/mainpage/java.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/mainpage/drawing.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="598" column="4" lean-forward="false" selection-start-line="598" selection-start-column="4" selection-end-line="598" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="49" lean-forward="false" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="50" lean-forward="false" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="681" column="25" lean-forward="false" selection-start-line="681" selection-start-column="25" selection-end-line="681" selection-end-column="25" />
+        <state relative-caret-position="336">
+          <caret line="553" column="7" lean-forward="true" selection-start-line="553" selection-start-column="7" selection-end-line="553" selection-end-column="7" />
           <folding>
-            <element signature="e#479#504#0" expanded="false" />
-            <element signature="e#518#813#0" expanded="false" />
-            <element signature="e#1146#1358#0" expanded="false" />
-            <element signature="e#1382#1464#0" expanded="false" />
-            <element signature="e#1517#1575#0" expanded="false" />
-            <element signature="e#1640#1672#0" expanded="false" />
-            <element signature="e#1737#1769#0" expanded="false" />
-            <element signature="e#1784#1906#0" expanded="false" />
-            <element signature="e#1936#2002#0" expanded="false" />
-            <element signature="e#2195#2423#0" expanded="false" />
-            <element signature="e#2526#2566#0" expanded="false" />
-            <element signature="e#2570#2694#0" expanded="false" />
-            <element signature="e#2709#2786#0" expanded="false" />
-            <element signature="e#2801#2822#0" expanded="false" />
-            <element signature="e#2836#2913#0" expanded="false" />
-            <element signature="e#2925#3090#0" expanded="false" />
-            <element signature="e#3110#3212#0" expanded="false" />
-            <element signature="e#3222#3344#0" expanded="false" />
-            <element signature="e#3614#3801#0" expanded="false" />
-            <element signature="e#3874#5149#0" expanded="false" />
-            <element signature="e#5152#5314#0" expanded="false" />
-            <element signature="e#5317#5583#0" expanded="false" />
-            <element signature="e#5586#5814#0" expanded="false" />
-            <element signature="e#5817#5979#0" expanded="false" />
+            <element signature="e#480#505#0" expanded="false" />
+            <element signature="e#5348#5514#0" expanded="false" />
+            <element signature="e#5517#5751#0" expanded="false" />
+            <element signature="e#5754#5988#0" expanded="false" />
+            <element signature="e#5991#6157#0" expanded="false" />
+            <element signature="e#6172#6218#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="415" column="10" lean-forward="true" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="10" />
+        <state relative-caret-position="503">
+          <caret line="460" column="0" lean-forward="false" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
           <folding />
         </state>
       </provider>

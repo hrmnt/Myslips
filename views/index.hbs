@@ -25,9 +25,9 @@
     <div class="background-layer third w-100 h-100"></div>
     <div class="background-layer four w-100 h-100"></div>
     <div class="dark-layer w-100 h-100"></div>
-    <nav id="header" class="sticky d-flex align-items-center justify-content-between px-5">
-        <a id="white-logo" class="show"  href="/"><img class="logo " src="/images/logo_white.png" alt=""></a>
-        <a id="black-logo" href="/"><img  class="logo " src="/images/logo_black.png" alt=""></a>
+    <nav id="header" class="sticky d-flex align-items-center justify-content-between ">
+        <a id="white-logo" class="show" href="/"><img class="logo " src="/images/logo_white.png" alt=""></a>
+        <a id="black-logo" href="/"><img class="logo " src="/images/logo_black.png" alt=""></a>
         <div id="hamburger" class="hamburger__wrapper js-hamburger">
             <div class="hamburger">
                 <span id="first-line"></span>
@@ -37,14 +37,20 @@
         </div>
     </nav>
     <div class="info d-flex flex-column align-items-center  justify-content-center">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <h2>Lorem ipsum dolor sit.</h2>
+        <div class="d-flex">
+            <h1 id="1-word">Учись.</h1>
+            <h1 id="2-word">Создавай.</h1>
+            <h1 id="3-word">Твори.</h1>
+        </div>
+        <button>
+            Оставить заявку
+        </button>
     </div>
 </section>
-<section   class="lessons w-100 p-5 d-flex flex-column align-items-center ">
+<section class="lessons w-100 p-5 d-flex flex-column align-items-center ">
     <div class="tac w-100 d-flex justify-content-center flex-column align-items-center mb-4">
-        <h3>Lorem ipsum.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fuga.</p>
+        <h3>Курсы</h3>
+        <p>Учеба на курсы для вашего удобства. Найдите курс который подходит именно вам.</p>
 
     </div>
     <div class="container-fluid w-100 ">
@@ -57,15 +63,22 @@
                             <img src="/images/mainpage/html.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
-                            <h4 class="mb-3">
-                                <span class="course-name">HTML/CSS</span>
-                                <span class="course-count">8 courses</span>
-                            </h4>
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <h4 class="mb-3">
+                                    <span class="course-name">HTML/CSS</span>
+                                    <span class="course-count"> 24 занятия / 12 недель</span>
+                                </h4>
+                                <div class="d-flex flex-column justify-content-end mb-3">
+                                    <p class="price"> 25.000 KZT </p>
+                                </div>
+
+                            </div>
+
                             <p class="m-0">
-                                Learn the fundamentals of design, front-end development, and crafting user experiences
-                                that are easy on the eyes.
+                                Основы дизайна, front-end и back-end-разработок.
                             </p>
                         </div>
+
                     </div>
                 </a>
             </div>
@@ -73,16 +86,22 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/mainpage/javascript.svg" alt="">
+                            <img src="/images/mainpage/scratch.png" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
-                            <h4 class="mb-3">
-                                <span class="course-name">JavaScript</span>
-                                <span class="course-count">17 courses</span>
-                            </h4>
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <h4 class="mb-3">
+                                    <span class="course-name">Scratch</span>
+                                    <span class="course-count">24 занятия / 12 недель</span>
+
+                                </h4>
+                                <div class="d-flex flex-column justify-content-end mb-3">
+                                    <p class="price"> 25.000 KZT </p>
+                                </div>
+
+                            </div>
                             <p class="m-0">
-                                Learn the fundamentals of design, front-end development, and crafting user experiences
-                                that are easy on the eyes.
+                                Курс для маленьких начинающих программистов.
                             </p>
                         </div>
                     </div>
@@ -93,19 +112,28 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/mainpage/ruby.svg" alt="">
+                            <img src="/images/mainpage/java.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
-                            <h4 class="mb-3">
-                                <span class="course-name">Ruby</span>
-                                <span class="course-count">8 courses</span>
-                            </h4>
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <h4 class="mb-3">
+                                    <span class="course-name">Java</span>
+                                    <span class="course-count">24 занятия / 12 недель</span>
+
+                                </h4>
+                                <div class="d-flex flex-column justify-content-end mb-3">
+                                    <p class="price"> 25.000 KZT </p>
+                                </div>
+
+                            </div>
                             <p class="m-0">
-                                Learn the fundamentals of design, front-end development, and crafting user experiences
-                                that are easy on the eyes.
+                                Разработка программного обеспечения с введением в Java - востребованный язык
+                                программирования и основу операционной системы Android.
                             </p>
                         </div>
+
                     </div>
+
                 </a>
             </div>
 
@@ -116,15 +144,23 @@
                             <img src="/images/mainpage/python.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
-                            <h4 class="mb-3">
-                                <span class="course-name">Python</span>
-                                <span class="course-count">8 courses</span>
-                            </h4>
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <h4 class="mb-3">
+                                    <span class="course-name">Python</span>
+                                    <span class="course-count">24 занятия / 12 недель</span>
+
+                                </h4>
+                                <div class="d-flex flex-column justify-content-end mb-3">
+                                    <p class="price"> 25.000 KZT </p>
+                                </div>
+
+                            </div>
                             <p class="m-0">
-                                Learn the fundamentals of design, front-end development, and crafting user experiences
-                                that are easy on the eyes.
+                                Фундаментальные концепции программирования, включая структуры данных, сетевые интерфейсы
+                                прикладных программ и базы данных.
                             </p>
                         </div>
+
                     </div>
                 </a>
             </div>
@@ -132,18 +168,25 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/mainpage/android.svg" alt="">
+                            <img src="/images/mainpage/algorithm.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
-                            <h4 class="mb-3">
-                                <span class="course-name">Android</span>
-                                <span class="course-count">8 courses</span>
-                            </h4>
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <h4 class="mb-3">
+                                    <span class="course-name">Algorithms</span>
+                                    <span class="course-count">24 занятия / 12 недель</span>
+
+                                </h4>
+                                <div class="d-flex flex-column justify-content-end mb-3">
+                                    <p class="price"> 25.000 KZT </p>
+                                </div>
+
+                            </div>
                             <p class="m-0">
-                                Learn the fundamentals of design, front-end development, and crafting user experiences
-                                that are easy on the eyes.
+                                Введение в алгоритмы для учеников с хотя бы небольшим опытом программирования.
                             </p>
                         </div>
+
                     </div>
                 </a>
             </div>
@@ -151,18 +194,26 @@
                 <a href="">
                     <div class="item w-100 d-flex ">
                         <div class="media-side h-100 d-flex align-items-center justify-content-center">
-                            <img src="/images/mainpage/ios.svg" alt="">
+                            <img src="/images/mainpage/drawing.svg" alt="">
                         </div>
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
-                            <h4 class="mb-3">
-                                <span class="course-name">IOS</span>
-                                <span class="course-count">8 courses</span>
-                            </h4>
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <h4 class="mb-3">
+                                    <span class="course-name">Design</span>
+                                    <span class="course-count">24 занятия / 12 недель</span>
+
+                                </h4>
+                                <div class="d-flex flex-column justify-content-end mb-3">
+                                    <p class="price"> 25.000 KZT </p>
+                                </div>
+
+                            </div>
                             <p class="m-0">
-                                Learn the fundamentals of design, front-end development, and crafting user experiences
-                                that are easy on the eyes.
+                                Инструменты работы веб-дизайнера, проектирование, подготовка макетов к верстке,
+                                композиция, цвет, типографика и подготовка портфолио.
                             </p>
                         </div>
+
                     </div>
                 </a>
             </div>
@@ -171,13 +222,256 @@
         </div>
     </div>
 </section>
+<section id="statistics" class="statistics d-flex flex-column align-items-center ">
+    <div class="header">
+        <h4>Числа не врут.</h4>
+    </div>
+    <div class="company owl-carousel h-100">
+        <div class="item d-flex flex-column ">
+            <div class="company-name d-flex w-100 align-items-center justify-content-between">
+                <h5>Facebook</h5>
+                <img src="/images/facebook.png" alt="">
+            </div>
+            <div class="bars-container h-100 d-flex flex-column ">
+                <!--<div class="work-type  d-flex flex-column">-->
+                <!--<ul>-->
+                <!--<li>Designer</li>-->
+                <!--<li>Front-end</li>-->
+                <!--<li>Back-end</li>-->
+                <!--<li>Android</li>-->
+                <!--<li>IOS</li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <div class="bar  d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Designer</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line first nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Front-end</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line second nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Back-end</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line third nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Android</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line four nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">IOS</p>
+                </div>
+            </div>
+        </div>
+        <div class="item d-flex flex-column">
+            <div class="company-name d-flex w-100 align-items-center justify-content-between">
+                <h5>Twitter</h5>
+                <img src="/images/twitter.png" alt="">
+            </div>
+            <div class="bars-container h-100 d-flex flex-column ">
+                <!--<div class="work-type  d-flex flex-column">-->
+                <!--<ul>-->
+                <!--<li>Designer</li>-->
+                <!--<li>Front-end</li>-->
+                <!--<li>Back-end</li>-->
+                <!--<li>Android</li>-->
+                <!--<li>IOS</li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <div class="bar  d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Designer</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line first nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Front-end</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line second nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Back-end</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line third nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Android</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line four nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">IOS</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="item d-flex flex-column">
+            <div class="company-name d-flex w-100 align-items-center justify-content-between">
+                <h5>Google</h5>
+                <img src="/images/google.png" alt="">
+            </div>
+            <div class="bars-container h-100 d-flex flex-column ">
+                <!--<div class="work-type  d-flex flex-column">-->
+                <!--<ul>-->
+                <!--<li>Designer</li>-->
+                <!--<li>Front-end</li>-->
+                <!--<li>Back-end</li>-->
+                <!--<li>Android</li>-->
+                <!--<li>IOS</li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <div class="bar  d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Designer</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line first nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Front-end</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line second nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Back-end</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line third nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Android</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line four nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">IOS</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="item d-flex flex-column">
+            <div class="company-name d-flex w-100 align-items-center justify-content-between">
+                <h5>Amazon</h5>
+                <img src="/images/amazon.png" alt="">
+            </div>
+            <div class="bars-container h-100 d-flex flex-column ">
+                <!--<div class="work-type  d-flex flex-column">-->
+                <!--<ul>-->
+                <!--<li>Designer</li>-->
+                <!--<li>Front-end</li>-->
+                <!--<li>Back-end</li>-->
+                <!--<li>Android</li>-->
+                <!--<li>IOS</li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <div class="bar  d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Designer</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line first nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+                    </div>
+                    <p class="nthng profession">Front-end</p>
+
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line second nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Back-end</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line third nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">Android</p>
+                </div>
+                <div class="bar d-flex flex-column">
+                    <div class="line-container d-flex align-items-center ">
+                        <div class="line four nthng"></div>
+                        <span class="nthng fee">160.000 $</span>
+
+                    </div>
+                    <p class="profession nthng">IOS</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</section>
 <section class="mentors w-100 d-flex flex-column">
     <div class="header w-100 d-flex justify-content-center align-items-center">
         <h3>Наш состав:</h3>
 
     </div>
     <div class="list  d-flex flex-column ">
-        <div class="owl-carousel ">
+        <div class="owl-carousel team ">
 
             <div class="teacher d-flex align-items-center justify-content-center">
                 <div class="content  flex-column align-items-center justify-content-around">
@@ -187,7 +481,7 @@
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
                         <div class="more h-100 d-flex align-items-center justify-content-center">
-                            <ul >
+                            <ul>
                                 <li>
                                     <p>Age:19</p>
                                 </li>
@@ -203,7 +497,8 @@
                                 <h5>Front-end, Scratch</h5>
                             </div>
                             <div class="tn-last d-flex">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur
+                                    cupiditate eligendi hic optio rerum!</p>
 
                             </div>
                         </div>
@@ -219,7 +514,7 @@
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
                         <div class="more h-100 d-flex align-items-center justify-content-center">
-                            <ul >
+                            <ul>
                                 <li>
                                     <p>Age:19</p>
                                 </li>
@@ -235,7 +530,8 @@
                                 <h5>Front-end, Scratch</h5>
                             </div>
                             <div class="tn-last d-flex">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur
+                                    cupiditate eligendi hic optio rerum!</p>
 
                             </div>
                         </div>
@@ -251,7 +547,7 @@
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
                         <div class="more h-100 d-flex align-items-center justify-content-center">
-                            <ul >
+                            <ul>
                                 <li>
                                     <p>Age:19</p>
                                 </li>
@@ -267,7 +563,8 @@
                                 <h5>Front-end, Scratch</h5>
                             </div>
                             <div class="tn-last d-flex">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur
+                                    cupiditate eligendi hic optio rerum!</p>
 
                             </div>
                         </div>
@@ -283,7 +580,7 @@
                         <div class="triangle"></div>
                         <div class="triangle big"></div>
                         <div class="more h-100 d-flex align-items-center justify-content-center">
-                            <ul >
+                            <ul>
                                 <li>
                                     <p>Age:19</p>
                                 </li>
@@ -299,7 +596,8 @@
                                 <h5>Front-end, Scratch</h5>
                             </div>
                             <div class="tn-last d-flex">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur cupiditate eligendi hic optio rerum!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur
+                                    cupiditate eligendi hic optio rerum!</p>
 
                             </div>
                         </div>
@@ -365,7 +663,7 @@
             <script charset="utf-8">new DGWidgetLoader({
                 "width": 640,
                 "height": 640,
-                "borderRadius":"10px",
+                "borderRadius": "10px",
                 "borderColor": "#a3a3a3",
                 "pos": {"lat": 43.236892, "lon": 76.914927, "zoom": 16},
                 "opt": {"city": "almaty"},
@@ -381,31 +679,31 @@
 </section>
 <footer class="footer w-100 d-flex align-items-start justify-content-center">
     <!--<div class="d-flex h-100 align-items-center justify-content-around py-4 flex-column">-->
-        <!--<h4 class="company-name">KEYNOTE</h4>-->
-        <!--<div class="social d-flex align-items-center justify-content-around">-->
-            <!--<a href="">-->
-                <!--<img src="/images/mainpage/instagram-logo.svg" alt="">-->
-            <!--</a>-->
-            <!--<a href="">-->
-                <!--<img src="/images/mainpage/close-envelope.svg" alt="">-->
-            <!--</a>-->
-            <!--<a href="">-->
-                <!--<img src="/images/mainpage/facebook-logo.svg" alt="">-->
-            <!--</a>-->
-        <!--</div>-->
-        <!--<h5 class="email">keynote@gmail.com</h5>-->
-        <!--<h5 class="address">Almaty, st.Abylaikhana 8, 256 off </h5>-->
+    <!--<h4 class="company-name">KEYNOTE</h4>-->
+    <!--<div class="social d-flex align-items-center justify-content-around">-->
+    <!--<a href="">-->
+    <!--<img src="/images/mainpage/instagram-logo.svg" alt="">-->
+    <!--</a>-->
+    <!--<a href="">-->
+    <!--<img src="/images/mainpage/close-envelope.svg" alt="">-->
+    <!--</a>-->
+    <!--<a href="">-->
+    <!--<img src="/images/mainpage/facebook-logo.svg" alt="">-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--<h5 class="email">keynote@gmail.com</h5>-->
+    <!--<h5 class="address">Almaty, st.Abylaikhana 8, 256 off </h5>-->
     <!--</div>-->
     <div class="header d-flex justify-content-between align-items-center">
         <div class="social col">
             <a href="https://www.instagram.com/keynote.studies/">
-            <img src="/images/instagram-logo.svg" alt="">
+                <img src="/images/instagram-logo.svg" alt="">
             </a>
             <a href="https://www.facebook.com/groups/246941362511468/?ref=bookmarks">
-            <img src="/images/facebook-logo.svg" alt="">
+                <img src="/images/facebook-logo.svg" alt="">
             </a>
             <a href="mailto:keynote.studies@gmail.com">
-            <img src="/images/close-envelope.svg" alt="">
+                <img src="/images/close-envelope.svg" alt="">
             </a>
         </div>
         <div class="col d-flex align-items-center justify-content-center">
@@ -419,9 +717,9 @@
     <div class="read-about"></div>
 </footer>
 
-<script  src="/libs/jquery/dist/jquery.js"></script>
-<script  src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
-<script  src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/libs/jquery/dist/jquery.js"></script>
+<script src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/libs/aos/dist/aos.js"></script>
 <script src="/javascripts/main.js"></script>
 

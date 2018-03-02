@@ -1,0 +1,201 @@
+CREATE TABLE accomodation (
+animal_id int IDENTITY(1,1),
+space_id int,
+type_number int,
+accomadate_time datetime DEFAULT GETDATE() ,
+deployer_id int
+)
+;
+
+CREATE TABLE animal (
+animal_id int NOT NULL IDENTITY(1,1),
+animal_name text,
+family_id int,
+life_time int,
+habitat_id int,
+animal_type int
+)
+;
+
+CREATE TABLE animal_family (
+family_id int NOT NULL ,
+family_name text,
+species text
+)
+;
+
+CREATE TABLE area (
+area_id int NOT NULL,
+area_name text,
+)
+;
+
+CREATE TABLE City (
+city_id int NOT NULL,
+city_name text
+)
+;
+
+CREATE TABLE complex (
+complex_id int NOT NULL,
+area_id int ,
+complex_name varchar
+)
+;
+
+CREATE TABLE Deployer (
+deployer_id int NOT NULL,
+deploter_name text,
+deployer_age int,
+CHECK (deployer_age>=18)
+)
+;
+
+CREATE TABLE habitat (
+habitat_id int NOT NULL,
+habitat_name text
+)
+;
+
+CREATE TABLE space (
+space_id int NOT NULL ,
+space_name text,
+water text DEFAULT('not'),
+complex_id int,
+space_area int DEFAULT(5)
+)
+;
+
+
+ALTER TABLE animal ADD CONSTRAINT PK_animal_id
+PRIMARY KEY (animal_id)
+;
+
+ALTER TABLE animal_family ADD CONSTRAINT PK_animal_family
+PRIMARY KEY (family_id)
+;
+
+ALTER TABLE area ADD CONSTRAINT PK_area
+PRIMARY KEY (area_id)
+;
+
+ALTER TABLE City ADD CONSTRAINT PK_City
+PRIMARY KEY (city_id)
+;
+
+ALTER TABLE complex ADD CONSTRAINT PK_complex
+PRIMARY KEY (complex_id)
+;
+
+ALTER TABLE Deployer ADD CONSTRAINT PK_Deployer
+PRIMARY KEY (deployer_id)
+;
+
+ALTER TABLE habitat ADD CONSTRAINT PK_habitat
+PRIMARY KEY (habitat_id)
+;
+
+ALTER TABLE space ADD CONSTRAINT PK_space
+PRIMARY KEY (space_id)
+;
+
+
+
+ALTER TABLE accomodation ADD CONSTRAINT FK_accomodation_animal
+FOREIGN KEY (animal_id) REFERENCES animal (animal_id)
+;
+
+ALTER TABLE accomodation ADD CONSTRAINT FK_accomodation_Deployer
+FOREIGN KEY (deployer_id) REFERENCES Deployer (deployer_id)
+;
+
+ALTER TABLE accomodation ADD CONSTRAINT FK_accomodation_space
+FOREIGN KEY (space_id) REFERENCES space (space_id)
+;
+
+ALTER TABLE animal ADD CONSTRAINT FK_type_animal_family
+FOREIGN KEY (family_id) REFERENCES animal_family (family_id)
+;
+
+ALTER TABLE animal ADD CONSTRAINT FK_type_habitat
+FOREIGN KEY (habitat_id) REFERENCES habitat (habitat_id)
+;
+
+ALTER TABLE complex ADD CONSTRAINT FK_complex_area
+FOREIGN KEY (area_id) REFERENCES area (area_id)
+;
+
+ALTER TABLE space ADD CONSTRAINT FK_space_complex
+FOREIGN KEY (complex_id) REFERENCES complex (complex_id)
+;
+
+INSERT INTO area  VALUES (1,'WEST COUST')
+INSERT INTO area VALUES (2,'EAST COUST')
+
+INSERT INTO habitat VALUES (1,'desert')
+INSERT INTO habitat VALUES (2,'ocean')
+INSERT INTO habitat VALUES (3,'Jungle')
+INSERT INTO habitat VALUES (4,'Home')
+INSERT INTO habitat VALUES (10,'River')
+
+
+INSERT INTO animal_family VALUES (1,'Cat','cat')
+INSERT INTO animal_family VALUES (2,'Spider','spider')
+INSERT INTO animal_family VALUES (3,'Insects','insect')
+INSERT INTO animal_family VALUES (4,'Fishes','fish')
+
+INSERT INTO animal  VALUES ('Lion',1,12,3,2)
+INSERT INTO animal  VALUES ('Cat',1,4,4,1)
+INSERT INTO animal  VALUES ('Tiger',1,8,3,2)
+INSERT INTO animal  VALUES ('Rabbit',1,9,3,1)
+INSERT INTO animal  VALUES ('Crocodile',1,17,10,2)
+INSERT INTO animal  VALUES ('Bear',1,30,3,2)
+
+
+
+
+INSERT INTO complex  VALUES (1,1,'Funky town')
+INSERT INTO complex  VALUES (2,1,'Baby town')
+INSERT INTO complex  VALUES (3,1,'Free area')
+INSERT INTO complex  VALUES (4,1,'Sahara')
+INSERT INTO complex  VALUES (5,2,'Underground')
+INSERT INTO complex  VALUES (6,2,'Big Ocean')
+INSERT INTO complex  VALUES (7,2,'Hunters')
+INSERT INTO complex  VALUES (8,2,'Just fly')
+
+INSERT INTO space  VALUES (1,'Cell','false',1,6)
+INSERT INTO space VALUES (2,'Garden','true',1,10)
+INSERT INTO space VALUES (3,'Cell','false',1,6)
+INSERT INTO space VALUES (4,'Garden','true',2,6)
+INSERT INTO space VALUES (5,'Free space','false',2,8)
+INSERT INTO space VALUES (6,'Aviary','true',2,6)
+INSERT INTO space VALUES (7,'aviary','true',2,6)
+
+
+INSERT INTO space  VALUES (8,'Cell','false',3,6)
+INSERT INTO space  VALUES (9,'Garden','true',3,10)
+INSERT INTO space  VALUES (10,'Cell','false',3,6)
+INSERT INTO space  VALUES (11,'Garden','true',3,6)
+INSERT INTO space  VALUES (12,'Free space','false',6,8)
+INSERT INTO space  VALUES (13,'Aviary','true',6,6)
+INSERT INTO space  VALUES (14,'aviary','true',6,6)
+
+INSERT INTO space VALUES (15,'Cell','false',7,6)
+INSERT INTO space VALUES (16,'Garden',true,7,10)
+INSERT INTO space VALUES (17,'Cell','false',7,6)
+INSERT INTO space  VALUES (18,'Garden',true,7,6)
+INSERT INTO space  VALUES (19,'Free space','false',4,8)
+INSERT INTO space  VALUES (20,'Aviary','true',4,6)
+INSERT INTO space  VALUES (21,'aviary','true',4,6)
+
+INSERT INTO space  VALUES (22,'Cell','false',5,6)
+INSERT INTO space VALUES (23,'Garden','true',5,10)
+INSERT INTO space VALUES (24,'Cell','false',5,6)
+INSERT INTO space VALUES (25,'Garden','true',5,6)
+INSERT INTO space  VALUES (26,'Free space','false',8,8)
+INSERT INTO space  VALUES (27,'Aviary','true',8,6)
+INSERT INTO space  VALUES (28,'aviary','true',8,6)
+
+
+
+

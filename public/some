@@ -1,0 +1,83 @@
+
+/*INSERT INTO area  VALUES (1,'WEST COUST')
+INSERT INTO area VALUES (2,'EAST COUST')
+
+INSERT INTO habitat VALUES (1,'desert')
+INSERT INTO habitat VALUES (2,'ocean')
+INSERT INTO habitat VALUES (3,'Jungle')
+INSERT INTO habitat VALUES (4,'Home')
+INSERT INTO habitat VALUES (10,'River')
+
+
+INSERT INTO animal_family VALUES (1,'Cat','cat')
+INSERT INTO animal_family VALUES (2,'Spider','spider')
+INSERT INTO animal_family VALUES (3,'Insects','insect')
+INSERT INTO animal_family VALUES (4,'Fishes','fish')
+
+INSERT INTO animal  VALUES ('Lion',1,12,3,2)
+INSERT INTO animal  VALUES ('Cat',1,4,4,1)
+INSERT INTO animal  VALUES ('Tiger',1,8,3,2)
+INSERT INTO animal  VALUES ('Rabbit',1,9,3,1)
+INSERT INTO animal  VALUES ('Crocodile',1,17,10,2)
+INSERT INTO animal  VALUES ('Bear',1,30,3,2)
+
+
+
+
+INSERT INTO complex  VALUES (1,1,'Funky town')
+INSERT INTO complex  VALUES (2,1,'Baby town')
+INSERT INTO complex  VALUES (3,1,'Free area')
+INSERT INTO complex  VALUES (4,1,'Sahara')
+INSERT INTO complex  VALUES (5,2,'Underground')
+INSERT INTO complex  VALUES (6,2,'Big Ocean')
+INSERT INTO complex  VALUES (7,2,'Hunters')
+INSERT INTO complex  VALUES (8,2,'Just fly')
+
+INSERT INTO space  VALUES (1,'Cell','false',1,6)
+INSERT INTO space VALUES (2,'Garden','true',1,10)
+INSERT INTO space VALUES (3,'Cell','false',1,6)
+INSERT INTO space VALUES (4,'Garden','true',2,6)
+INSERT INTO space VALUES (5,'Free space','false',2,8)
+INSERT INTO space VALUES (6,'Aviary','true',2,6)
+INSERT INTO space VALUES (7,'aviary','true',2,6)
+
+
+INSERT INTO space  VALUES (8,'Cell','false',3,6)
+INSERT INTO space  VALUES (9,'Garden','true',3,10)
+INSERT INTO space  VALUES (10,'Cell','false',3,6)
+INSERT INTO space  VALUES (11,'Garden','true',3,6)
+INSERT INTO space  VALUES (12,'Free space','false',6,8)
+INSERT INTO space  VALUES (13,'Aviary','true',6,6)
+INSERT INTO space  VALUES (14,'aviary','true',6,6)
+
+INSERT INTO space VALUES (15,'Cell','false',7,6)
+INSERT INTO space VALUES (16,'Garden',true,7,10)
+INSERT INTO space VALUES (17,'Cell','false',7,6)
+INSERT INTO space  VALUES (18,'Garden',true,7,6)
+INSERT INTO space  VALUES (19,'Free space','false',4,8)
+INSERT INTO space  VALUES (20,'Aviary','true',4,6)
+INSERT INTO space  VALUES (21,'aviary','true',4,6)
+
+INSERT INTO space  VALUES (22,'Cell','false',5,6)
+INSERT INTO space VALUES (23,'Garden','true',5,10)
+INSERT INTO space VALUES (24,'Cell','false',5,6)
+INSERT INTO space VALUES (25,'Garden','true',5,6)
+INSERT INTO space  VALUES (26,'Free space','false',8,8)
+INSERT INTO space  VALUES (27,'Aviary','true',8,6)
+INSERT INTO space  VALUES (28,'aviary','true',8,6)
+*/
+
+INSER INTO deployer VALUES (1,"John",18)
+INSER INTO deployer VALUES (2,"Alisher",25)
+INSER INTO deployer VALUES (3,"Nursultan",62)
+INSER INTO deployer VALUES (4,"Alina",24)
+INSER INTO deployer VALUES (5,"Jakha",56)
+INSER INTO deployer VALUES (6,"Erasyl",22)
+INSER INTO deployer VALUES (7,"Nurzhan",42)
+INSER INTO deployer VALUES (8,"Tolkhyn",28)
+
+
+DELETE FROM Deployer WHREE deployer_age>=50
+DELETE FROM space WHREE space_area>=9
+
+UPDATE Deployer SET deployer_name="Violet" WHERE deployer_id = 1

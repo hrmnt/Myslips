@@ -1,20 +1,20 @@
 $(document).ready(function () {
     AOS.init();
-    $(".team").owlCarousel({
-        animateOut: 'slideOutDown',
-        animateIn: 'flipInX',
-        center: true,
-        items:1,
-        loop:true,
-        responsive:{
-            600:{
-                items:3
-            }
-        },
-        autoplay:true,
-        autoplayTimeout:1000,
-        autoplayHoverPause:true
-    });
+    // $(".team").owlCarousel({
+    //     animateOut: 'slideOutDown',
+    //     animateIn: 'flipInX',
+    //     center: true,
+    //     items:1,
+    //     loop:true,
+    //     responsive:{
+    //         600:{
+    //             items:3
+    //         }
+    //     },
+    //     autoplay:true,
+    //     autoplayTimeout:1000,
+    //     autoplayHoverPause:true
+    // });
     $(".company").owlCarousel({
         loop:true,
         responsive:{

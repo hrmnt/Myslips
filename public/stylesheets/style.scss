@@ -475,15 +475,20 @@ body {
   //background-color: rgba(222,174,35,0.7);
   background-color: $black;
   height: 62rem;
-  padding: 4rem 5.625rem;
+  padding: 3rem 5.625rem;
   .header {
     height: 15%;
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
   }
 
   h4 {
     font-size: 4rem;
     color: white;
+    margin-bottom: 1rem;
+  }
+  p{
+    color: #ccc;
+    font-family: Mont-Light;
   }
   .company {
     width: 100%;
@@ -619,7 +624,9 @@ body {
 }
 
 .mentors {
-  padding-top: 5.625rem !important;
+  padding-top: 2rem !important;
+  background-color: #fafafa;
+
   .header {
     height: 12rem;
     h3 {
@@ -628,96 +635,37 @@ body {
     }
   }
   .list {
+    padding: 0 6rem!important;
 
-    .teacher {
-      height: 40rem;
-      .content {
-        display: flex;
-        height: 65%;
-        width: 90%;
-        border: 1px solid #e7e7e7;
-        position: relative;
-        background-color: white;
+    #content {
+      width: 16rem;
+      overflow-x: hidden;
+
+    }
+    .item{
+      height: 30rem;
+    }
+    .t-circle{
+      height: 20rem;
+      width: 100%;
+      img{
+        border: 2px solid #e3e3e3;
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 1rem;
         box-shadow: 0 0 5px #efefef;
-        .info {
-          display: flex;
-          overflow: hidden;
-          position: relative;
-        }
-        .triangle {
-          position: absolute;
-          transform: rotate(45deg);
-          width: 12rem;
-          top: -2rem;
-          right: -6rem;
-          height: 6rem;
-          background-color: $black;
-          z-index: 2;
-        }
-        .big {
-          width: 14rem;
-          top: -3rem;
-          right: -6rem;
-          z-index: 1;
-
-          height: 7rem;
-
-          background-color: $yellow;
-
-        }
-        .preview-img {
-          position: absolute;
-
-          height: 18rem;
-          left: 5%;
-          top: -9rem;
-          width: 12rem;
-        }
-
-        .more {
-          width: calc(12rem + 5%);
-          padding-top: 9rem;
-          ul {
-            padding-left: 5px;
-            list-style-type: none;
-            li {
-              p {
-                color: #0C3471;
-                font-size: 1.4rem;
-                font-family: Mont-Light;
-              }
-            }
-          }
-        }
-        .about {
-          width: calc(95% - 12rem);
-          .tn-first {
-            height: 9rem;
-          }
-          h4 {
-            letter-spacing: 1px;
-            font-family: Mont-Heavy;
-            color: $yellow;
-          }
-          h5 {
-            font-family: Mont-Light;
-            font-size: 1.4rem;
-          }
-          .tn-last {
-            height: calc(100% - 9rem);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            p {
-              color: #0C3471;
-              font-family: Mont-Light;
-              font-size: 1.3rem;
-              padding-right: 2rem;
-            }
-          }
-        }
       }
-
+    }
+    h4{
+      font-family: Montserrat;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    p{
+      font-family: Montserrat;
+      font-size: 1.4rem;
     }
   }
 }
@@ -727,8 +675,8 @@ body {
 }
 
 .feedback-form {
-  padding-left: calc(6.625rem + 15px);
-  padding-right: calc(6.625rem + 15px);
+  //padding-left: calc(6.625rem + 15px);
+  //padding-right: calc(6.625rem + 15px);
   padding-bottom: 3rem;
   @media (max-width: 798px) {
     padding: 2rem 2rem;
@@ -742,93 +690,14 @@ body {
     }
   }
   .feedback-details {
-    .info {
-      height: 30rem;
-      padding-right: 0.625rem !important;
-      @media (max-width: 798px) {
-        height: auto;
-        padding-right: 0 !important;
-        margin-bottom: 2rem;
-      }
-      .conver {
-        border: 1px solid #efefef;
-        box-shadow: 0 0 5px #efefef;
-        border-radius: 1rem;
-        position: relative;
-        @media (max-width: 798px) {
-          flex-direction: column;
 
-        }
-        form {
-          position: relative;
-          width: 60%;
-          @media (max-width: 798px) {
-            width: 100%;
-
-          }
-          h4 {
-            color: $black;
-            font-size: 1.6rem;
-            margin-bottom: 0.5rem;
-            font-family: Mont-Heavy;
-          }
-          input {
-            border: 0;
-            border-bottom: 1px solid #efefef;
-            width: 100%;
-            outline: none;
-          }
-          .break_line {
-            position: absolute;
-            right: 0;
-            top: 10%;
-            width: 1px;
-            height: 80%;
-            background-color: #efefef;
-            @media (max-width: 798px) {
-              top: inherit;
-              bottom: 0;
-              right: 0;
-              width: 100%;
-              height: 1px;
-            }
-          }
-        }
-        .our-info {
-          width: 40%;
-          @media (max-width: 798px) {
-            width: 100%;
-            padding-top: 2rem;
-            height: 26rem;
-          }
-          .item {
-            height: 5rem;
-            h4 {
-              font-weight: 500;
-              font-family: Mont-Heavy;
-            }
-            p {
-
-              color: #332512;
-              font-size: 1.3rem;
-            }
-          }
-        }
-        .bookmark {
-          position: absolute;
-          height: 4rem;
-          transform: scaleX(-1);
-          right: 4%;
-          top: 0;
-        }
-      }
+    .map {
+      height: 32rem;
+      padding: 0!important;
       iframe {
         height: 100%;
         width: 100%;
       }
-    }
-    .map {
-      padding-left: 0.625rem !important;
       @media (max-width: 798px) {
         padding-left: 0 !important;
         height: 40rem;
@@ -839,7 +708,7 @@ body {
 }
 
 .footer {
-  height: 10rem;
+  height: 14rem;
   background-color: $black;
   padding: 2rem;
   border-top: 1px solid #EFEFEF;
@@ -867,6 +736,33 @@ body {
       height: 3.5rem;
     }
 
+  }
+  .logo{
+    height: 3rem;
+
+  }
+  .social-network{
+    img{
+      height: 1.6rem;
+    }
+    h5{
+      color: white;
+      font-size: 1.4rem;
+      font-family: Mont-Light;
+    }
+    a{
+      height: 20%;
+      margin-right: 1rem;
+      img{
+        margin-right: 1rem;
+      }
+      p{
+        margin: 0;
+        font-size: 1.2rem;
+        color: white;
+        font-family: Mont-Light;
+      }
+    }
   }
 }
 

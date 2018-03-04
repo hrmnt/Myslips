@@ -42,10 +42,20 @@ body {
   top: 1px;
   z-index: 50;
   padding-left: 4rem !important;
-  padding-right: 4rem !important;
+  padding-right: 25rem !important;
+
   a {
     display: none;
   }
+  .lent{
+    display: block;
+    color: white;
+    font-family: Montserrat;
+    &.black{
+      color: $black;
+    }
+  }
+
   &.h-clr {
     background-color: white;
     .hamburger span {
@@ -373,21 +383,89 @@ body {
     }
   }
 }
+.fee-in-kz{
+  height: 71rem;
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  h2{
+    font-size: 10rem;
+    color: $black;
 
+  }
+  p{
+    font-family: Mont-Heavy;
+    font-size: 2rem;
+  }
+  .kz1{
+    margin-bottom: 5rem;
+  }
+  .circle{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px dashed $black;
+    margin-bottom: 2rem;
+
+  }
+  img{
+    height: 6rem;
+  }
+  .plus{
+    padding-bottom: 9rem;
+    img{
+      height: 4rem;
+
+    }
+  }
+  .summary{
+    h3{
+      font-size: 6rem;
+
+    }
+    p{
+      font-size: 2rem;
+    }
+    button{
+      background-color: $yellow;
+      color: white;
+      border: 0;
+      border-radius: 2rem;
+      width: 20rem;
+      height: 4rem;
+      cursor: pointer;
+    }
+  }
+  .trades{
+    width: 80%;
+    p{
+      font-family: Mont-Light;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    span{
+      font-family: Mont-Light;
+      font-size: 1.5rem;
+    }
+  }
+}
 .lessons {
   background-color: #f6f8f8;
-  padding-bottom: 8.625rem !important;
+  padding-bottom: 4.625rem !important;
   @media (max-width: 798px) {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
   }
   .tac {
     height: 12rem;
+    p{
+      font-size: 1.8rem;
+    }
   }
   h3 {
     font-size: 3rem;
     color: $yellow;
-
   }
   .column-box {
     margin-bottom: 1.25rem;
@@ -413,7 +491,6 @@ body {
       height: 15rem;
       border-radius: 10px;
       border: 1px solid #efefef;
-      padding: 2.5rem;
 
       position: relative;
 
@@ -423,6 +500,8 @@ body {
       }
       .media-side {
         width: 20%;
+        padding: 2.5rem;
+      padding-right: 0!important;
         img {
           height: 100%;
           border-radius: 50%;
@@ -439,6 +518,10 @@ body {
       }
       .info-side {
         width: 80%;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 2.5rem;
+
         @media(max-width: 798px) {
           width: 100%;
         }
@@ -467,6 +550,17 @@ body {
         }
 
       }
+      .register{
+        position: absolute;
+        bottom:0.8rem;
+        right: 1rem;
+        border: 0;
+        border-radius: 0.5rem;
+        padding:0.4rem 0.7rem;
+        background-color: $yellow;
+        color: white;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -475,15 +569,16 @@ body {
   //background-color: rgba(222,174,35,0.7);
   background-color: $black;
   height: 62rem;
-  padding: 3rem 5.625rem;
+  padding: 4rem 5.625rem;
   .header {
     height: 15%;
     margin-bottom: 7rem;
   }
 
   h4 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
+    text-align: center;
     margin-bottom: 1rem;
   }
   p{
@@ -499,8 +594,8 @@ body {
         padding-right: 2rem;
         height: 5rem;
         img{
-          width: 10rem;
-          max-height: 4rem;
+          width: 12rem;
+          max-height: 5rem;
         }
       }
       h5 {
@@ -622,9 +717,17 @@ body {
   }
 
 }
-
+.learn-more{
+  height: 100vh;
+  width: 100%;
+  h3{
+    font-size: 9rem;
+    text-align: center;
+    font-family: Mont-Heavy;
+    color: $black;
+  }
+}
 .mentors {
-  padding-top: 2rem !important;
   background-color: #fafafa;
 
   .header {
@@ -643,7 +746,7 @@ body {
 
     }
     .item{
-      height: 30rem;
+      height: 35rem;
     }
     .t-circle{
       height: 20rem;
@@ -666,6 +769,7 @@ body {
     p{
       font-family: Montserrat;
       font-size: 1.4rem;
+      text-align: center;
     }
   }
 }
@@ -1006,6 +1110,7 @@ body {
         }
         img {
           height: 16rem;
+          border-radius: 50%;
         }
         h5 {
           font-size: 3rem;

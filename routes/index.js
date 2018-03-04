@@ -419,13 +419,13 @@ router.get('/lesson/java', function (req, res, next) {
         title: 'Keynote',
         sylabus: [
             {
-                title: "Начало работы с HTML и CSS",
-                description: "HTML и CSS - это языки, которые вы можете использовать для создания и стилей веб-сайтов. На этих курсах вы узнаете основы HTML и CSS, построите свой первый веб-сайт, а затем просмотрите некоторые из современных методов HTML5 и CSS3.",
+                title: "Начало работы с Java",
+                description: "Python - быстрый и мощный язык, который также прост в использовании и чтении, что делает его отличным для начинающих и экспертов. На этих курсах вы познакомитесь с основами Python, помогая вам расширить свои знания и подготовить вас к созданию широкого спектра приложений Python.",
                 lessons: [
                     {
                         img: "/images/lesson/html-5.svg",
-                        name: "Изучение HTML/CSS",
-                        description: "Изучаем как построить сайт HTML и CSS",
+                        name: "Что такое программа?",
+                        description: "Изучаем основы Java",
                         connected: false,
 
                         lesson: [
@@ -435,15 +435,13 @@ router.get('/lesson/java', function (req, res, next) {
                             {
                                 text: "Понимание классов и разметки"
                             },
-                            {
-                                text: "Подключение шрифтов и форм"
-                            }
+
                         ]
 
                     },
                     {
                         img: "/images/lesson/html-icon.svg",
-                        name: "Углубление в HTML/CSS",
+                        name: "Плодотворные функции",
                         description: "Узнайте последние версии HTML и CSS.",
                         connected: true,
                         lesson: [
@@ -542,9 +540,9 @@ router.get('/lesson/java', function (req, res, next) {
             }
         ],
         lesson:{
-            name:"HTML/CSS",
-            img:"/images/lesson/html.svg",
-            description:"Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
+            name:"JAVA",
+            img:"/images/lesson/java.svg",
+            description:"Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Python."
         }
     });
 

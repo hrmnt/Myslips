@@ -26,35 +26,41 @@ $(document).ready(function () {
         // autoplayTimeout:1000,
         // autoplayHoverPause:true
     })
-    var words=["Играй.","Рисуй.","Разрабатывай.","Достигай.","Совершенствуй.","Делай.","Учись.","Твори.","Создавай."]
-    var kelime=["Играй.","Рисуй.","Разрабатывай.","Достигай.","Совершенствуй.","Делай.","Учись.","Твори.","Создавай."]
+    var words=[
+    "достигай",
+    "делай",
+    "совершенствуй",
+    "твори",
+    "добивайся",
+    "создавай",
+    "практикуй",
+        "Вместе с KEYNOTE."
+    ]
+
     var lastRandom;
     var random;
-    function getRandomArbitrary() {
-        var max = 9;
-        var min = 1;
 
-        if (lastRandom === undefined) {
-            random = Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-        else {
-            random = Math.floor(Math.random() * (max - min    )) + min;
-            if (random >= lastRandom) random += 1;
-        }
-        lastRandom = random;
-        return random;
-    }
     timeout();
+    var i =-1;
+    var timer =1000;
     function timeout() {
         setTimeout(function () {
-            $('#'+Math.floor(getRandomArbitrary())+'-word').fadeOut(500, function() {
+            i++;
 
-                var item= Math.floor(getRandomArbitrary());
-                    $(this).text(words[item]).fadeIn(500);
+            $('#word').fadeOut(500, function() {
+                    $(this).text(words[i]).fadeIn(500);
 
+                    if(i == 8){
+                        timer =6000;
+                        i=0
+                    }
+                    else{
+                        timer =1000;
+
+                    }
             });
             timeout();
-        }, getRandomArbitrary()*10);
+        }, timer );
     }
 
 
@@ -71,7 +77,7 @@ $(document).ready(function () {
 
     })
     var statistics = $('#statistics').offset().top;
-    var mentors = $('.mentors').offset().top;
+    var mentors = $('.learn-more').offset().top;
 
     var onStat =false;
     function onScroll() {
@@ -86,12 +92,15 @@ $(document).ready(function () {
             $(".line").removeClass("nthng");
             $(".fee").removeClass("nthng");
             $(".profession").removeClass("nthng");
+            $(".lent").addClass("black")
         }
         if(window.scrollY<= statistics || window.scrollY>= mentors){
             onStat = false;
             $("#black-logo").removeClass("show");
             $("#white-logo").addClass("show");
             $("#header").removeClass("h-clr");
+            $(".lent").removeClass("black")
+
         }
 
     }

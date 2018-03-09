@@ -79,6 +79,13 @@ $(document).ready(function () {
     var statistics = $('#statistics').offset().top;
     var mentors = $('.learn-more').offset().top;
 
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 30
+        }, 1000);
+    });
     var onStat =false;
     function onScroll() {
         if(!onStat){

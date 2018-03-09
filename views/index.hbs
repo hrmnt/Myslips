@@ -19,7 +19,7 @@
 
 
 </navigation>
-<section class="main-page w-100">
+<section id="main" class="main-page w-100">
     <div class="background-layer first w-100 h-100"></div>
     <div class="background-layer second w-100 h-100"></div>
     <div class="background-layer third w-100 h-100"></div>
@@ -28,10 +28,10 @@
     <nav id="header" class="sticky d-flex align-items-center justify-content-between ">
         <a id="white-logo" class="show" href="/"><img class="logo " src="/images/logo_white.png" alt=""></a>
         <a id="black-logo" href="/"><img class="logo " src="/images/logo_black.png" alt=""></a>
-        <a class="lent" href="">Главная</a>
-        <a class="lent" href="">Курсы</a>
-        <a class="lent" href="">О нас</a>
-        <a class="lent" href="">Контакты</a>
+        <a class="lent" href="#main" rel="relativeanchor">Главная</a>
+        <a class="lent" href="#courses">Курсы</a>
+        <a class="lent" href="#team">О нас</a>
+        <a class="lent" href="#contacts">Контакты</a>
         <!--<div id="hamburger" class="hamburger__wrapper js-hamburger">-->
             <!--<div class="hamburger">-->
                 <!--<span id="first-line"></span>-->
@@ -351,7 +351,7 @@
 <section class="learn-more d-flex align-items-center justify-content-center">
     <h3>ИЗУЧАЙ ПРОГРАМИРОВАНИЕ И ДИЗАЙН</h3>
 </section>
-<section class="lessons w-100 p-5 d-flex flex-column align-items-center ">
+<section id="courses" class="lessons w-100 p-5 d-flex flex-column align-items-center ">
     <div class="tac w-100 d-flex justify-content-center flex-column align-items-center mb-4">
         <h3>Курсы</h3>
         <p>Найдите курс который подходит именно вам.</p>
@@ -596,7 +596,7 @@
         </div>
     </div>
 </section>
-<section class="mentors w-100 d-flex flex-column">
+<section id="team" class="mentors w-100 d-flex flex-column">
     <div class="header w-100 d-flex justify-content-center align-items-center">
         <h3>Наш состав:</h3>
 
@@ -672,7 +672,7 @@
 
     </div>
 </section>
-<footer class="footer w-100 d-flex flex-column align-items-center  justify-content-between">
+<footer id="contacts" class="footer w-100 d-flex flex-column align-items-center  justify-content-between">
     <!--<div class="d-flex h-100  align-items-center justify-content-around py-4 flex-column">-->
     <!--<h4 class="company-name">KEYNOTE</h4>-->
     <!--<div class="social d-flex align-items-center justify-content-around">-->

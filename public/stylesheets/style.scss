@@ -378,8 +378,12 @@ body {
       background-color: rgba(222, 174, 35, 0.7);
       border-radius: 2rem;
       color: #fff;
+      text-decoration: none ;
       font-size: 1.6rem;
       font-family: Montserrat;
+      a{
+        color: white;
+      }
     }
   }
 }
@@ -467,104 +471,104 @@ body {
     font-size: 3rem;
     color: $yellow;
   }
-  .column-box {
-    margin-bottom: 1.25rem;
-    &:nth-last-child(n) {
-      padding-right: 0.625rem !important;
-    }
-    &:nth-last-child(n+1) {
-      padding-left: 0.625rem !important;
-    }
-    a {
-      text-decoration: none;
-      width: 100%;
-    }
-    .price {
-      color: $yellow !important;
-      font-weight: 400 !important;
-      text-align: end;
-      margin-bottom: 0;
-      font-size: 1.8 nprem !important;
-    }
-    .item {
-      background-color: white;
-      height: 15rem;
-      border-radius: 10px;
-      border: 1px solid #efefef;
 
-      position: relative;
+}
+.column-box {
+  margin-bottom: 1.25rem;
+  &:nth-last-child(n) {
+    padding-right: 0.625rem !important;
+  }
+  &:nth-last-child(n+1) {
+    padding-left: 0.625rem !important;
+  }
+  a {
+    text-decoration: none;
+    width: 100%;
+  }
+  .price {
+    color: $yellow !important;
+    font-weight: 400 !important;
+    text-align: end;
+    margin-bottom: 0;
+    font-size: 1.8 nprem !important;
+  }
+  .item {
+    background-color: white;
+    height: 15rem;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+
+    position: relative;
+
+    @media(max-width: 798px) {
+      height: auto;
+      flex-direction: column;
+    }
+    .media-side {
+      width: 20%;
+      padding: 2.5rem;
+      padding-right: 0!important;
+      img {
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        background-color: #3b3c45;
+      }
+      @media(max-width: 798px) {
+        width: 100%;
+        margin-bottom: 1rem;
+        img {
+          height: 10rem;
+        }
+      }
+    }
+    .info-side {
+      width: 80%;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+      padding-right: 2.5rem;
 
       @media(max-width: 798px) {
-        height: auto;
-        flex-direction: column;
+        width: 100%;
       }
-      .media-side {
-        width: 20%;
-        padding: 2.5rem;
-      padding-right: 0!important;
-        img {
-          height: 100%;
-          border-radius: 50%;
-          object-fit: cover;
-          background-color: #3b3c45;
-        }
-        @media(max-width: 798px) {
-          width: 100%;
-          margin-bottom: 1rem;
-          img {
-            height: 10rem;
-          }
-        }
-      }
-      .info-side {
-        width: 80%;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
-        padding-right: 2.5rem;
+      h4 {
+        font-family: "Open Sans";
+        font-weight: 300;
 
-        @media(max-width: 798px) {
-          width: 100%;
-        }
-        h4 {
-          font-family: "Open Sans";
-          font-weight: 300;
-
-          .course-name {
-            color: $yellow;
-            font-size: 2.2rem;
-
-          }
-          .course-count {
-            margin-left: 1rem;
-            color: $black;
-            font-size: 1.6rem;
-
-          }
+        .course-name {
+          color: $yellow;
+          font-size: 2.2rem;
 
         }
-        p {
-          font-family: "Open Sans";
+        .course-count {
+          margin-left: 1rem;
           color: $black;
-          font-weight: 300;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
+
         }
 
       }
-      .register{
-        position: absolute;
-        bottom:0.8rem;
-        right: 1rem;
-        border: 0;
-        border-radius: 0.5rem;
-        padding:0.4rem 0.7rem;
-        background-color: $yellow;
-        color: white;
-        cursor: pointer;
+      p {
+        font-family: "Open Sans";
+        color: $black;
+        font-weight: 300;
+        font-size: 1.4rem;
       }
+
+    }
+    .register{
+      position: absolute;
+      bottom:0.8rem;
+      right: 1rem;
+      border: 0;
+      border-radius: 0.5rem;
+      padding:0.4rem 0.7rem;
+      background-color: $yellow;
+      color: white;
+      cursor: pointer;
     }
   }
 }
-
 .statistics {
   //background-color: rgba(222,174,35,0.7);
   background-color: $black;
@@ -1044,7 +1048,8 @@ body {
           }
 
           .lesson-img {
-            height: 6.5rem;
+            height: 6rem;
+            //border-radius: 50%;
           }
           .i-tb {
             width: 50%;

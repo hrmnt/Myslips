@@ -14,8 +14,12 @@
     <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body class="body">
-<navigation class="navigation ">
-    <div class="div"></div>
+<navigation class="navigation flex-column">
+    <a class="lent " href="#main" rel="relativeanchor">Главная</a>
+    <a class="lent " href="#courses">Курсы</a>
+    <a class="lent " href="#team">О нас</a>
+    <a class="lent " href="#contacts">Контакты</a>
+
 
 
 </navigation>
@@ -28,19 +32,19 @@
     <nav id="header" class="sticky d-flex align-items-center justify-content-between ">
         <a id="white-logo" class="show" href="/"><img class="logo " src="/images/logo_white.png" alt=""></a>
         <a id="black-logo" href="/"><img class="logo " src="/images/logo_black.png" alt=""></a>
-        <a class="lent" href="#main" rel="relativeanchor">Главная</a>
-        <a class="lent" href="#courses">Курсы</a>
-        <a class="lent" href="#team">О нас</a>
-        <a class="lent" href="#contacts">Контакты</a>
-        <!--<div id="hamburger" class="hamburger__wrapper js-hamburger">-->
-            <!--<div class="hamburger">-->
-                <!--n<span id="first-line"></span>-->
-                <!--<span id="second-line"></span>-->
-                <!--<span id="third-line"></span>-->
+        <a class="lent d-none d-md-block" href="#main" rel="relativeanchor">Главная</a>
+        <a class="lent d-none d-md-block" href="#courses">Курсы</a>
+        <a class="lent d-none d-md-block" href="#team">О нас</a>
+        <a class="lent d-none d-md-block" href="#contacts">Контакты</a>
+        <div id="hamburger" class="hamburger__wrapper js-hamburger d-flex d-md-none ">
+            <div class="hamburger">
+                <span id="first-line"></span>
+                <span id="second-line"></span>
+                <span id="third-line"></span>
 
 
-            <!--</div>-->
-        <!--</div>-->
+            </div>
+        </div>
     </nav>
     <div class="info d-flex flex-column align-items-center  justify-content-center">
         <div class="d-flex">

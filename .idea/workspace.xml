@@ -9,7 +9,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +27,7 @@
           <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="2227">
                   <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
                   <folding />
                 </state>
@@ -39,7 +38,7 @@
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
-                  <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+                  <caret line="76" column="14" lean-forward="false" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -52,8 +51,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="503">
-                  <caret line="447" column="24" lean-forward="false" selection-start-line="447" selection-start-column="24" selection-end-line="447" selection-end-column="24" />
+                <state relative-caret-position="388">
+                  <caret line="587" column="11" lean-forward="true" selection-start-line="587" selection-start-column="11" selection-end-line="587" selection-end-column="11" />
                   <folding>
                     <element signature="e#480#505#0" expanded="false" />
                     <element signature="e#5756#5922#0" expanded="false" />
@@ -61,9 +60,8 @@
                     <element signature="e#6162#6396#0" expanded="false" />
                     <element signature="e#6399#6565#0" expanded="false" />
                     <element signature="e#6580#6626#0" expanded="false" />
-                    <element signature="e#8655#8954#0" expanded="false" />
-                    <element signature="e#11245#18807#0" expanded="false" />
-                    <element signature="e#20557#20922#0" expanded="false" />
+                    <element signature="e#11505#19067#0" expanded="false" />
+                    <element signature="e#20817#21182#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -82,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>java</find>
       <find>$ma</find>
       <find>trades</find>
       <find>plus</find>
@@ -112,6 +109,7 @@
       <find>stick</find>
       <find>lent</find>
       <find>fee-</find>
+      <find>lesso</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
@@ -309,7 +307,8 @@
       <workItem from="1520533361880" duration="1053000" />
       <workItem from="1520600094472" duration="1955000" />
       <workItem from="1520629162246" duration="2991000" />
-      <workItem from="1520793237286" duration="3659000" />
+      <workItem from="1520793237286" duration="3944000" />
+      <workItem from="1520854102250" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1518959599970</created>
@@ -381,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520833370347</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mobile adaptation add-(navigation)">
+      <created>1520837758182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1520837758182</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156217000" />
+    <option name="totallyTimeSpent" value="156996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -448,7 +454,8 @@
     <MESSAGE value="angel-in-us" />
     <MESSAGE value="java add" />
     <MESSAGE value="mobile adaptation add" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile adaptation add" />
+    <MESSAGE value="mobile adaptation add-(navigation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile adaptation add-(navigation)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,13 +770,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2227">
           <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
@@ -779,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,23 +792,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="307" column="50" lean-forward="false" selection-start-line="307" selection-start-column="50" selection-end-line="307" selection-end-column="50" />
-          <folding>
-            <element signature="e#233#6209#0" expanded="false" />
-            <element signature="e#305#5648#0" expanded="false" />
-            <element signature="e#6269#11792#0" expanded="false" />
-            <element signature="e#22521#32922#0" expanded="false" />
-            <element signature="e#32984#38656#0" expanded="false" />
-            <element signature="e#38715#44387#0" expanded="false" />
-            <element signature="e#44453#50125#0" expanded="false" />
-            <element signature="e#50188#55860#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="76" column="14" lean-forward="false" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="447" column="24" lean-forward="false" selection-start-line="447" selection-start-column="24" selection-end-line="447" selection-end-column="24" />
+        <state relative-caret-position="388">
+          <caret line="587" column="11" lean-forward="true" selection-start-line="587" selection-start-column="11" selection-end-line="587" selection-end-column="11" />
           <folding>
             <element signature="e#480#505#0" expanded="false" />
             <element signature="e#5756#5922#0" expanded="false" />
@@ -811,18 +814,9 @@
             <element signature="e#6162#6396#0" expanded="false" />
             <element signature="e#6399#6565#0" expanded="false" />
             <element signature="e#6580#6626#0" expanded="false" />
-            <element signature="e#8655#8954#0" expanded="false" />
-            <element signature="e#11245#18807#0" expanded="false" />
-            <element signature="e#20557#20922#0" expanded="false" />
+            <element signature="e#11505#19067#0" expanded="false" />
+            <element signature="e#20817#21182#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>

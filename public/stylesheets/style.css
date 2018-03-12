@@ -427,6 +427,9 @@ body {
   background-color: white;
   padding-top: 5rem;
   padding-bottom: 5rem; }
+  @media (max-width: 798px) {
+    .fee-in-kz {
+      height: auto; } }
   .fee-in-kz h2 {
     font-size: 10rem;
     color: #041125; }
@@ -523,7 +526,9 @@ body {
       @media (max-width: 798px) {
         .column-box .item .media-side {
           width: 100%;
-          margin-bottom: 1rem; }
+          margin-bottom: 1rem;
+          padding-left: 0;
+          padding-bottom: 0; }
           .column-box .item .media-side img {
             height: 10rem; } }
     .column-box .item .info-side {
@@ -533,7 +538,13 @@ body {
       padding-right: 2.5rem; }
       @media (max-width: 798px) {
         .column-box .item .info-side {
-          width: 100%; } }
+          width: 100%; }
+          .column-box .item .info-side div {
+            flex-direction: column; }
+          .column-box .item .info-side h4 {
+            display: flex;
+            flex-direction: column;
+            text-align: center; } }
       .column-box .item .info-side h4 {
         font-family: "Open Sans";
         font-weight: 300; }
@@ -559,11 +570,22 @@ body {
       background-color: #DEAE23;
       color: white;
       cursor: pointer; }
+      @media (max-width: 798px) {
+        .column-box .item .register {
+          position: relative;
+          right: 0;
+          bottom: 0;
+          border-radius: 0;
+          border-bottom-left-radius: 1rem;
+          border-bottom-right-radius: 1rem; } }
 
 .statistics {
   background-color: #041125;
   height: 62rem;
   padding: 4rem 5.625rem; }
+  @media (max-width: 798px) {
+    .statistics {
+      height: auto; } }
   .statistics .header {
     height: 15%;
     margin-bottom: 7rem; }
@@ -650,11 +672,18 @@ body {
 .learn-more {
   height: 100vh;
   width: 100%; }
+  @media (max-width: 798px) {
+    .learn-more {
+      height: 58vh;
+      padding: 2rem; } }
   .learn-more h3 {
     font-size: 9rem;
     text-align: center;
     font-family: Mont-Heavy;
     color: #041125; }
+    @media (max-width: 798px) {
+      .learn-more h3 {
+        font-size: 4rem; } }
 
 .mentors {
   background-color: #fafafa; }

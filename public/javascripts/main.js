@@ -17,6 +17,7 @@ $(document).ready(function () {
     // });
     $(".company").owlCarousel({
         loop:true,
+        items:1,
         responsive:{
             600:{
                 items:2

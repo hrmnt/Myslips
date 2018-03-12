@@ -392,6 +392,9 @@ body {
   background-color: white;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  @media(max-width: 798px){
+    height: auto;
+  }
   h2{
     font-size: 10rem;
     color: $black;
@@ -503,6 +506,7 @@ body {
     @media(max-width: 798px) {
       height: auto;
       flex-direction: column;
+
     }
     .media-side {
       width: 20%;
@@ -517,6 +521,8 @@ body {
       @media(max-width: 798px) {
         width: 100%;
         margin-bottom: 1rem;
+        padding-left: 0;
+        padding-bottom: 0;
         img {
           height: 10rem;
         }
@@ -530,6 +536,14 @@ body {
 
       @media(max-width: 798px) {
         width: 100%;
+        div{
+          flex-direction: column;
+        }
+        h4{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
       }
       h4 {
         font-family: "Open Sans";
@@ -566,6 +580,16 @@ body {
       background-color: $yellow;
       color: white;
       cursor: pointer;
+      @media (max-width: 798px) {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        border-radius: 0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+
+
+      }
     }
   }
 }
@@ -574,6 +598,9 @@ body {
   background-color: $black;
   height: 62rem;
   padding: 4rem 5.625rem;
+  @media (max-width: 798px) {
+    height: auto;
+  }
   .header {
     height: 15%;
     margin-bottom: 7rem;
@@ -724,11 +751,18 @@ body {
 .learn-more{
   height: 100vh;
   width: 100%;
+  @media (max-width: 798px) {
+    height: 58vh;
+    padding: 2rem;
+  }
   h3{
     font-size: 9rem;
     text-align: center;
     font-family: Mont-Heavy;
     color: $black;
+    @media (max-width: 798px) {
+      font-size: 4rem;
+    }
   }
 }
 .mentors {

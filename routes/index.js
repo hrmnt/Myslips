@@ -341,7 +341,7 @@ router.get('/lesson/python', function (req, res, next) {
 
                     },
                     {
-                        img: "/images/lesson/java/4.jpg",
+                        img: "/images/lesson/java/4.JPG",
                         name: "Типы данных, циклы",
                         description: "Узнайте последние версии HTML и CSS.",
                         connected: true,
@@ -592,7 +592,7 @@ router.get('/lesson/java', function (req, res, next) {
 
                     },
                     {
-                        img: "/images/lesson/java/4.jpg",
+                        img: "/images/lesson/java/4.JPG",
                         name: "Типы данных, циклы",
                         description: "Узнайте последние версии HTML и CSS.",
                         connected: true,

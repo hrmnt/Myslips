@@ -635,6 +635,14 @@ body {
     height: 15%;
     margin-bottom: 7rem;
   }
+  .c-btn{
+    cursor: pointer;
+    width: 5%;
+    img{
+      height: 5rem;
+
+    }
+  }
 
   h4 {
     font-size: 3rem;
@@ -647,7 +655,7 @@ body {
     font-family: Mont-Light;
   }
   .company {
-    width: 100%;
+    width: 90%;
     .item {
       height: 45rem;
       .company-name{
@@ -655,8 +663,18 @@ body {
         padding-right: 2rem;
         height: 5rem;
         img{
-          width: 12rem;
+          max-width: 12rem;
           max-height: 5rem;
+        }
+        .apple{
+          width: auto!important;
+          height: 4rem;
+        }
+        h4{
+          margin: 0!important;
+          font-family: "Mont-Light";
+          font-size: 2.8rem;
+          color: #cccccc;
         }
       }
       h5 {
@@ -940,11 +958,15 @@ body {
 
 .lesson-page {
   .sticky {
+    top:0;
     border-bottom: 1px solid #EFEFEF;
     background-color: white;
     height: 7rem;
     .hamburger span {
       background-color: $black;
+    }
+    .lent{
+      color: $black;
     }
 
   }
@@ -959,7 +981,7 @@ body {
 
     .info {
       padding: 0 2.5rem;
-      background-image: url("/images/lesson/html-lesson.svg");
+
       background-repeat: no-repeat;
       background-position: bottom right;
     }

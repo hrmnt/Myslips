@@ -18,19 +18,26 @@
     <div class="div"></div>
 
 </navigation>
-<nav id="header" class="sticky  d-flex align-items-center justify-content-between px-5">
-    <a id="black-logo" class="show" href="/"><img  class="logo" src="/images/logo_black.png" alt=""></a>
-    <a id="white-logo" href="/"><img  class="logo " src="/images/logo_black.png" alt=""></a>
-    <div id="hamburger" class="hamburger__wrapper js-hamburger">
+<nav id="header" class="sticky d-flex align-items-center justify-content-between ">
+    <a id="white-logo" class="" href="/"><img class="logo " src="/images/logo_white.png" alt=""></a>
+    <a id="black-logo" class="show" href="/"><img class="logo " src="/images/logo_black.png" alt=""></a>
+    <a class="lent d-none d-md-block" href="/" rel="relativeanchor">Главная</a>
+    <a class="lent d-none d-md-block" href="/">Курсы</a>
+    <a class="lent d-none d-md-block" href="/">О нас</a>
+    <a class="lent d-none d-md-block" href="#contacts">Контакты</a>
+    <div id="hamburger" class="hamburger__wrapper js-hamburger d-flex d-md-none ">
         <div class="hamburger">
             <span id="first-line"></span>
             <span id="second-line"></span>
             <span id="third-line"></span>
+
+
         </div>
     </div>
 </nav>
+
 <section class="path d-flex flex-column">
-    <div class="info h-100 d-flex flex-column justify-content-center w-100">
+    <div style="background-image: url({{lesson.bg}})" class="info h-100 d-flex flex-column justify-content-center w-100">
         <h3>{{lesson.name}}</h3>
         <p>{{lesson.description}}</p>
     </div>

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     AOS.init();
     // $(".team").owlCarousel({
     //     animateOut: 'slideOutDown',
@@ -15,6 +16,7 @@ $(document).ready(function () {
     //     autoplayTimeout:1000,
     //     autoplayHoverPause:true
     // });
+    var owl = $('.company');
     $(".company").owlCarousel({
         loop:true,
         items:1,
@@ -26,6 +28,12 @@ $(document).ready(function () {
         // autoplay:true,
         // autoplayTimeout:1000,
         // autoplayHoverPause:true
+    })
+    $('.c-btn.next').click(function() {
+        owl.trigger('next.owl.carousel');
+    })
+    $('.c-btn.prev').click(function() {
+        owl.trigger('prev.owl.carousel');
     })
     var words=[
     "достигай",
@@ -42,16 +50,16 @@ $(document).ready(function () {
     var random;
 
     timeout();
-    var i =-1;
+    var i =0;
     var timer =1000;
     function timeout() {
         setTimeout(function () {
-            i++;
+
 
             $('#word').fadeOut(500, function() {
                     $(this).text(words[i]).fadeIn(500);
-
-                    if(i == 8){
+                    i++;
+                    if(i == 7){
                         timer =6000;
                         i=0
                     }
@@ -63,9 +71,6 @@ $(document).ready(function () {
             timeout();
         }, timer );
     }
-
-
-
 
     $("#hamburger").click(function () {
         $("#first-line").toggleClass("open-first")
@@ -115,4 +120,5 @@ $(document).ready(function () {
     console.log(statistics)
     var header = document.querySelector("#header"), origOffsetY = header.offsetTop, headerIsFixed = !1;
     document.addEventListener("scroll", onScroll);
+
 })

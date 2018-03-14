@@ -617,6 +617,11 @@ body {
   .statistics .header {
     height: 15%;
     margin-bottom: 7rem; }
+  .statistics .c-btn {
+    cursor: pointer;
+    width: 5%; }
+    .statistics .c-btn img {
+      height: 5rem; }
   .statistics h4 {
     font-size: 3rem;
     color: white;
@@ -626,7 +631,7 @@ body {
     color: #ccc;
     font-family: Mont-Light; }
   .statistics .company {
-    width: 100%; }
+    width: 90%; }
     .statistics .company .item {
       height: 45rem; }
       .statistics .company .item .company-name {
@@ -634,8 +639,16 @@ body {
         padding-right: 2rem;
         height: 5rem; }
         .statistics .company .item .company-name img {
-          width: 12rem;
+          max-width: 12rem;
           max-height: 5rem; }
+        .statistics .company .item .company-name .apple {
+          width: auto !important;
+          height: 4rem; }
+        .statistics .company .item .company-name h4 {
+          margin: 0 !important;
+          font-family: "Mont-Light";
+          font-size: 2.8rem;
+          color: #cccccc; }
       .statistics .company .item h5 {
         color: white;
         font-family: "Mont-Light";
@@ -811,11 +824,14 @@ body {
       font-family: Mont-Light; }
 
 .lesson-page .sticky {
+  top: 0;
   border-bottom: 1px solid #EFEFEF;
   background-color: white;
   height: 7rem; }
   .lesson-page .sticky .hamburger span {
     background-color: #041125; }
+  .lesson-page .sticky .lent {
+    color: #041125; }
 
 .lesson-page .fixed {
   height: 6rem;
@@ -827,7 +843,6 @@ body {
   background: linear-gradient(to left, #21abc7, #616db3); }
   .lesson-page .path .info {
     padding: 0 2.5rem;
-    background-image: url("/images/lesson/html-lesson.svg");
     background-repeat: no-repeat;
     background-position: bottom right; }
   .lesson-page .path h3 {

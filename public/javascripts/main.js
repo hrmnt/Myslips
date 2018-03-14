@@ -54,18 +54,20 @@ $(document).ready(function () {
     var timer =1000;
     function timeout() {
         setTimeout(function () {
+            if(i > 7){
+                i=0
 
+            }
 
             $('#word').fadeOut(500, function() {
                     $(this).text(words[i]).fadeIn(500);
+
                     i++;
                     if(i == 7){
                         timer =6000;
-                        i=0
                     }
                     else{
                         timer =1000;
-
                     }
             });
             timeout();

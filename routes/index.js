@@ -1,10 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-const TelegramBot = require('node-telegram-bot-api');
-const token = '570497362:AAEDb_g6fVQAjFucWftMrt7kfZAmRpFBGhM';
-const bot = new TelegramBot(token, {polling: true});
-
 
 
 /* GET home page. */

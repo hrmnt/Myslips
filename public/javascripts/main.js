@@ -48,6 +48,10 @@ $(document).ready(function () {
 
     var lastRandom;
     var random;
+    $("#more-fee").click(function () {
+        console.log("ss")
+        $(".navigation").toggleClass("open")
+    })
 
     timeout();
     var i =0;

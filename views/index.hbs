@@ -14,13 +14,28 @@
     <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body class="body">
-<navigation class="navigation flex-column">
-    <a class="lent " href="#main" rel="relativeanchor">Главная</a>
-    <a class="lent " href="#courses">Курсы</a>
-    <a class="lent " href="#team">О нас</a>
-    <a class="lent " href="#contacts">Контакты</a>
-
-
+<navigation class="navigation flex-column align-items-center justify-content-center">
+    <from class="form">
+        <img class="logo" src="/images/logo_black.png" alt="">
+        <div class="wrap d-flex flex-column">
+            <p>Имя:</p>
+            <input type="text" placeholder="Марлен">
+        </div>
+        <div class="wrap d-flex flex-column">
+            <p>Фамилия:</p>
+            <input type="text" placeholder="Марлен">
+        </div>
+        <div class="wrap d-flex flex-column">
+            <p>Номер телефона:</p>
+            <input type="text" placeholder="Марлен">
+        </div>
+        <div class="wrap d-flex flex-column">
+            <p>Курс:</p>
+            <select name="" id=""></select>
+        </div>
+        <input class="s-btn" type="submit">
+        
+    </from>
 
 </navigation>
 <section id="main" class="main-page w-100">
@@ -107,7 +122,7 @@
         <img src="/images/mainpage/equal.svg" alt="">
         <h3>0 KZT</h3>
         <p>На свое развитие</p>
-        <button>
+        <button id="more-fee">
             Зарабатывать больше
         </button>
     </div>
@@ -364,7 +379,7 @@
 <section id="courses" class="lessons w-100 p-5 d-flex flex-column align-items-center ">
     <div class="tac w-100 d-flex justify-content-center flex-column align-items-center mb-4">
         <h3>Курсы</h3>
-        <p>Найдите курс который подходит именно вам.</p>
+        <p>Найдите курс, который подходит именно вам.</p>
 
     </div>
     <div class="container-fluid w-100 ">
@@ -393,7 +408,7 @@
                             </p>
                         </div>
                         <button class="register">
-                            Записаться
+                            Подробнее
                         </button>
                     </div>
                 </a>
@@ -526,7 +541,7 @@
                             <div class="d-flex align-items-center justify-content-between w-100">
                                 <h4 class="mb-3">
                                     <span class="course-name">Design</span>
-                                    <span class="course-count">24 занятия / 12 недель</span>
+                                    <!--<span class="course-count">24 занятия / 12 недель</span>-->
 
                                 </h4>
                                 <!--<div class="d-flex flex-column justify-content-end mb-3">-->
@@ -619,7 +634,7 @@
                     <img src="/images/teachers/abyl.jpg" alt="">
                 </div>
                 <h4>Омар Абылай</h4>
-                <p>В школьные года был олимпийцем по информатике. Участвовал в различных олимпиадах, а так же в престижной международной студенческой олимпиаде ACM/ICPC.</p>
+                <p>В школьные годы был олимпийцем по информатике. Участвовал в различных олимпиадах, а так же в престижной международной студенческой олимпиаде ACM/ICPC.</p>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center  item">
                 <div class="t-circle d-flex align-items-center justify-content-center">
@@ -641,7 +656,7 @@
                     <img src="/images/teachers/shera.jpg" alt="">
                 </div>
                 <h4>Әлібекұлы Шерхан</h4>
-                <p>CTO</p>
+                <p>Oфициант, бармен, повар, пекарь, продавец, парикмахер, закройщик, портной, сантехник, снабженец и СТО</p>
             </div>
         </div>
 

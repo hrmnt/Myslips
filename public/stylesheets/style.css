@@ -87,6 +87,9 @@ body {
     padding: 2rem;
     background-color: #313439;
     color: #fcfcfc; }
+    @media (max-width: 798px) {
+      .navigation .form {
+        width: 80%; } }
     .navigation .form .logo {
       height: 2.5rem;
       width: auto;

@@ -46,6 +46,9 @@ body {
   .form{
     width: 30%;
     padding: 2rem;
+    @media (max-width: 798px) {
+      width: 80%;
+    }
 
     background-color: #313439;
     //border-radius: 1rem;

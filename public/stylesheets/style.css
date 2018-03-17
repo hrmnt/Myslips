@@ -83,18 +83,34 @@ body {
     -webkit-transform: translateY(0);
             transform: translateY(0); }
   .navigation .form {
-    width: 36%;
+    width: 30%;
     padding: 2rem;
-    background-color: white;
-    border-radius: 1rem; }
+    background-color: #313439;
+    color: #fcfcfc; }
     .navigation .form .logo {
-      height: 3rem;
+      height: 2.5rem;
       width: auto;
       margin-bottom: 4rem; }
+    .navigation .form input {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent;
+      outline: none;
+      color: #fcfcfc; }
+      .navigation .form input::-webkit-input-placeholder {
+        color: #cccccc; }
+      .navigation .form input:-ms-input-placeholder {
+        color: #cccccc; }
+      .navigation .form input::-ms-input-placeholder {
+        color: #cccccc; }
+      .navigation .form input::placeholder {
+        color: #cccccc; }
   .navigation .wrap {
     margin-bottom: 2rem; }
     .navigation .wrap p {
-      color: #041125;
+      font-family: Montserrat;
+      color: #fcfcfc;
+      font-size: 1.4rem;
       margin-bottom: 4px; }
 
 .sticky {

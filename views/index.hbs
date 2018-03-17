@@ -18,23 +18,34 @@
     <from class="form">
         <img class="logo" src="/images/logo_white.png" alt="">
         <div class="w-100 d-flex">
-            <div class="wrap d-flex flex-column w-50 pr-5">
+            <div class="wrap d-flex flex-column w-50 pr-3">
                 <p>Имя:</p>
-                <input type="text" placeholder="Марлен">
+                <input type="text" placeholder="Марлен" required>
             </div>
-            <div class="wrap d-flex flex-column w-50">
+            <div class="wrap d-flex flex-column w-50 pl-2">
                 <p>Фамилия:</p>
-                <input type="text" placeholder="Марлен">
+                <input type="text" placeholder="Марлен" required>
             </div>
         </div>
 
-        <div class="wrap d-flex flex-column">
+        <div class="wrap d-flex flex-column pr-3 w-50">
             <p>Номер телефона:</p>
-            <input type="text" placeholder="Марлен">
+            <div class="d-flex">
+                <input id="tel_number" type="text" class="w-100" required placeholder="+7 (000) 000-00-00">
+
+            </div>
         </div>
         <div class="wrap d-flex flex-column">
             <p>Курс:</p>
-            <select name="" id=""></select>
+            <select required name="" id="">
+                <option value="HTML">HTML/css</option>
+                <option value="Scratch">Scratch</option>
+                <option value="Java">Java</option>
+                <option value="Python">Pyhton</option>
+                <option value="Algorithm">Algorithm</option>
+                <option value="Design">Design</option>
+                <option value="Web-intensive">Web-Intensive</option>
+            </select>
         </div>
         <input class="s-btn" type="submit">
         
@@ -641,6 +652,13 @@
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center  item">
                 <div class="t-circle d-flex align-items-center justify-content-center">
+                    <img src="/images/teachers/bakhyt.jpg" alt="">
+                </div>
+                <h4>Шамыран Бахыт</h4>
+                <p>Окончила школы дизайна как в местных, так и заграничных учреждениях. Занималась многими коммерческими проектами. Профессионально владеет программами Adobe Creative Suite.</p>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center  item">
+                <div class="t-circle d-flex align-items-center justify-content-center">
                     <img src="/images/teachers/aidana.jpg" alt="">
                 </div>
                 <h4>Усентай Айдана </h4>
@@ -765,6 +783,7 @@
 <script src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/libs/aos/dist/aos.js"></script>
+<script src="/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
 <script src="/javascripts/main.js"></script>
 
 </body>

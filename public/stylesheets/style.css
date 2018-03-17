@@ -112,6 +112,10 @@ body {
       color: #fcfcfc;
       font-size: 1.4rem;
       margin-bottom: 4px; }
+  .navigation .s-btn {
+    justify-self: flex-end;
+    border: none !important;
+    background-color: #DEAE23 !important; }
 
 .sticky {
   width: 100%;

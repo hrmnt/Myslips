@@ -49,10 +49,11 @@ $(document).ready(function () {
     var lastRandom;
     var random;
     $("#more-fee").click(function () {
-        console.log("ss")
+        // console.log("ss")
         $(".navigation").toggleClass("open")
     })
 
+    $("#tel_number").mask('+7 (000) 000-00-00')
     timeout();
     var i =0;
     var timer =1000;

@@ -25,8 +25,8 @@ body {
   z-index: 100000;
   display: flex;
   align-items: center;
-  //transform: translateY(-100%);
-  transform: translateY(0);
+  transform: translateY(-100%);
+  //transform: translateY(0);
 
   transition: 0.3s ease;
   //padding-top: 8rem;
@@ -73,6 +73,7 @@ body {
   }
   .wrap{
     margin-bottom: 2rem;
+
     p{
       font-family: Montserrat;
       color: #fcfcfc;
@@ -80,6 +81,11 @@ body {
       margin-bottom: 4px;
 
     }
+  }
+  .s-btn{
+    justify-self: flex-end;
+    border: none!important;
+    background-color: $yellow!important;
   }
 }
 
@@ -729,7 +735,7 @@ body {
         }
         .apple{
           width: auto!important;
-          height: 4rem;
+          height: 3rem;
         }
         h4{
           margin: 0!important;

@@ -69,8 +69,8 @@ body {
   z-index: 100000;
   display: flex;
   align-items: center;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   transition: 0.3s ease; }
   .navigation .lent {
     display: block;
@@ -672,7 +672,7 @@ body {
           max-height: 5rem; }
         .statistics .company .item .company-name .apple {
           width: auto !important;
-          height: 4rem; }
+          height: 3rem; }
         .statistics .company .item .company-name h4 {
           margin: 0 !important;
           font-family: "Mont-Light";

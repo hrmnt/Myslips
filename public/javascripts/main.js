@@ -49,7 +49,7 @@ $(document).ready(function () {
     var lastRandom;
     var random;
     $("#more-fee").click(function () {
-        console.log("ss")
+        // console.log("ss")
         $(".navigation").toggleClass("open")
     })
 

@@ -868,7 +868,7 @@ body {
 .abroad{
   //height: 100vh;
   padding: 5rem;
-  background-color: #fcfcfc;
+  background-color: #ccc;
   @media (max-width: 798px) {
     padding-left: 2rem!important;
     padding-right: 2rem!important;
@@ -878,7 +878,20 @@ body {
     font-size: 4rem;
     text-align: center;
   }
+  .c-btn{
+    cursor: pointer;
+    width: 5%;
+
+    img{
+      height: 5rem;
+      @media (max-width: 798px) {
+        height: 3rem;
+      }
+
+    }
+  }
   .abroad-stu{
+    width: 90%;
     .item{
       .info{
         width: 80%;

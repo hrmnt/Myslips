@@ -17,6 +17,7 @@ $(document).ready(function () {
     //     autoplayHoverPause:true
     // });
     var owl = $('.company');
+    var abr = $('.abroad-stu');
     $(".company").owlCarousel({
         loop:true,
         items:1,
@@ -43,6 +44,12 @@ $(document).ready(function () {
     })
     $('.c-btn.prev').click(function() {
         owl.trigger('prev.owl.carousel');
+    })
+    $('.c-btn.next-a').click(function() {
+        abr.trigger('next.owl.carousel');
+    })
+    $('.c-btn.prev-a').click(function() {
+        abr.trigger('prev.owl.carousel');
     })
     var words=[
     "достигай",

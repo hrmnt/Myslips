@@ -765,7 +765,7 @@ body {
 
 .abroad {
   padding: 5rem;
-  background-color: #fcfcfc; }
+  background-color: #ccc; }
   @media (max-width: 798px) {
     .abroad {
       padding-left: 2rem !important;
@@ -774,51 +774,61 @@ body {
     font-family: Rubik;
     font-size: 4rem;
     text-align: center; }
-  .abroad .abroad-stu .item .info {
-    width: 80%;
-    height: 70rem;
-    background-color: #e1e0de; }
-    @media (max-width: 798px) {
-      .abroad .abroad-stu .item .info {
-        width: 100%;
-        height: auto; } }
-  .abroad .abroad-stu .media-side {
-    width: 100%;
-    height: 14rem;
-    background-color: #2d3236; }
-    @media (max-width: 798px) {
-      .abroad .abroad-stu .media-side {
-        height: 18rem; } }
-  .abroad .abroad-stu img {
-    border: 2px solid #e3e3e3;
-    width: 10rem;
-    height: 10rem;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 5px #efefef;
-    margin-right: 2rem; }
-  .abroad .abroad-stu h4 {
-    font-family: Montserrat;
-    font-size: 2.4rem;
-    font-weight: 500;
-    color: #fffffd;
-    text-align: left; }
-  .abroad .abroad-stu h5 {
-    font-family: Montserrat;
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: #43a2d8;
-    text-align: left; }
-  .abroad .abroad-stu p {
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    color: #5a5b5d; }
-    @media (max-width: 798px) {
-      .abroad .abroad-stu p {
-        font-size: 1.6rem;
-        text-align: center; } }
+  .abroad .c-btn {
+    cursor: pointer;
+    width: 5%; }
+    .abroad .c-btn img {
+      height: 5rem; }
+      @media (max-width: 798px) {
+        .abroad .c-btn img {
+          height: 3rem; } }
+  .abroad .abroad-stu {
+    width: 90%; }
+    .abroad .abroad-stu .item .info {
+      width: 80%;
+      height: 70rem;
+      background-color: #e1e0de; }
+      @media (max-width: 798px) {
+        .abroad .abroad-stu .item .info {
+          width: 100%;
+          height: auto; } }
+    .abroad .abroad-stu .media-side {
+      width: 100%;
+      height: 14rem;
+      background-color: #2d3236; }
+      @media (max-width: 798px) {
+        .abroad .abroad-stu .media-side {
+          height: 18rem; } }
+    .abroad .abroad-stu img {
+      border: 2px solid #e3e3e3;
+      width: 10rem;
+      height: 10rem;
+      -o-object-fit: cover;
+         object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 5px #efefef;
+      margin-right: 2rem; }
+    .abroad .abroad-stu h4 {
+      font-family: Montserrat;
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: #fffffd;
+      text-align: left; }
+    .abroad .abroad-stu h5 {
+      font-family: Montserrat;
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: #43a2d8;
+      text-align: left; }
+    .abroad .abroad-stu p {
+      font-family: Montserrat;
+      font-size: 1.4rem;
+      color: #5a5b5d; }
+      @media (max-width: 798px) {
+        .abroad .abroad-stu p {
+          font-size: 1.6rem;
+          text-align: center; } }
 
 .learn-more {
   height: 100vh;

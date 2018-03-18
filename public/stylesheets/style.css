@@ -764,16 +764,61 @@ body {
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9eb7b8', endColorstr='#646b69', GradientType=1 ); }
 
 .abroad {
-  height: 100vh;
   padding: 5rem;
   background-color: #fcfcfc; }
+  @media (max-width: 798px) {
+    .abroad {
+      padding-left: 2rem !important;
+      padding-right: 2rem !important; } }
   .abroad h4 {
     font-family: Rubik;
-    font-size: 4rem; }
+    font-size: 4rem;
+    text-align: center; }
   .abroad .abroad-stu .item .info {
-    width: 60%;
-    height: 40rem;
-    background-color: red; }
+    width: 80%;
+    height: 65rem;
+    background-color: #e1e0de; }
+    @media (max-width: 798px) {
+      .abroad .abroad-stu .item .info {
+        width: 100%;
+        height: auto; } }
+  .abroad .abroad-stu .media-side {
+    width: 100%;
+    height: 14rem;
+    background-color: #2d3236; }
+    @media (max-width: 798px) {
+      .abroad .abroad-stu .media-side {
+        height: 18rem; } }
+  .abroad .abroad-stu img {
+    border: 2px solid #e3e3e3;
+    width: 10rem;
+    height: 10rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px #efefef;
+    margin-right: 2rem; }
+  .abroad .abroad-stu h4 {
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #fffffd;
+    text-align: left; }
+  .abroad .abroad-stu h5 {
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #43a2d8;
+    text-align: left; }
+  .abroad .abroad-stu p {
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    color: #5a5b5d; }
+    @media (max-width: 798px) {
+      .abroad .abroad-stu p {
+        font-size: 1.6rem;
+        text-align: center; } }
 
 .learn-more {
   height: 100vh;

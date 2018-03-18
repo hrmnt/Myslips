@@ -865,6 +865,25 @@ body {
   }
 
 }
+.abroad{
+  height: 100vh;
+  padding: 5rem;
+  background-color: #fcfcfc;
+  h4{
+    font-family: Rubik;
+    font-size: 4rem;
+  }
+  .abroad-stu{
+    .item{
+      .info{
+        width: 60%;
+        height: 40rem;
+        background-color: red;
+      }
+
+    }
+  }
+}
 .learn-more{
   height: 100vh;
   width: 100%;

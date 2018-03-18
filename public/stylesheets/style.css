@@ -763,6 +763,18 @@ body {
             background: linear-gradient(to right, #9eb7b8 0%, #9eb7b8 18%, #646b69 81%, #646b69 100%);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9eb7b8', endColorstr='#646b69', GradientType=1 ); }
 
+.abroad {
+  height: 100vh;
+  padding: 5rem;
+  background-color: #fcfcfc; }
+  .abroad h4 {
+    font-family: Rubik;
+    font-size: 4rem; }
+  .abroad .abroad-stu .item .info {
+    width: 60%;
+    height: 40rem;
+    background-color: red; }
+
 .learn-more {
   height: 100vh;
   width: 100%; }

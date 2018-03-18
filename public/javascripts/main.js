@@ -29,6 +29,15 @@ $(document).ready(function () {
         // autoplayTimeout:1000,
         // autoplayHoverPause:true
     })
+    $(".abroad-stu").owlCarousel({
+        loop:true,
+        items:1,
+        responsive:{
+            600:{
+                items:1
+            }
+        },
+    })
     $('.c-btn.next').click(function() {
         owl.trigger('next.owl.carousel');
     })
@@ -90,7 +99,7 @@ $(document).ready(function () {
 
     })
     var statistics = $('#statistics').offset().top;
-    var mentors = $('.learn-more').offset().top;
+    var mentors = $('.abroad').offset().top;
 
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();

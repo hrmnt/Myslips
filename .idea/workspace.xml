@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,8 +97,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="870" column="24" lean-forward="false" selection-start-line="870" selection-start-column="24" selection-end-line="870" selection-end-column="24" />
+                <state relative-caret-position="288">
+                  <caret line="897" column="18" lean-forward="false" selection-start-line="897" selection-start-column="18" selection-end-line="897" selection-end-column="18" />
                   <folding>
                     <element signature="e#480#505#0" expanded="false" />
                     <element signature="e#23189#23193#0" expanded="false" />
@@ -188,9 +186,9 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/lesson.hbs" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
       </list>
     </option>
   </component>
@@ -361,7 +359,7 @@
       <workItem from="1521311123389" duration="152000" />
       <workItem from="1521321622304" duration="281000" />
       <workItem from="1521376094941" duration="4058000" />
-      <workItem from="1521383349709" duration="2418000" />
+      <workItem from="1521383349709" duration="2551000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1518959599970</created>
@@ -524,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521385617756</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="abroad">
+      <created>1521385829511</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1521385829511</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184354000" />
+    <option name="totallyTimeSpent" value="184487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -973,19 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="870" column="24" lean-forward="false" selection-start-line="870" selection-start-column="24" selection-end-line="870" selection-end-column="24" />
-          <folding>
-            <element signature="e#480#505#0" expanded="false" />
-            <element signature="e#23189#23193#0" expanded="false" />
-            <element signature="e#23210#23757#0" expanded="false" />
-            <element signature="e#23874#24239#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1008,6 +1000,19 @@
             <element signature="e#950#999#0" expanded="false" />
             <element signature="e#1039#1088#0" expanded="false" />
             <element signature="e#1714#2179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="897" column="18" lean-forward="false" selection-start-line="897" selection-start-column="18" selection-end-line="897" selection-end-column="18" />
+          <folding>
+            <element signature="e#480#505#0" expanded="false" />
+            <element signature="e#23189#23193#0" expanded="false" />
+            <element signature="e#23210#23757#0" expanded="false" />
+            <element signature="e#23874#24239#0" expanded="false" />
           </folding>
         </state>
       </provider>

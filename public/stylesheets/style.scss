@@ -596,6 +596,9 @@ body {
       width: 20rem;
       height: 4rem;
       cursor: pointer;
+      a{
+        color: white;
+      }
     }
     @media (max-width: 798px) {
       padding: 1rem;

@@ -1,6 +1,19 @@
 var express = require('express');
 var router = express.Router();
 
+//Telegram bot
+var TelegramBot = require('node-telegram-bot-api');
+var token = '519140551:AAEPG0N-K_X1EhvcOcaJKrTG8czFSnj6Am0';
+var bot = new TelegramBot(token, {polling: true});
+bot.on('message', function(msg) {
+    const chatId = msg.chat.id;
+
+    // send a message to the chat acknowledging receipt of their message
+    bot.sendMessage(chatId, 'Received your message');
+});
+
+
+
 
 
 /* GET home page. */
@@ -125,13 +138,13 @@ router.get('/lesson/html', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"HTML/CSS",
-            bg:"/images/lesson/html-lesson.svg",
-            img:"/images/lesson/html.svg",
-            description:"Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах.",
-            preName:"Воплоти свои мечты в реальность",
-            preDesc:"На этом с HTML мы завершаем и переходим к языку CSS. CSS – это язык описания внешнего вида документа, написанного с использованием языка разметки. Название произошло от англ. Cascading Style Sheets — каскадные таблицы стилей."
+        lesson: {
+            name: "HTML/CSS",
+            bg: "/images/lesson/html-lesson.svg",
+            img: "/images/lesson/html.svg",
+            description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах.",
+            preName: "Воплоти свои мечты в реальность",
+            preDesc: "На этом с HTML мы завершаем и переходим к языку CSS. CSS – это язык описания внешнего вида документа, написанного с использованием языка разметки. Название произошло от англ. Cascading Style Sheets — каскадные таблицы стилей."
         }
     });
 
@@ -200,7 +213,7 @@ router.get('/lesson/scratch', function (req, res, next) {
                             },
                             {
                                 text: "Простые циклы"
-                            },{
+                            }, {
                                 text: "Прятки"
                             }
                         ]
@@ -263,10 +276,10 @@ router.get('/lesson/scratch', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"Scratch",
-            img:"/images/lesson/scratch.png",
-            description:"Изучите основы програмирования, понятие об алгоритмах на уроках Scratch."
+        lesson: {
+            name: "Scratch",
+            img: "/images/lesson/scratch.png",
+            description: "Изучите основы програмирования, понятие об алгоритмах на уроках Scratch."
         }
     });
 
@@ -512,13 +525,13 @@ router.get('/lesson/python', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"Python",
-            bg:"/images/lesson/python-lesson.svg",
-            img:"/images/lesson/java/python.svg",
-            description:"Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Python.",
-            preName:"Стань частью нового поколения",
-            preDesc:"21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
+        lesson: {
+            name: "Python",
+            bg: "/images/lesson/python-lesson.svg",
+            img: "/images/lesson/java/python.svg",
+            description: "Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Python.",
+            preName: "Стань частью нового поколения",
+            preDesc: "21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
         }
     });
 
@@ -764,13 +777,13 @@ router.get('/lesson/java', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"JAVA",
-            bg:"/images/lesson/python-lesson.svg",
-            img:"/images/lesson/java/java.svg",
-            description:"Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Python.",
-            preName:"Стань частью нового поколения",
-            preDesc:"21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
+        lesson: {
+            name: "JAVA",
+            bg: "/images/lesson/python-lesson.svg",
+            img: "/images/lesson/java/java.svg",
+            description: "Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Python.",
+            preName: "Стань частью нового поколения",
+            preDesc: "21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
         }
     });
 
@@ -903,10 +916,10 @@ router.get('/lesson/algorithm', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"HTML/CSS",
-            img:"/images/lesson/html.svg",
-            description:"Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
+        lesson: {
+            name: "HTML/CSS",
+            img: "/images/lesson/html.svg",
+            description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
         }
     });
 
@@ -1021,13 +1034,13 @@ router.get('/lesson/design', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"Design",
-            bg:"/images/lesson/design-lesson.svg",
-            img:"/images/lesson/drawing.svg",
-            description:"Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах.",
-            preName:"Стань частью нового поколения",
-            preDesc:"21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
+        lesson: {
+            name: "Design",
+            bg: "/images/lesson/design-lesson.svg",
+            img: "/images/lesson/drawing.svg",
+            description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах.",
+            preName: "Стань частью нового поколения",
+            preDesc: "21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
         }
     });
 
@@ -1160,10 +1173,10 @@ router.get('/lesson/web-intensive', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"HTML/CSS",
-            img:"/images/lesson/html.svg",
-            description:"Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
+        lesson: {
+            name: "HTML/CSS",
+            img: "/images/lesson/html.svg",
+            description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
         }
     });
 
@@ -1296,10 +1309,10 @@ router.get('/lesson/individual', function (req, res, next) {
                 ]
             }
         ],
-        lesson:{
-            name:"HTML/CSS",
-            img:"/images/lesson/html.svg",
-            description:"Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
+        lesson: {
+            name: "HTML/CSS",
+            img: "/images/lesson/html.svg",
+            description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
         }
     });
 

@@ -589,6 +589,8 @@ body {
     width: 20rem;
     height: 4rem;
     cursor: pointer; }
+    .fee-in-kz .summary button a {
+      color: white; }
   @media (max-width: 798px) {
     .fee-in-kz .summary {
       padding: 1rem; } }

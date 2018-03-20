@@ -146,7 +146,7 @@ router.get('/lesson/scratch', function (req, res, next) {
                 description: "Scratch - это визуальная событийно-ориентированная среда программирования для обучения школьников младших и средних классов.",
                 lessons: [
                     {
-                        img: "/images/lesson/html-5.svg",
+                        img: "/images/lesson/scratch/1.png",
                         name: "Знакомство с Scratch",
                         description: "Привет Scratch",
                         connected: false,
@@ -165,7 +165,7 @@ router.get('/lesson/scratch', function (req, res, next) {
 
                     },
                     {
-                        img: "/images/lesson/html-icon.svg",
+                        img: "/images/lesson/scratch/2.png",
                         name: "Углубление в Scratch",
                         description: "Изучаем scratch более подробно",
                         connected: true,
@@ -186,10 +186,10 @@ router.get('/lesson/scratch', function (req, res, next) {
             },
             {
                 "title": "Изучение функции",
-                description: "Простой CSS может получить вас довольно далеко, но как только вы начинаете серьезно относиться к разработке интерфейса, вам необходимо получить доступ к более продвинутым темам, таким как специфика, плавание, анимация и отзывчивый дизайн. Эти курсы научат вас некоторым передовым методам работы с CSS и созданию адаптивных веб-сайтов, чтобы ваши пользователи двигались в правильном направлении.",
+                description: "Так как програмиование это не только создание объектов а еще и функции и движения, мы начнем изучать основы функции как loop,for,if,else и т.д. ",
                 lessons: [
                     {
-                        img: "/images/lesson/chrome.svg",
+                        img: "/images/lesson/scratch/3.svg",
                         name: "Простые функции",
                         description: "",
                         connected: false,
@@ -207,7 +207,7 @@ router.get('/lesson/scratch', function (req, res, next) {
 
                     },
                     {
-                        img: "/images/lesson/iphone.svg",
+                        img: "/images/lesson/scratch/4.svg",
                         name: "Стилизация",
                         description: "Придаем вид нашему спрайту",
                         connected: false,
@@ -225,7 +225,7 @@ router.get('/lesson/scratch', function (req, res, next) {
 
                     },
                     {
-                        img: "/images/lesson/grid.png",
+                        img: "/images/lesson/scratch/5.svg",
                         name: "Сложные функции",
                         description: "",
                         connected: false,
@@ -243,7 +243,7 @@ router.get('/lesson/scratch', function (req, res, next) {
 
                     },
                     {
-                        img: "/images/lesson/animation.png",
+                        img: "/images/lesson/scratch/6.svg",
                         name: "Взаимодействие с функциями",
                         description: "Подключаем словари и понимаем как пользоватся",
                         connected: false,

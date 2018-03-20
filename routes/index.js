@@ -921,38 +921,38 @@ router.get('/lesson/design', function (req, res, next) {
                 description: "Дизайн неотемлимая часть нашей жизни. При повседневной нашей жизни мы видим дизайн в каждом елементе нашей жизни. Так будь создателем этого дизайна",
                 lessons: [
                     {
-                        img: "/images/lesson/html-5.svg",
-                        name: "",
+                        img: "/images/lesson/intro.png",
+                        name: "Введение в дизайн",
                         description: "Изучаем как построить сайт HTML и CSS",
                         connected: false,
 
                         lesson: [
                             {
-                                text: "Знакомство с HTML5 и CSS"
+                                text: "Теория цветов"
                             },
                             {
-                                text: "Понимание классов и разметки"
+                                text: "Adobe Photoshop"
                             },
                             {
-                                text: "Подключение шрифтов и форм"
+                                text: "Sketch"
                             }
                         ]
 
                     },
                     {
-                        img: "/images/lesson/graph.svg",
+                        img: "/images/lesson/graph.png",
                         name: "Графичиский дизайн",
                         description: "Узнайте последние версии HTML и CSS.",
                         connected: true,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Теория дизайна"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Типография"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Создание стиля"
                             }
                         ]
 
@@ -961,7 +961,7 @@ router.get('/lesson/design', function (req, res, next) {
                         img: "/images/lesson/uiux.svg",
                         name: "UI/UX",
                         description: "Построение интерфейса пользователя, изучение информационной архитектуры",
-                        connected: false,
+                        connected: true,
 
                         lesson: [
                             {
@@ -985,57 +985,39 @@ router.get('/lesson/design', function (req, res, next) {
                     {
                         img: "/images/lesson/autocad.png",
                         name: "AutoCAD",
-                        description: "вух- и трёхмерная система автоматизированного проектирования и черчения, разработанная компанией Autodesk. ",
+                        description: "трёхмерная система автоматизированного проектирования и черчения, разработанная компанией Autodesk. ",
                         connected: false,
                         lesson: [
                             {
                                 text: "Знакомство с интерфейсом"
                             },
                             {
-                                text: "Создание "
+                                text: "Создание объектов"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Подготовка к распечатке"
                             }
                         ]
 
                     },
-                    {
-                        img: "/images/lesson/grid.png",
-                        name: "Понятия о верстке с помощью Flexbox",
-                        description: "Раскрите секретов использования Flexbox для макетов веб-сайтов.",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "HTML5 элементы и формы"
-                            },
-                            {
-                                text: "Шрифты и взаимодействия"
-                            },
-                            {
-                                text: "Изучение методов стилизации CSS3"
-                            }
-                        ]
-
-                    },
-                    {
-                        img: "/images/lesson/animation.png",
-                        name: "Путешествие в мир анимации",
-                        description: "Сделайте свой сайт более привлекательным с помощью анимации.",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "HTML5 элементы и формы"
-                            },
-                            {
-                                text: "Шрифты и взаимодействия"
-                            },
-                            {
-                                text: "Изучение методов стилизации CSS3"
-                            }
-                        ]
-
-                    }
+                    // {
+                    //     img: "/images/lesson/grid.png",
+                    //     name: "Понятия о верстке с помощью Flexbox",
+                    //     description: "Раскрите секретов использования Flexbox для макетов веб-сайтов.",
+                    //     connected: false,
+                    //     lesson: [
+                    //         {
+                    //             text: "HTML5 элементы и формы"
+                    //         },
+                    //         {
+                    //             text: "Шрифты и взаимодействия"
+                    //         },
+                    //         {
+                    //             text: "Изучение методов стилизации CSS3"
+                    //         }
+                    //     ]
+                    //
+                    // }
                 ]
             }
         ],

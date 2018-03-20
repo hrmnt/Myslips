@@ -1,6 +1,6 @@
 $(document).ready(function () {
-
     AOS.init();
+
     // $(".team").owlCarousel({
     //     animateOut: 'slideOutDown',
     //     animateIn: 'flipInX',
@@ -50,6 +50,13 @@ $(document).ready(function () {
     })
     $('.c-btn.prev-a').click(function() {
         abr.trigger('prev.owl.carousel');
+    })
+    $('#register-btn').click(function () {
+        $(".register-drop").addClass('open')
+
+    })
+    $('.c-layer').click(function () {
+        $(".register-drop").removeClass('open')
     })
     var words=[
     "достигай",

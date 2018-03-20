@@ -55,6 +55,44 @@
     <a class="lent " href="#team">О нас</a>
     <a class="lent " href="#contacts">Контакты</a>
 </navigation>
+<div class="register-drop flex-column align-items-center justify-content-center">
+    <div class="c-layer"></div>
+    <from  class="form">
+        <img class="logo" src="/images/logo_white.png" alt="">
+        <div class="w-100 d-flex">
+            <div class="wrap d-flex flex-column w-50 pr-3">
+                <p>Имя:</p>
+                <input type="text" placeholder="Марлен" required>
+            </div>
+            <div class="wrap d-flex flex-column w-50 pl-2">
+                <p>Фамилия:</p>
+                <input type="text" placeholder="Марлен" required>
+            </div>
+        </div>
+
+        <div class="wrap d-flex flex-column pr-3 w-50">
+            <p>Номер телефона:</p>
+            <div class="d-flex">
+                <input id="tel_number" type="text" class="w-100" required placeholder="+7 (000) 000-00-00">
+
+            </div>
+        </div>
+        <div class="wrap d-flex flex-column">
+            <p>Курс:</p>
+            <select required name="" id="">
+                <option value="HTML">HTML/css</option>
+                <option value="Scratch">Scratch</option>
+                <option value="Java">Java</option>
+                <option value="Python">Pyhton</option>
+                <option value="Algorithm">Algorithm</option>
+                <option value="Design">Design</option>
+                <option value="Web-intensive">Web-Intensive</option>
+            </select>
+        </div>
+        <input class="s-btn m-auto" type="submit">
+
+    </from>
+</div>
 <section id="main" class="main-page w-100">
     <div class="background-layer first w-100 h-100"></div>
     <div class="background-layer second w-100 h-100"></div>
@@ -84,10 +122,8 @@
             <!--<h1 id="2-word">Создавай.</h1>-->
             <!--<h1 id="3-word">Твори.</h1>-->
         </div>
-        <button>
-            <a href="#courses">
-                Наши курсы
-            </a>
+        <button id="register-btn">
+                Записаться на курсы
         </button>
     </div>
 </section>
@@ -933,10 +969,12 @@
 </footer>
 
 <script src="/libs/jquery/dist/jquery.js"></script>
+<script src="/libs/aos/dist/aos.js"></script>
+
 <script src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/libs/aos/dist/aos.js"></script>
 <script src="/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+
 <script src="/javascripts/main.js"></script>
 
 </body>

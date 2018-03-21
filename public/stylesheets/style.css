@@ -151,32 +151,32 @@ body {
     width: 100%;
     height: 100%;
     z-index: 51; }
-  .register-drop .form {
+  .register-drop .form-element {
     width: 30%;
     padding: 2rem;
     z-index: 52;
     background-color: #313439;
     color: #fcfcfc; }
     @media (max-width: 798px) {
-      .register-drop .form {
+      .register-drop .form-element {
         width: 80%; } }
-    .register-drop .form .logo {
+    .register-drop .form-element .logo {
       height: 2.5rem;
       width: auto;
       margin-bottom: 4rem; }
-    .register-drop .form input {
+    .register-drop .form-element input {
       border: none;
       border-bottom: 1px solid #ccc;
       background-color: transparent;
       outline: none;
       color: #fcfcfc; }
-      .register-drop .form input::-webkit-input-placeholder {
+      .register-drop .form-element input::-webkit-input-placeholder {
         color: #cccccc; }
-      .register-drop .form input:-ms-input-placeholder {
+      .register-drop .form-element input:-ms-input-placeholder {
         color: #cccccc; }
-      .register-drop .form input::-ms-input-placeholder {
+      .register-drop .form-element input::-ms-input-placeholder {
         color: #cccccc; }
-      .register-drop .form input::placeholder {
+      .register-drop .form-element input::placeholder {
         color: #cccccc; }
   .register-drop .wrap {
     margin-bottom: 2rem; }

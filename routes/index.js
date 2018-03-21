@@ -2,15 +2,15 @@ var express = require('express');
 var router = express.Router();
 
 //Telegram bot
-var TelegramBot = require('node-telegram-bot-api');
-var token = '519140551:AAEPG0N-K_X1EhvcOcaJKrTG8czFSnj6Am0';
-var bot = new TelegramBot(token, {polling: true});
-bot.on('message', function(msg) {
-    const chatId = msg.chat.id;
-
-    // send a message to the chat acknowledging receipt of their message
-    bot.sendMessage(chatId, 'Received your message');
-});
+// var TelegramBot = require('node-telegram-bot-api');
+// var token = '519140551:AAEPG0N-K_X1EhvcOcaJKrTG8czFSnj6Am0';
+// var bot = new TelegramBot(token, {polling: true});
+// bot.on('message', function(msg) {
+//     const chatId = msg.chat.id;
+//
+//     // send a message to the chat acknowledging receipt of their message
+//     bot.sendMessage(chatId, 'Received your message');
+// });
 
 
 
@@ -301,7 +301,7 @@ router.get('/lesson/python', function (req, res, next) {
 
                         lesson: [
                             {
-                                text: "Попробуйте Python на вкус"
+                                text: "Язык программирования JAVA."
                             },
                             {
                                 text: "Применение Python на деле"

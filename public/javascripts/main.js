@@ -19,11 +19,11 @@ $(document).ready(function () {
     var owl = $('.company');
     var abr = $('.abroad-stu');
     $(".company").owlCarousel({
-        loop:true,
-        items:1,
-        responsive:{
-            600:{
-                items:2
+        loop: true,
+        items: 1,
+        responsive: {
+            600: {
+                items: 2
             }
         },
         // autoplay:true,
@@ -31,24 +31,24 @@ $(document).ready(function () {
         // autoplayHoverPause:true
     })
     $(".abroad-stu").owlCarousel({
-        loop:true,
-        items:1,
-        responsive:{
-            600:{
-                items:2
+        loop: true,
+        items: 1,
+        responsive: {
+            600: {
+                items: 2
             }
         },
     })
-    $('.c-btn.next').click(function() {
+    $('.c-btn.next').click(function () {
         owl.trigger('next.owl.carousel');
     })
-    $('.c-btn.prev').click(function() {
+    $('.c-btn.prev').click(function () {
         owl.trigger('prev.owl.carousel');
     })
-    $('.c-btn.next-a').click(function() {
+    $('.c-btn.next-a').click(function () {
         abr.trigger('next.owl.carousel');
     })
-    $('.c-btn.prev-a').click(function() {
+    $('.c-btn.prev-a').click(function () {
         abr.trigger('prev.owl.carousel');
     })
     $('#register-btn').click(function () {
@@ -58,16 +58,31 @@ $(document).ready(function () {
     $('.c-layer').click(function () {
         $(".register-drop").removeClass('open')
     })
-    var words=[
-    "достигай",
-    "делай",
-    "совершенствуй",
-    "твори",
-    "добивайся",
-    "создавай",
-    "практикуй",
+    var words = [
+        "достигай",
+        "делай",
+        "совершенствуй",
+        "твори",
+        "добивайся",
+        "создавай",
+        "практикуй",
         "Вместе с KEYNOTE."
-    ]
+    ];
+
+    $(".form-element").submit(function () {
+        var name = $("#name-form").val();
+        var surname = $("#surname-form").val();
+        var tel = $("#tel-form").val();
+        var course = $("#course-form").val();
+        console.log(name,surname,tel,course);
+        $.ajax({
+            type: "POST",
+            url: '',
+            // data: formNm.serialize(),
+
+        });
+        return false;
+    });
 
     var lastRandom;
     var random;
@@ -78,28 +93,29 @@ $(document).ready(function () {
 
     $("#tel_number").mask('+7 (000) 000-00-00')
     timeout();
-    var i =0;
-    var timer =1000;
+    var i = 0;
+    var timer = 1000;
+
     function timeout() {
         setTimeout(function () {
-            if(i > 7){
-                i=0
+            if (i > 7) {
+                i = 0
 
             }
 
-            $('#word').fadeOut(500, function() {
-                    $(this).text(words[i]).fadeIn(500);
+            $('#word').fadeOut(500, function () {
+                $(this).text(words[i]).fadeIn(500);
 
-                    i++;
-                    if(i == 7){
-                        timer =6000;
-                    }
-                    else{
-                        timer =1000;
-                    }
+                i++;
+                if (i == 7) {
+                    timer = 6000;
+                }
+                else {
+                    timer = 1000;
+                }
             });
             timeout();
-        }, timer );
+        }, timer);
     }
 
     $("#hamburger").click(function () {
@@ -122,12 +138,13 @@ $(document).ready(function () {
             scrollTop: $($.attr(this, 'href')).offset().top - 30
         }, 1000);
     });
-    var onStat =false;
+    var onStat = false;
+
     function onScroll() {
-        if(!onStat){
-            window.scrollY >= origOffsetY + 30 != headerIsFixed  &&  (headerIsFixed = !headerIsFixed, header.classList.toggle("fixed", headerIsFixed));
+        if (!onStat) {
+            window.scrollY >= origOffsetY + 30 != headerIsFixed && (headerIsFixed = !headerIsFixed, header.classList.toggle("fixed", headerIsFixed));
         }
-        if(window.scrollY>= statistics && window.scrollY <= mentors){
+        if (window.scrollY >= statistics && window.scrollY <= mentors) {
             onStat = true;
             $("#black-logo").addClass("show");
             $("#white-logo").removeClass("show");
@@ -137,7 +154,7 @@ $(document).ready(function () {
             $(".profession").removeClass("nthng");
             $(".lent").addClass("black")
         }
-        if(window.scrollY<= statistics || window.scrollY>= mentors){
+        if (window.scrollY <= statistics || window.scrollY >= mentors) {
             onStat = false;
             $("#black-logo").removeClass("show");
             $("#white-logo").addClass("show");
@@ -147,6 +164,7 @@ $(document).ready(function () {
         }
 
     }
+
     console.log(statistics)
     var header = document.querySelector("#header"), origOffsetY = header.offsetTop, headerIsFixed = !1;
     document.addEventListener("scroll", onScroll);

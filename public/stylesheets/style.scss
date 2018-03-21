@@ -1142,48 +1142,37 @@ body {
   height: 14rem;
   background-color: $black;
   padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   border-top: 1px solid #EFEFEF;
-  .header {
-    width: 90%;
-    height: 5rem;
-    border-bottom: 1px solid #e7e7e7;;
-    .social {
-      img {
-        height: 3rem;
-        object-fit: cover;
-      }
-    }
-    .address {
-      img {
-        height: 2rem;
-        margin-right: 5px;
-      }
-      p {
-        color: white;
-        font-size: 1.4rem;
-      }
-    }
-    .logo {
-      height: 3.5rem;
-    }
-
+  font-family: Montserrat;
+  @media (max-width: 798px) {
+    flex-direction: column;
+    height: auto;
   }
   .logo{
     height: 3rem;
+    @media (max-width: 798px) {
+     height: 3.4rem;
+    }
 
   }
   .social-network{
+    width: 33%;
+    @media (max-width: 798px) {
+      width: 100%;
+      align-items: center!important;
+      justify-content: center!important;
+      img{
+        height: 2.6rem!important;
+      }
+    }
     img{
       height: 1.6rem;
-    }
-    h5{
-      color: white;
-      font-size: 1.4rem;
-      font-family: Mont-Light;
+      border-radius: 50%;
     }
     a{
       height: 20%;
-      margin-right: 2rem;
       img{
         margin-right: 1rem;
       }
@@ -1191,8 +1180,42 @@ body {
         margin: 0;
         font-size: 1.4rem;
         color: white;
-        font-family: Mont-Light;
+        font-family: Montserrat;
+        @media (max-width: 798px) {
+          font-size: 1.6rem;
+        }
+
       }
+    }
+  }
+  .logo-wrap{
+    width: 33%;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    @media (max-width: 798px) {
+      width: 100%;
+      margin-bottom: 0.4rem;
+    }
+    @media (max-width: 798px) {
+      font-size: 1.6rem;
+    }
+
+  }
+  .contact-types{
+    width: 33%;
+    color: #fcfcfc;
+    font-size: 1.4rem;
+    @media (max-width: 798px) {
+      font-size: 1.6rem;
+    }
+
+    @media (max-width: 798px) {
+      width: 100%;
+      align-items: center!important;
+    }
+    a{
+      color: white;
     }
   }
 }

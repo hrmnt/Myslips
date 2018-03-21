@@ -200,7 +200,7 @@ body {
   top: 1px;
   z-index: 50;
   padding-left: 4rem !important;
-  padding-right: 25rem !important; }
+  padding-right: 6rem !important; }
   @media (max-width: 798px) {
     .sticky {
       padding-left: 2rem !important;

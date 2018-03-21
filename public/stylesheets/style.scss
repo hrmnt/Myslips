@@ -957,6 +957,7 @@ body {
   padding: 5rem;
   background-color: #ccc;
   @media (max-width: 798px) {
+    height: auto;
     padding-left: 2rem!important;
     padding-right: 2rem!important;
   }

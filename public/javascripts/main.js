@@ -1,6 +1,6 @@
 $(document).ready(function () {
     AOS.init();
-
+    emailjs.init("user_lm9NaZQP4gPX00KqvMvRC");
     // $(".team").owlCarousel({
     //     animateOut: 'slideOutDown',
     //     animateIn: 'flipInX',
@@ -69,18 +69,55 @@ $(document).ready(function () {
         "Вместе с KEYNOTE."
     ];
 
-    $(".form-element").submit(function () {
+    // $(".form-element").submit(function () {
+    //     var name = $("#name-form").val();
+    //     var surname = $("#surname-form").val();
+    //     var tel = $("#tel-form").val();
+    //     var course = $("#course-form").val();
+    //     var templateParams ={
+    //         name: name,
+    //         surname: surname,
+    //         phone: tel,
+    //         lesson: course
+    //     }
+    //     emailjs.send('gmail', 'keynote_product', templateParams)
+    //         .then(function(response) {
+    //             console.log('SUCCESS!', response.status, response.text);
+    //             $(".register-drop").removeClass('open')
+    //
+    //         }, function(error) {
+    //             console.log('FAILED...', error);
+    //         });
+    //
+    // });
+
+    var myform = $("form.form-element");
+    myform.submit(function(event){
         var name = $("#name-form").val();
         var surname = $("#surname-form").val();
         var tel = $("#tel-form").val();
         var course = $("#course-form").val();
-        console.log(name,surname,tel,course);
-        $.ajax({
-            type: "POST",
-            url: '',
-            // data: formNm.serialize(),
+        var templateParams ={
+            name: name,
+            surname: surname,
+            phone: tel,
+            lesson: course
+        }
+        event.preventDefault();
 
-        });
+        // Change to your service ID, or keep using the default service
+        var service_id = "gmail";
+        var template_id = "keynote_product";
+
+        myform.find("button").text("Отправляется...");
+        emailjs.send(service_id,template_id,templateParams)
+            .then(function(){
+                myform.find("button").text("Отправлено");
+                $(".register-drop").removeClass('open')
+
+            }, function(err) {
+                myform.find("button").text("Send");
+            });
         return false;
     });
 
@@ -91,7 +128,7 @@ $(document).ready(function () {
         $(".navigation").toggleClass("open")
     })
 
-    $("#tel_number").mask('+7 (000) 000-00-00')
+    $("#tel-form").mask('+7 (000) 000-00-00')
     timeout();
     var i = 0;
     var timer = 1000;

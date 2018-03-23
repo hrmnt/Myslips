@@ -13,11 +13,13 @@ var router = express.Router();
 // });
 
 
-
+router.get('/',function (req,res) {
+    res.redirect("/main");
+})
 
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+router.get('/main', function (req, res, next) {
     res.render('index', {title: 'Keynote | Школа программирования и дизайна'});
 });
 router.get('/lesson/html', function (req, res, next) {

@@ -960,6 +960,42 @@ router.get('/lesson/design', function (req, res, next) {
                         ]
 
                     },
+                    {
+                        img: "/images/lesson/3ds-max.png",
+                        name: "3ds Max",
+                        description: "профессиональная программная система для создания и редактирования трёхмерной графики и анимации.",
+                        connected: false,
+                        lesson: [
+                            {
+                                text: "Знакомство с интерфейсом"
+                            },
+                            {
+                                text: "Создание объектов"
+                            },
+                            {
+                                text: "Подготовка к распечатке"
+                            }
+                        ]
+
+                    },
+                    {
+                        img: "/images/lesson/maya.png",
+                        name: "Maya 3d",
+                        description: "  предоставляет универсальный набор функциональных возможностей для компьютерной 3D-анимации.",
+                        connected: false,
+                        lesson: [
+                            {
+                                text: "Знакомство с интерфейсом"
+                            },
+                            {
+                                text: "Создание объектов"
+                            },
+                            {
+                                text: "Подготовка к распечатке"
+                            }
+                        ]
+
+                    },
                     // {
                     //     img: "/images/lesson/grid.png",
                     //     name: "Понятия о верстке с помощью Flexbox",

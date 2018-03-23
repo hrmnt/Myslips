@@ -553,10 +553,13 @@ router.get('/lesson/java', function (req, res, next) {
 
                         lesson: [
                             {
-                                text: "Попробуйте Java на вкус"
+                                text: "Язык программирования JAVA"
                             },
                             {
-                                text: "Применение Java на деле"
+                                text: "Первая программа"
+                            },
+                            {
+                                text: "Установка NetBeans"
                             },
 
                         ]
@@ -569,13 +572,13 @@ router.get('/lesson/java', function (req, res, next) {
                         connected: false,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Переменные и типы данных"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Операции языка Java"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Массивы.Условные конструкции"
                             }
                         ]
 
@@ -587,31 +590,31 @@ router.get('/lesson/java', function (req, res, next) {
                         connected: false,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Циклы.Методы"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Рекурсивные функций"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Консольный ввод/вывод в Java"
                             }
                         ]
 
                     },
                     {
-                        img: "/images/lesson/java/4.JPG",
+                        img: "/images/lesson/java/4.jpg",
                         name: "Типы данных, циклы",
                         description: "Узнайте последние версии HTML и CSS.",
                         connected: true,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Классы и объекты"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Модификаторы доступа и инкапсуляция"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Статические члены и модификатор static"
                             }
                         ]
 
@@ -630,67 +633,62 @@ router.get('/lesson/java', function (req, res, next) {
 
                         lesson: [
                             {
-                                text: "Знакомство с HTML5 и CSS"
+                                text: "Наследование"
                             },
                             {
-                                text: "Понимание классов и разметки"
+                                text: "Переопределение методов и ключевое слово super"
                             },
-                            {
-                                text: "Подключение шрифтов и форм"
-                            }
+
                         ]
 
                     },
                     {
                         img: "/images/lesson/java/6.png",
-                        name: "Массивы",
+                        name: "Обработка исключений",
                         description: "Изучение мобильного, адаптивного и отзывчивого веб-дизайна",
                         connected: false,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Оператор throws"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Классы исключений"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Создание свойх классов исключений"
                             }
                         ]
 
                     },
                     {
                         img: "/images/lesson/java/7.png",
-                        name: "Основы ООП",
+                        name: "Колекций",
                         description: "Раскрите секретов использования Flexbox для макетов веб-сайтов.",
                         connected: false,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Введение в коллекции в Java"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
-                            },
-                            {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "ArrayList, LinkedList, HashSet"
                             }
                         ]
 
                     },
                     {
                         img: "/images/lesson/java/8.svg",
-                        name: "Работа с файлами",
+                        name: "Работа со строками",
                         description: "Сделайте свой сайт более привлекательным с помощью анимации.",
                         connected: false,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Работа со строками"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Класс String"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "Основные операции со строками"
                             }
                         ]
 
@@ -698,82 +696,44 @@ router.get('/lesson/java', function (req, res, next) {
                 ]
             },
             {
-                "title": "Изучение видов",
+                "title": "Java FX",
                 description: "Простой CSS может получить вас довольно далеко, но как только вы начинаете серьезно относиться к разработке интерфейса, вам необходимо получить доступ к более продвинутым темам, таким как специфика, плавание, анимация и отзывчивый дизайн. Эти курсы научат вас некоторым передовым методам работы с CSS и созданию адаптивных веб-сайтов, чтобы ваши пользователи двигались в правильном направлении.",
                 lessons: [
                     {
                         img: "/images/lesson/java/9.svg",
-                        name: "Строки",
+                        name: "Introduction to FX",
                         description: "Понимание стилей",
                         connected: false,
 
                         lesson: [
                             {
-                                text: "Знакомство с HTML5 и CSS"
+                                text: "Введение в JavaFX"
                             },
                             {
-                                text: "Понимание классов и разметки"
-                            },
-                            {
-                                text: "Подключение шрифтов и форм"
+                                text: "JavaFX Basics"
                             }
                         ]
 
                     },
                     {
                         img: "/images/lesson/java/10.svg",
-                        name: "Подключение библиотек",
+                        name: "Создание проекта",
                         description: "Изучение мобильного, адаптивного и отзывчивого веб-дизайна",
                         connected: false,
                         lesson: [
                             {
-                                text: "HTML5 элементы и формы"
+                                text: "Анимация"
                             },
                             {
-                                text: "Шрифты и взаимодействия"
+                                text: "Управляемая событиями"
                             },
                             {
-                                text: "Изучение методов стилизации CSS3"
+                                text: "JavaFX UI Controls and Multimedia"
                             }
                         ]
 
                     },
-                    {
-                        img: "/images/lesson/java/11.svg",
-                        name: "Списки, словари",
-                        description: "Раскрите секретов использования Flexbox для макетов веб-сайтов.",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "HTML5 элементы и формы"
-                            },
-                            {
-                                text: "Шрифты и взаимодействия"
-                            },
-                            {
-                                text: "Изучение методов стилизации CSS3"
-                            }
-                        ]
 
-                    },
-                    {
-                        img: "/images/lesson/java/12.svg",
-                        name: "Графика",
-                        description: "Сделайте свой сайт более привлекательным с помощью анимации.",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "HTML5 элементы и формы"
-                            },
-                            {
-                                text: "Шрифты и взаимодействия"
-                            },
-                            {
-                                text: "Изучение методов стилизации CSS3"
-                            }
-                        ]
-
-                    }
                 ]
             }
         ],

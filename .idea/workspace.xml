@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/lesson.hbs" afterPath="$PROJECT_DIR$/views/lesson.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,23 +23,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.65496576">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="false">
+          <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2856">
-                  <caret line="168" column="16" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
                   <folding>
-                    <marker date="1521729375214" expanded="true" signature="5162:5241" ph="..." />
+                    <marker date="1521785200449" expanded="true" signature="5162:5241" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="623" column="13" lean-forward="true" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
+                <state relative-caret-position="17">
+                  <caret line="600" column="25" lean-forward="true" selection-start-line="600" selection-start-column="25" selection-end-line="600" selection-end-column="25" />
                   <folding>
                     <element signature="e#676#6304#0" expanded="false" />
                   </folding>
@@ -69,8 +70,8 @@
           <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15844">
-                  <caret line="932" column="0" lean-forward="false" selection-start-line="932" selection-start-column="0" selection-end-line="985" selection-end-column="0" />
+                <state relative-caret-position="64">
+                  <caret line="983" column="0" lean-forward="true" selection-start-line="983" selection-start-column="0" selection-end-line="983" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -169,7 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>na</find>
       <find>30</find>
       <find>30.000</find>
       <find>navi</find>
@@ -199,6 +199,7 @@
       <find>footer</find>
       <find>java</find>
       <find>lesson/java</find>
+      <find>k</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
@@ -235,9 +236,9 @@
         <option value="$PROJECT_DIR$/public/javascripts/send-message-to-telegram.php" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/views/lesson.hbs" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -428,7 +429,7 @@
       <workItem from="1521616930635" duration="7716000" />
       <workItem from="1521719277052" duration="2135000" />
       <workItem from="1521759326492" duration="677000" />
-      <workItem from="1521782614102" duration="70000" />
+      <workItem from="1521782614102" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1518959599970</created>
@@ -689,11 +690,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521729388443</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="java,python add sylabus">
+      <created>1521782705751</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1521782705751</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207974000" />
+    <option name="totallyTimeSpent" value="209317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,7 +808,9 @@
     <MESSAGE value="design add" />
     <MESSAGE value="pre-changes" />
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="java,python add sylabus" />
+    <MESSAGE value="(Update) - [Footer] - removed &quot;x`&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Update) - [Footer] - removed &quot;x`&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1179,30 +1189,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="600" column="25" lean-forward="true" selection-start-line="600" selection-start-column="25" selection-end-line="600" selection-end-column="25" />
+          <folding>
+            <element signature="e#676#6304#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15844">
-          <caret line="932" column="0" lean-forward="false" selection-start-line="932" selection-start-column="0" selection-end-line="985" selection-end-column="0" />
+        <state relative-caret-position="64">
+          <caret line="983" column="0" lean-forward="true" selection-start-line="983" selection-start-column="0" selection-end-line="983" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="168" column="16" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
           <folding>
-            <marker date="1521729375214" expanded="true" signature="5162:5241" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="623" column="13" lean-forward="true" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
-          <folding>
-            <element signature="e#676#6304#0" expanded="false" />
+            <marker date="1521785200449" expanded="true" signature="5162:5241" ph="..." />
           </folding>
         </state>
       </provider>

@@ -862,9 +862,10 @@ router.get('/lesson/algorithm', function (req, res, next) {
 
         ],
         lesson: {
-            name: "HTML/CSS",
-            img: "/images/lesson/html.svg",
-            description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
+            name: "Algorithm",
+            img: "/images/lesson/algorithm.svg",
+            description: "Курс представляет собой изучение основных алгоритмов и структур данных, необходимых\n" +
+            "                                программистам для качественного решения ежедневных задач."
         }
     });
 

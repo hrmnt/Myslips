@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/lesson/algorithm.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +26,7 @@
           <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
+                <state relative-caret-position="0">
                   <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
@@ -46,15 +46,15 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="870" column="3" lean-forward="true" selection-start-line="870" selection-start-column="3" selection-end-line="870" selection-end-column="3" />
+                <state relative-caret-position="329">
+                  <caret line="874" column="26" lean-forward="true" selection-start-line="874" selection-start-column="26" selection-end-line="874" selection-end-column="26" />
                   <folding>
-                    <element signature="e#31812#32343#0" expanded="false" />
+                    <element signature="e#30134#34974#0" expanded="false" />
                     <element signature="e#32365#32953#0" expanded="false" />
                     <element signature="e#32975#33561#0" expanded="false" />
                     <element signature="e#33583#34184#0" expanded="false" />
                     <element signature="e#34206#34930#0" expanded="false" />
-                    <element signature="e#39041#39774#0" expanded="false" />
+                    <element signature="e#39119#39852#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -63,8 +63,8 @@
           <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="522">
-                  <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+                <state relative-caret-position="285">
+                  <caret line="728" column="89" lean-forward="true" selection-start-line="727" selection-start-column="32" selection-end-line="728" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -174,7 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Mad</find>
       <find>web-</find>
       <find>130</find>
       <find>Самы</find>
@@ -204,6 +203,7 @@
       <find>tel-</find>
       <find>design</find>
       <find>alg</find>
+      <find>algorithm</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
@@ -286,31 +286,33 @@
         <subPane>
           <expand>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote_2" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote_2" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
+              <item name="keynote_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote_2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keynote_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keynote_2" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="mainpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,18 +330,18 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/hrmnt/Desktop/web_work/public/images/mainpage/right-arrow.svg" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/lesson" />
+      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\mainpage" />
+      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\lesson" />
+      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\teachers" />
+      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\lesson\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/teachers" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson\java" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\mainpage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\mainpage" />
-      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\lesson" />
-      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\teachers" />
-      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images\lesson\java" />
-      <recent name="C:\Users\hrmnt\WebstormProjects\keynote\public\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,7 +449,7 @@
       <workItem from="1521812497964" duration="1207000" />
       <workItem from="1521816324724" duration="22000" />
       <workItem from="1522006032157" duration="239000" />
-      <workItem from="1522059715943" duration="2649000" />
+      <workItem from="1522059715943" duration="3015000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1518959599970</created>
@@ -778,11 +780,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521813266038</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="(Update) - [algorithm] - sylabus add - (need to update photos)">
+      <created>1522062632641</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1522062632641</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225552000" />
+    <option name="totallyTimeSpent" value="225918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,7 +806,7 @@
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13040124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13040124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22905983" sideWeight="0.5119048" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -896,7 +905,9 @@
     <MESSAGE value="foto image compress" />
     <MESSAGE value="gtag" />
     <MESSAGE value="design" />
-    <option name="LAST_COMMIT_MESSAGE" value="design" />
+    <MESSAGE value="(Update) - [algorithm] - sylabus add" />
+    <MESSAGE value="(Update) - [algorithm] - sylabus add - (need to update photos)" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Update) - [algorithm] - sylabus add - (need to update photos)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -905,7 +916,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js" />
     <entry file="file://$PROJECT_DIR$/public/some">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1234,16 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="0">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1284,17 +1286,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/lesson/algorithm.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="728" column="89" lean-forward="true" selection-start-line="727" selection-start-column="32" selection-end-line="728" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="870" column="3" lean-forward="true" selection-start-line="870" selection-start-column="3" selection-end-line="870" selection-end-column="3" />
+        <state relative-caret-position="329">
+          <caret line="874" column="26" lean-forward="true" selection-start-line="874" selection-start-column="26" selection-end-line="874" selection-end-column="26" />
           <folding>
-            <element signature="e#31812#32343#0" expanded="false" />
+            <element signature="e#30134#34974#0" expanded="false" />
             <element signature="e#32365#32953#0" expanded="false" />
             <element signature="e#32975#33561#0" expanded="false" />
             <element signature="e#33583#34184#0" expanded="false" />
             <element signature="e#34206#34930#0" expanded="false" />
-            <element signature="e#39041#39774#0" expanded="false" />
+            <element signature="e#39119#39852#0" expanded="false" />
           </folding>
         </state>
       </provider>

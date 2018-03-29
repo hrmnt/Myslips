@@ -12,32 +12,76 @@
     <link rel="stylesheet" href="/libs/owl.carousel/dist/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="/libs/owl.carousel/dist/assets/owl.theme.default.min.css"/>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel="icon" type="image/gif" href="/images/flaticon.png"/>
 </head>
 <body class="body">
 <navigation class="navigation flex-column align-items-center justify-content-center">
-    <from class="form">
+    <!--<from class="form">-->
+    <!--<img class="logo" src="/images/logo_white.png" alt="">-->
+    <!--<div class="w-100 d-flex">-->
+    <!--<div class="wrap d-flex flex-column w-50 pr-3">-->
+    <!--<p>Имя:</p>-->
+    <!--<input type="text" placeholder="Марлен" required>-->
+    <!--</div>-->
+    <!--<div class="wrap d-flex flex-column w-50 pl-2">-->
+    <!--<p>Фамилия:</p>-->
+    <!--<input type="text" placeholder="Марлен" required>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="wrap d-flex flex-column pr-3 w-50">-->
+    <!--<p>Номер телефона:</p>-->
+    <!--<div class="d-flex">-->
+    <!--<input id="tel_number" type="text" class="w-100" required placeholder="+7 (000) 000-00-00">-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="wrap d-flex flex-column">-->
+    <!--<p>Курс:</p>-->
+    <!--<select required name="" id="">-->
+    <!--<option value="HTML">HTML/css</option>-->
+    <!--<option value="Scratch">Scratch</option>-->
+    <!--<option value="Java">Java</option>-->
+    <!--<option value="Python">Pyhton</option>-->
+    <!--<option value="Algorithm">Algorithm</option>-->
+    <!--<option value="Design">Design</option>-->
+    <!--<option value="Web-intensive">Web-Intensive</option>-->
+    <!--</select>-->
+    <!--</div>-->
+    <!--<input class="s-btn" type="submit">-->
+    <!---->
+    <!--</from>-->
+    <a class="lent " href="#main" rel="relativeanchor">Главная</a>
+    <a class="lent " href="#courses">Курсы</a>
+    <a class="lent " href="#team">О нас</a>
+    <a class="lent " href="#contacts">Контакты</a>
+    <a class="lent " href="tel:+7-702-479-63-00">+7-(702)-479-63-00</a>
+</navigation>
+<div class="register-drop flex-column align-items-center justify-content-center">
+    <div class="c-layer"></div>
+    <form class="form-element">
         <img class="logo" src="/images/logo_white.png" alt="">
         <div class="w-100 d-flex">
             <div class="wrap d-flex flex-column w-50 pr-3">
                 <p>Имя:</p>
-                <input type="text" placeholder="Марлен" required>
+                <input id="name-form" type="text" name="name" placeholder="Марлен" required>
             </div>
             <div class="wrap d-flex flex-column w-50 pl-2">
                 <p>Фамилия:</p>
-                <input type="text" placeholder="Марлен" required>
+                <input id="surname-form" type="text" name="surname" placeholder="Марлен" required>
             </div>
         </div>
 
         <div class="wrap d-flex flex-column pr-3 w-50">
             <p>Номер телефона:</p>
             <div class="d-flex">
-                <input id="tel_number" type="text" class="w-100" required placeholder="+7 (000) 000-00-00">
+                <input id="tel-form" name="phone" type="text" class="w-100" required placeholder="+7 (000) 000-00-00">
 
             </div>
         </div>
         <div class="wrap d-flex flex-column">
             <p>Курс:</p>
-            <select required name="" id="">
+            <select id="course-form" required name="course" >
                 <option value="HTML">HTML/css</option>
                 <option value="Scratch">Scratch</option>
                 <option value="Java">Java</option>
@@ -47,11 +91,12 @@
                 <option value="Web-intensive">Web-Intensive</option>
             </select>
         </div>
-        <input class="s-btn" type="submit">
-        
-    </from>
+        <button class="s-btn m-auto" type="submit">
+            Отправить
+        </button>
 
-</navigation>
+    </form>
+</div>
 <section id="main" class="main-page w-100">
     <div class="background-layer first w-100 h-100"></div>
     <div class="background-layer second w-100 h-100"></div>
@@ -65,6 +110,8 @@
         <a class="lent d-none d-md-block" href="#courses">Курсы</a>
         <a class="lent d-none d-md-block" href="#team">О нас</a>
         <a class="lent d-none d-md-block" href="#contacts">Контакты</a>
+        <a class="lent d-none d-md-block" href="tel:+7-702-479-63-00">+7-(702)-479-63-00</a>
+
         <div id="hamburger" class="hamburger__wrapper js-hamburger d-flex d-md-none ">
             <div class="hamburger">
                 <span id="first-line"></span>
@@ -81,10 +128,8 @@
             <!--<h1 id="2-word">Создавай.</h1>-->
             <!--<h1 id="3-word">Твори.</h1>-->
         </div>
-        <button>
-            <a href="#courses">
-                Наши курсы
-            </a>
+        <button id="register-btn">
+            Записаться на курсы
         </button>
     </div>
 </section>
@@ -136,14 +181,17 @@
         <img src="/images/mainpage/equal.svg" alt="">
         <h3>0 KZT</h3>
         <p>На свое развитие</p>
-        <button id="more-fee">
-            Зарабатывать больше
+        <button>
+            <a href="#courses">
+                Зарабатывать больше
+
+            </a>
         </button>
     </div>
 </section>
 <section id="statistics" class="statistics d-flex flex-column align-items-center ">
     <div class="header d-flex flex-column align-items-center">
-        <h4>Заработная плата программистов и дизайнеров в крупных компаниях</h4>
+        <h4>Средняя заработная плата программистов и дизайнеров в крупных компаниях</h4>
     </div>
     <div class="d-flex w-100 align-items-center postion-relative">
         <div class="c-btn prev"><img class="" src="/images/mainpage/left-arrow.svg" alt=""></div>
@@ -387,6 +435,149 @@
 
     </div>
 </section>
+<section class="abroad w-100 d-flex flex-column align-items-center justify-content-between">
+    <h4 class="mb-5">Казахстанцы за границей</h4>
+    <div class="w-100 d-flex align-items-center position-relative">
+        <div class="c-btn prev-a"><img class="" src="/images/mainpage/left-arrow.svg" alt=""></div>
+
+        <div class="owl-carousel abroad-stu">
+            <div class="item d-flex align-items-center justify-content-center">
+                <div class="info d-flex flex-column align-items-center">
+                    <div class="media-side d-flex align-items-center pl-3 ">
+                        <img src="/images/abroad/1.png" alt="">
+                        <div class="d-flex flex-column ">
+                            <h4>Асхат Ахметжанов</h4>
+                            <h5>Facebook</h5>
+                        </div>
+
+                    </div>
+                    <div class="about w-100 p-3 pt-4">
+                        <p>Сейчас мне 26, я из Экибастуза. В 2009 поступил в КБТУ на факультет Информационные
+                            Технологий,
+                            затем по той же специальности поступил в тот же факультет на магистратуру. Закончил в июне
+                            2015
+                            года и начал работать в Фейсбуке с 12 Октября, 2015 г в возрасте 24 года. Попасть в фб очень
+                            сложно. Отбирают через нескольких этапов собеседований. Самый сложный этап - это попасть на
+                            интервью. Каждый год компания получает сотни тысяч резюме и отличиться среди них очень
+                            сложно. Я
+                            подавал через facebook.com/careers многократно, дополнительно писал письма рекрутерам с
+                            просьбой
+                            рассмотреть мое резюме. И вот однажды мне все-таки ответили и назначили собеседование. Самое
+                            первое по телефону. После него пригласили в головной офис в Калифорнию. Они покрывали все
+                            расходы на авиабилеты, отель, еду, и тд. Но по иронии судьбы я не смог поехать и пришлось
+                            пройти
+                            оставшиеся этапы удаленно. Остальные этапы состояли из 3-мя собеседованиями(удаленно-очные)
+                            и
+                            еще одно собеседование по телефону. Почти все они были технические, т.е надо было писать код
+                            прямо у них на глазах и объяснять свои подходы. Вопросы в основном алгоритмические. Типичные
+                            вопросы найти вбив в поисковик “Facebook coding interview questions”. И да, все интервью на
+                            английском и желательно хорошо им владеть
+                        </p>
+
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+            <div class="item d-flex align-items-center justify-content-center">
+                <div class="info d-flex flex-column align-items-center">
+                    <div class="media-side d-flex align-items-center pl-3 ">
+                        <img src="/images/abroad/2.png" alt="">
+                        <div class="d-flex flex-column ">
+                            <h4>Мадияр Айтбаев</h4>
+                            <h5>Google</h5>
+                        </div>
+
+                    </div>
+                    <div class="about w-100 p-3 pt-4">
+                        <p>Мне сейчас 25, в Google я устроился когда мне было 22 года. Сам я родился и ходил в школу в
+                            Талдыкоргане. Закончил КТЛ, во время учёбы в котором начал участвовать в олимпиадах по
+                            информатике. Стал чемпионом в республиканских и призером в международных олимпиадах.
+                            Поступил в
+                            КБТУ и продолжал участвовать в соревнованиях, где наша команда дважды стала финалистом в
+                            престижной олимпиаде ACM ICPC. После этого меня пригласили на собеседование в стартап в
+                            Силиконой долине imo.im. Прошел собеседование и проработал там 3 месяца. Рекрутер из Google
+                            заметил и пригласил меня на собеседование. После успешного собеседования, меня приняли на
+                            работу
+                            на должность Software Engineer в лондонский офис. Меня вдохновляет то, что с каждым нажатием
+                            на
+                            клавиатуре мы способны менять не только экономику страны, но и жизни людей (конечно в лучшую
+                            сторону:) ) Я люблю экспериментировать, читать книги разных жанров и путешествовать
+                        </p>
+
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+            <div class="item d-flex align-items-center justify-content-center">
+                <div class="info d-flex flex-column align-items-center">
+                    <div class="media-side d-flex align-items-center pl-3 ">
+                        <img src="/images/abroad/3.png" alt="">
+                        <div class="d-flex flex-column ">
+                            <h4>Ержан Уткелбаев</h4>
+                            <h5>Google</h5>
+                        </div>
+
+                    </div>
+                    <div class="about w-100 p-3 pt-4">
+                        <p>
+                            Мне 27 лет (будет 28 в этом году). Я с Алматы. Я закончил КБТУ бакалавриат и магистратуру. Я
+                            попал в Google когда мне было 25 лет. Моя позиция в Google была – Software Engineer(Work
+                            related
+                            to Google Cloud) Я занимался спортивным программированием, также работал во многих разных
+                            местах. Мой опыт мне помог пройти interview. Мое хобби programming competitions, computer
+                            games.
+
+                        </p>
+
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+            <div class="item d-flex align-items-center justify-content-center">
+                <div class="info d-flex flex-column align-items-center">
+                    <div class="media-side d-flex align-items-center pl-3 ">
+                        <img src="/images/abroad/4.png" alt="">
+                        <div class="d-flex flex-column ">
+                            <h4>Алибек Датбаев</h4>
+                            <h5>Booking</h5>
+                        </div>
+
+                    </div>
+                    <div class="about w-100 p-3 pt-4">
+                        <p>
+                            Родился и вырос я в славном городе Павлодаре. Окончив школу «Жас Дарын», поступил в КБТУ,
+                            где я
+                            и получил свой первый профессиональный опыт, поучаствовав в создании университетского сайта.
+                            До Booking-a я работал во многих местах, включая и США, но летом 2015-года мне пришлось
+                            вернуться в Казахстан. Как раз осенью Booking проводил онлайн-соревнование с целью
+                            приглашения
+                            на работу. Я поучаствовал в данном соревновании, решил несколько задачек и со мной связались
+                            рекрутеры с предложением пройти собеседование. Проведя несколько этапов разной сложности,
+                            меня
+                            пригласили в офис на финальное собеседование, после которого мне и предложили работу на
+                            должность Software Developer. В Booking.com каждый сотрудник имеет возможность воплощать в
+                            реальность все свои самые смелые идеи. Когда осознаешь, что твоим продуктом пользуются
+                            тысячи
+                            людей, ты делаешь для них какие-то фишки, строишь интерфейсы. Именно вот это понимание
+                            значимости твоей работы, того, что люди действительно этим пользуются - вдохновляет на новые
+                            идеи.
+                        </p>
+
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="c-btn next-a"><img class="" src="/images/mainpage/right-arrow.svg" alt=""></div>
+
+
+    </div>
+</section>
 <section class="learn-more d-flex align-items-center justify-content-center">
     <h3>ИЗУЧАЙ ПРОГРАМИРОВАНИЕ И ДИЗАЙН</h3>
 </section>
@@ -412,7 +603,7 @@
                                     <span class="course-count"> 24 занятия / 12 недель</span>
                                 </h4>
                                 <div class="d-flex flex-column justify-content-end mb-3">
-                                    <p class="price"> 30.000 ₸ / месяц</p>
+                                    <p class="price"> 25.000 ₸ / месяц</p>
                                 </div>
 
                             </div>
@@ -470,7 +661,7 @@
 
                                 </h4>
                                 <div class="d-flex flex-column justify-content-end mb-3">
-                                    <p class="price"> 27.000 ₸ / месяц</p>
+                                    <p class="price"> 25.000 ₸ / месяц</p>
                                 </div>
 
                             </div>
@@ -500,7 +691,7 @@
 
                                 </h4>
                                 <div class="d-flex flex-column justify-content-end mb-3">
-                                    <p class="price"> 27.000 ₸ / месяц </p>
+                                    <p class="price"> 25.000 ₸ / месяц </p>
                                 </div>
 
                             </div>
@@ -529,7 +720,7 @@
 
                                 </h4>
                                 <div class="d-flex flex-column justify-content-end mb-3">
-                                    <p class="price"> 30.000 ₸ / месяц</p>
+                                    <p class="price"> 25.000 ₸ / месяц</p>
                                 </div>
 
                             </div>
@@ -559,7 +750,7 @@
 
                                 </h4>
                                 <!--<div class="d-flex flex-column justify-content-end mb-3">-->
-                                    <!--<p class="price"> 30.000 KZT </p>-->
+                                <!--<p class="price"> 30.000 KZT </p>-->
                                 <!--</div>-->
 
                             </div>
@@ -583,17 +774,17 @@
                         <div class="info-side h-100 d-flex flex-column justify-content-center pl-4">
                             <div class="d-flex align-items-center justify-content-between w-100">
                                 <h4 class="mb-3">
-                                    <span class="course-name">Web-Intesive</span>
-                                    <span class="course-count">12 занятия / 4 недель</span>
+                                    <span class="course-name">Web-Intensive</span>
+                                    <span class="course-count">7 часов / 7 занятий  </span>
 
                                 </h4>
                                 <div class="d-flex flex-column justify-content-end mb-3">
-                                    <p class="price"> 75.000 ₸ / курс </p>
+                                    <p class="price"> 35.000 ₸ / курс </p>
                                 </div>
 
                             </div>
                             <p class="m-0">
-                                Введение в алгоритмы для учеников с хотя бы небольшим опытом программирования.
+                                Изучение веб програмирования в ускоренном режиме
                             </p>
                         </div>
                         <button class="register">
@@ -616,7 +807,7 @@
 
                                 </h4>
                                 <!--<div class="d-flex flex-column justify-content-end mb-3">-->
-                                    <!--<p class="price"> 5.000 KZT </p>-->
+                                <!--<p class="price"> 5.000 KZT </p>-->
                                 <!--</div>-->
 
                             </div>
@@ -648,14 +839,16 @@
                     <img src="/images/teachers/abyl.jpg" alt="">
                 </div>
                 <h4>Омар Абылай</h4>
-                <p>В школьные годы был олимпийцем по информатике. Участвовал в различных олимпиадах, а так же в престижной международной студенческой олимпиаде ACM/ICPC.</p>
+                <p>В школьные годы был олимпийцем по информатике. Участвовал в различных олимпиадах, а так же в
+                    престижной международной студенческой олимпиаде ACM/ICPC.</p>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center  item">
                 <div class="t-circle d-flex align-items-center justify-content-center">
                     <img src="/images/teachers/bakhyt.jpg" alt="">
                 </div>
                 <h4>Шамыран Бахыт</h4>
-                <p>Окончила школы дизайна как в местных, так и заграничных учреждениях. Занималась многими коммерческими проектами. Профессионально владеет программами Adobe Creative Suite.</p>
+                <p>Окончила школы дизайна как в местных, так и заграничных учреждениях. Занималась многими коммерческими
+                    проектами. Профессионально владеет программами Adobe Creative Suite.</p>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center  item">
                 <div class="t-circle d-flex align-items-center justify-content-center">
@@ -677,7 +870,7 @@
                     <img src="/images/teachers/shera.jpg" alt="">
                 </div>
                 <h4>Әлібекұлы Шерхан</h4>
-                <p>Oфициант, бармен, повар, пекарь, продавец, парикмахер, закройщик, портной, сантехник, снабженец или просто СТО</p>
+                <p>Oфициант, бармен, повар, закройщик, сантехник, снабженец или просто СТО</p>
             </div>
         </div>
 
@@ -713,54 +906,36 @@
     <div class="feedback-details w-100 d-flex  row">
 
         <div class="col-md-12 info map">
-            <a class="dg-widget-link" href="http://2gis.kz/almaty/firm/9429940000785873/center/76.91410303115846,43.2387939306264/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><div class="dg-widget-link"><a href="http://2gis.kz/almaty/firm/9429940000785873/photos/9429940000785873/center/76.91410303115846,43.2387939306264/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.kz/almaty/center/76.914105,43.238497/zoom/16/routeTab/rsType/bus/to/76.914105,43.238497╎Bayzak, бизнес-центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Bayzak, бизнес-центр</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":640,"height":600,"borderColor":"#a3a3a3","pos":{"lat":43.2387939306264,"lon":76.91410303115846,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"9429940000785873"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+            <a class="dg-widget-link"
+               href="http://2gis.kz/almaty/firm/9429940000785873/center/76.91410303115846,43.2387939306264/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                на карте Алматы</a>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.kz/almaty/firm/9429940000785873/photos/9429940000785873/center/76.91410303115846,43.2387939306264/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+                компании</a></div>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.kz/almaty/center/76.914105,43.238497/zoom/16/routeTab/rsType/bus/to/76.914105,43.238497╎Bayzak, бизнес-центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                проезд до Bayzak, бизнес-центр</a></div>
+            <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <script charset="utf-8">new DGWidgetLoader({
+                "width": 640,
+                "height": 600,
+                "borderColor": "#a3a3a3",
+                "pos": {"lat": 43.2387939306264, "lon": 76.91410303115846, "zoom": 16},
+                "opt": {"city": "almaty"},
+                "org": [{"id": "9429940000785873"}]
+            });</script>
+            <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите
+                его в настройках вашего браузера.
+            </noscript>
         </div>
 
 
     </div>
 </section>
-<footer id="contacts" class="footer w-100 d-flex flex-column align-items-center  justify-content-between">
-    <!--<div class="d-flex h-100  align-items-center justify-content-around py-4 flex-column">-->
-    <!--<h4 class="company-name">KEYNOTE</h4>-->
-    <!--<div class="social d-flex align-items-center justify-content-around">-->
-    <!--<a href="">-->
-    <!--<img src="/images/mainpage/instagram-logo.svg" alt="">-->
-    <!--</a>-->
-    <!--<a href="">-->
-    <!--<img src="/images/mainpage/close-envelope.svg" alt="">-->
-    <!--</a>-->
-    <!--<a href="">-->
-    <!--<img src="/images/mainpage/facebook-logo.svg" alt="">-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--<h5 class="email">keynote@gmail.com</h5>-->
-    <!--<h5 class="address">Almaty, st.Abylaikhana 8, 256 off </h5>-->
-    <!--</div>-->
-    <!--<div class="header d-flex justify-content-between align-items-center">-->
-    <!--<div class="social col">-->
-    <!--<a href="https://www.instagram.com/keynote.studies/">-->
-    <!--<img src="/images/instagram-logo.svg" alt="">-->
-    <!--</a>-->
-    <!--<a href="https://www.facebook.com/groups/246941362511468/?ref=bookmarks">-->
-    <!--<img src="/images/facebook-logo.svg" alt="">-->
-    <!--</a>-->
-    <!--<a href="mailto:keynote.studies@gmail.com">-->
-    <!--<img src="/images/close-envelope.svg" alt="">-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--<div class="col d-flex align-items-center justify-content-center">-->
-    <!--<img class="logo" src="/images/logo_white.png" alt="">-->
-
-    <!--</div>-->
-    <!--<div class="address col d-flex justify-content-end">-->
-    <!--<p><img src="/images/telephone.svg" alt="">:+7-(708)-000-00-00</p>-->
-    <!--</div>-->
-    <!--</div>-->
-    <img class="logo" src="/images/logo_white.png" alt="">
-    <div class="social-network d-flex flex-column align-items-center">
-
-        <div class="d-flex">
-            <a class="d-flex align-items-center" href="https://www.instagram.com/keynote.studies/">
+<footer id="contacts" class="footer w-100 d-flex align-items-center">
+    <div class="social-network d-none d-md-flex  align-items-start flex-wrap">
+        <div class="mr-4">
+            <a class="d-flex align-items-center mb-3" href="https://www.instagram.com/keynote.kz/">
                 <img src="/images/instagram-logo.svg" alt="">
                 <p>Instagram</p>
             </a>
@@ -768,22 +943,66 @@
                 <img src="/images/facebook-logo.svg" alt="">
                 <p>Facebook</p>
             </a>
-            <a class="d-flex align-items-center" href="mailto:keynote.studies@gmail.com">
+        </div>
+        <div>
+            <a class="d-flex align-items-center mb-3" href="mailto:keynote.studies@gmail.com">
                 <img src="/images/close-envelope.svg" alt="">
                 <p>Mail</p>
             </a>
+            <a class="d-flex align-items-center" href="tg://resolve?domain=Keynoteschool">
+                <img src="/images/close-envelope.svg" alt="">
+                <p>Telegram</p>
+            </a>
         </div>
-    </div>
-    <div class="contact-types">
-        <p class="tel-number"></p>
-    </div>
-</footer>
 
+    </div>
+    <div class="logo-wrap d-flex flex-column align-items-center justify-content-center">
+        <img class="logo mb-3" src="/images/logo_white.png" alt="">
+        <p>Школа програмирования и дизайна</p>
+    </div>
+    <div class="contact-types d-flex flex-column  align-items-end justify-content-center">
+        <p>
+            Абая 52в, БЦ Байзак. г.Алматы
+        </p>
+        <p class="tel-number d-flex">
+            Tel:<a class="lent  ml-2" href="tel:+7-702-479-63-00">+7-(702)-479-63-00</a>
+        </p>
+    </div>
+    <div class="social-network d-flex d-md-none align-items-start flex-wrap">
+        <a class="d-flex align-items-center " href="https://www.instagram.com/keynote.kz/">
+            <img src="/images/instagram-logo.svg" alt="">
+        </a>
+        <a class="d-flex align-items-center" href="https://www.facebook.com/groups/246941362511468/?ref=bookmarks">
+            <img src="/images/facebook-logo.svg" alt="">
+        </a>
+        <a class="d-flex align-items-center  " href="mailto:keynote.studies@gmail.com">
+            <img src="/images/close-envelope.svg" alt="">
+        </a>
+        <a class="d-flex align-items-center" href="tg://resolve?domain=Keynoteschool">
+            <img src="/images/telegram.svg" alt="">
+        </a>
+
+    </div>
+
+</footer>
 <script src="/libs/jquery/dist/jquery.js"></script>
+<script src="/libs/aos/dist/aos.js"></script>
+
 <script src="/libs/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/libs/aos/dist/aos.js"></script>
 <script src="/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="/libs/emailjs-com/dist/email.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116124379-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('event', 'conversion', {'send_to': 'AW-811395469/qVeBCMrOtX8QjdPzggM'});
+
+    gtag('config', 'UA-116124379-1');
+    gtag('config', 'AW-811395469');
+</script>
+
 <script src="/javascripts/main.js"></script>
 
 </body>

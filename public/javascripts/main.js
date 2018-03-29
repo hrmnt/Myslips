@@ -35,7 +35,7 @@ $(document).ready(function () {
         items: 1,
         responsive: {
             600: {
-                items: 2
+                items: 1
             }
         },
     })

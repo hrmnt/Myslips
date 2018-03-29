@@ -953,9 +953,9 @@ body {
 
 }
 .abroad{
-  height: 100rem;
+  height: 70rem;
   padding: 5rem;
-  background-color: #ccc;
+  background-color: rgba(#d34841,1);
   @media (max-width: 798px) {
     height: auto;
     padding-left: 2rem!important;
@@ -965,6 +965,7 @@ body {
     font-family: Rubik;
     font-size: 4rem;
     text-align: center;
+    color: white;
   }
   .c-btn{
     cursor: pointer;
@@ -982,9 +983,10 @@ body {
     width: 90%;
     .item{
       .info{
+        padding: 2rem;
         width: 80%;
-        height: 80rem;
-        background-color: #e1e0de;
+        height: 70%;
+        border-radius: 1rem;
         @media (max-width: 798px) {
           width: 100%;
           height: auto;
@@ -993,18 +995,18 @@ body {
     }
     .media-side{
       width: 100%;
-      height: 14rem;
-      background-color: #2d3236;
+      border-radius: 1rem;
       @media (max-width: 798px) {
         height: 18rem;
       }
     }
     .about{
+      border:5px solid white;
     }
       img{
-        border: 2px solid #e3e3e3;
-        width: 10rem;
-        height: 10rem;
+        border: 5px solid #e3e3e3;
+        width: 16rem;
+        height: 16rem;
         object-fit: cover;
         border-radius: 50%;
         margin-bottom: 1rem;
@@ -1013,22 +1015,23 @@ body {
       }
     h4{
       font-family: Montserrat;
-      font-size: 2.4rem;
-      font-weight: 500;
+      font-size: 3rem;
+      font-weight: 300;
       color: #fffffd;
       text-align: left;
     }
     h5{
       font-family: Montserrat;
-      font-size: 1.8rem;
-      font-weight: 500;
-      color: #43a2d8;
-      text-align: left;
+      font-size: 2.4rem;
+      color: $black;
+      font-weight: 700;
+      text-align: right;
     }
     p{
       font-family: Montserrat;
       font-size: 1.4rem;
-      color: #5a5b5d;
+      color: #fcfcfc;
+      text-align: center;
       @media (max-width: 798px) {
         font-size: 1.6rem;
         text-align: center;

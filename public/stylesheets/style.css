@@ -836,9 +836,9 @@ body {
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9eb7b8', endColorstr='#646b69', GradientType=1 ); }
 
 .abroad {
-  height: 100rem;
+  height: 70rem;
   padding: 5rem;
-  background-color: #ccc; }
+  background-color: #d34841; }
   @media (max-width: 798px) {
     .abroad {
       height: auto;
@@ -847,7 +847,8 @@ body {
   .abroad h4 {
     font-family: Rubik;
     font-size: 4rem;
-    text-align: center; }
+    text-align: center;
+    color: white; }
   .abroad .c-btn {
     cursor: pointer;
     width: 5%; }
@@ -859,24 +860,26 @@ body {
   .abroad .abroad-stu {
     width: 90%; }
     .abroad .abroad-stu .item .info {
+      padding: 2rem;
       width: 80%;
-      height: 80rem;
-      background-color: #e1e0de; }
+      height: 70%;
+      border-radius: 1rem; }
       @media (max-width: 798px) {
         .abroad .abroad-stu .item .info {
           width: 100%;
           height: auto; } }
     .abroad .abroad-stu .media-side {
       width: 100%;
-      height: 14rem;
-      background-color: #2d3236; }
+      border-radius: 1rem; }
       @media (max-width: 798px) {
         .abroad .abroad-stu .media-side {
           height: 18rem; } }
+    .abroad .abroad-stu .about {
+      border: 5px solid white; }
     .abroad .abroad-stu img {
-      border: 2px solid #e3e3e3;
-      width: 10rem;
-      height: 10rem;
+      border: 5px solid #e3e3e3;
+      width: 16rem;
+      height: 16rem;
       -o-object-fit: cover;
          object-fit: cover;
       border-radius: 50%;
@@ -885,20 +888,21 @@ body {
       margin-right: 2rem; }
     .abroad .abroad-stu h4 {
       font-family: Montserrat;
-      font-size: 2.4rem;
-      font-weight: 500;
+      font-size: 3rem;
+      font-weight: 300;
       color: #fffffd;
       text-align: left; }
     .abroad .abroad-stu h5 {
       font-family: Montserrat;
-      font-size: 1.8rem;
-      font-weight: 500;
-      color: #43a2d8;
-      text-align: left; }
+      font-size: 2.4rem;
+      color: #041125;
+      font-weight: 700;
+      text-align: right; }
     .abroad .abroad-stu p {
       font-family: Montserrat;
       font-size: 1.4rem;
-      color: #5a5b5d; }
+      color: #fcfcfc;
+      text-align: center; }
       @media (max-width: 798px) {
         .abroad .abroad-stu p {
           font-size: 1.6rem;

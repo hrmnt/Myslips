@@ -873,7 +873,8 @@ body {
       border-radius: 1rem; }
       @media (max-width: 798px) {
         .abroad .abroad-stu .media-side {
-          height: 18rem; } }
+          height: auto;
+          flex-direction: column !important; } }
     .abroad .abroad-stu .about {
       border: 5px solid white; }
     .abroad .abroad-stu img {

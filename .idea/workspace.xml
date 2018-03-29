@@ -6,19 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/images/abroad/1.png" afterPath="$PROJECT_DIR$/public/images/abroad/1.png" />
-      <change beforePath="$PROJECT_DIR$/public/images/abroad/2.png" afterPath="$PROJECT_DIR$/public/images/abroad/2.png" />
-      <change beforePath="$PROJECT_DIR$/public/images/abroad/3.png" afterPath="$PROJECT_DIR$/public/images/abroad/3.png" />
-      <change beforePath="$PROJECT_DIR$/public/images/abroad/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_1.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_2.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_2.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_3.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_3.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/mainpage/moscow_4.jpg" afterPath="$PROJECT_DIR$/public/images/mainpage/moscow_4.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,7 +64,7 @@
           <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
+                <state relative-caret-position="208">
                   <caret line="439" column="22" lean-forward="false" selection-start-line="439" selection-start-column="16" selection-end-line="439" selection-end-column="22" />
                   <folding>
                     <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -147,8 +137,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="967" column="17" lean-forward="false" selection-start-line="967" selection-start-column="17" selection-end-line="967" selection-end-column="17" />
+                <state relative-caret-position="413">
+                  <caret line="1000" column="41" lean-forward="false" selection-start-line="1000" selection-start-column="41" selection-end-line="1000" selection-end-column="41" />
                   <folding>
                     <element signature="e#480#505#0" expanded="false" />
                     <element signature="e#519#1819#0" expanded="false" />
@@ -165,9 +155,9 @@
                     <element signature="e#6746#8025#0" expanded="false" />
                     <element signature="e#8028#8194#0" expanded="false" />
                     <element signature="e#8197#8431#0" expanded="false" />
-                    <element signature="e#24784#24788#0" expanded="false" />
-                    <element signature="e#24805#25352#0" expanded="false" />
-                    <element signature="e#25719#26264#0" expanded="false" />
+                    <element signature="e#24825#24829#0" expanded="false" />
+                    <element signature="e#24846#25393#0" expanded="false" />
+                    <element signature="e#25760#26305#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -186,7 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>130</find>
       <find>Самы</find>
       <find>c-btn</find>
       <find>prev</find>
@@ -216,6 +205,7 @@
       <find>algorithm</find>
       <find>abroa</find>
       <find>abroad</find>
+      <find>a</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
@@ -465,14 +455,7 @@
       <workItem from="1521816324724" duration="22000" />
       <workItem from="1522006032157" duration="239000" />
       <workItem from="1522059715943" duration="3015000" />
-      <workItem from="1522327801032" duration="2970000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1518959599970</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1518959599970</updated>
+      <workItem from="1522327801032" duration="3184000" />
     </task>
     <task id="LOCAL-00002" summary="landing">
       <created>1518983350157</created>
@@ -810,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522329092428</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="(Update) - [abroad] - changed css">
+      <created>1522334541483</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1522334541484</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228888000" />
+    <option name="totallyTimeSpent" value="229102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,7 +896,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="landing" />
     <MESSAGE value="pre-final" />
     <MESSAGE value="pre-final images" />
@@ -931,7 +920,8 @@
     <MESSAGE value="(Update) - [algorithm] - sylabus add" />
     <MESSAGE value="(Update) - [algorithm] - sylabus add - (need to update photos)" />
     <MESSAGE value="(add) - [index.hbs] - added meta description tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="(add) - [index.hbs] - added meta description tag" />
+    <MESSAGE value="(Update) - [abroad] - changed css" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Update) - [abroad] - changed css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1307,7 +1297,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="208">
           <caret line="439" column="22" lean-forward="false" selection-start-line="439" selection-start-column="16" selection-end-line="439" selection-end-column="22" />
           <folding>
             <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1317,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="967" column="17" lean-forward="false" selection-start-line="967" selection-start-column="17" selection-end-line="967" selection-end-column="17" />
+        <state relative-caret-position="413">
+          <caret line="1000" column="41" lean-forward="false" selection-start-line="1000" selection-start-column="41" selection-end-line="1000" selection-end-column="41" />
           <folding>
             <element signature="e#480#505#0" expanded="false" />
             <element signature="e#519#1819#0" expanded="false" />
@@ -1335,9 +1325,9 @@
             <element signature="e#6746#8025#0" expanded="false" />
             <element signature="e#8028#8194#0" expanded="false" />
             <element signature="e#8197#8431#0" expanded="false" />
-            <element signature="e#24784#24788#0" expanded="false" />
-            <element signature="e#24805#25352#0" expanded="false" />
-            <element signature="e#25719#26264#0" expanded="false" />
+            <element signature="e#24825#24829#0" expanded="false" />
+            <element signature="e#24846#25393#0" expanded="false" />
+            <element signature="e#25760#26305#0" expanded="false" />
           </folding>
         </state>
       </provider>

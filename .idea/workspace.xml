@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,15 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65496576">
+    <splitter split-orientation="horizontal" split-proportion="0.5275298">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
+                <state relative-caret-position="255">
                   <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <marker date="1521807580606" expanded="true" signature="5160:5239" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -35,7 +37,7 @@
           <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
+                <state relative-caret-position="323">
                   <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
                   <folding />
                 </state>
@@ -45,15 +47,129 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4366">
-                  <caret line="874" column="26" lean-forward="false" selection-start-line="874" selection-start-column="26" selection-end-line="874" selection-end-column="26" />
+                <state relative-caret-position="17476">
+                  <caret line="1045" column="29" lean-forward="false" selection-start-line="1045" selection-start-column="29" selection-end-line="1045" selection-end-column="29" />
                   <folding>
-                    <element signature="e#30134#34974#0" expanded="false" />
-                    <element signature="e#32365#32953#0" expanded="false" />
-                    <element signature="e#32975#33561#0" expanded="false" />
-                    <element signature="e#33583#34184#0" expanded="false" />
-                    <element signature="e#34206#34930#0" expanded="false" />
-                    <element signature="e#39119#39852#0" expanded="false" />
+                    <marker date="1523465524081" expanded="true" signature="30062:35313" ph="{...}" />
+                    <marker date="1523465524081" expanded="true" signature="30089:35308" ph="{&quot;title&quot;: 'Keynote'...}" />
+                    <marker date="1523465524081" expanded="true" signature="30134:30174" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="30148:30174" ph="{&quot;title&quot;: &quot;Начало работы с HTML и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="35290:35302" ph="{&quot;name&quot;: &quot;HTML/CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="35372:41989" ph="{...}" />
+                    <marker date="1523465524081" expanded="true" signature="35399:41984" ph="{&quot;title&quot;: 'Keynote'...}" />
+                    <marker date="1523465524081" expanded="true" signature="35444:41474" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="35458:37828" ph="{&quot;title&quot;: &quot;Начало работы с дизайном&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="35716:37814" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="35738:36390" ph="{&quot;name&quot;: &quot;Введение в дизайн&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36001:36367" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="36031:36116" ph="{&quot;text&quot;: &quot;Теория цветов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36146:36233" ph="{&quot;text&quot;: &quot;Adobe Photoshop&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36263:36341" ph="{&quot;text&quot;: &quot;Sketch&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36412:37066" ph="{&quot;name&quot;: &quot;Графичиский дизайн&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36673:37043" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="36703:36789" ph="{&quot;text&quot;: &quot;Теория дизайна&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36819:36901" ph="{&quot;text&quot;: &quot;Типография&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="36931:37017" ph="{&quot;text&quot;: &quot;Создание стиля&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="37088:37795" ph="{&quot;name&quot;: &quot;UI/UX&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="37371:37772" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="37401:37488" ph="{&quot;text&quot;: &quot;Понятие о UI/UX&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="37518:37618" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="37648:37746" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="37842:41464" ph="{&quot;title&quot;: &quot;Изучение видов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="38339:41450" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="38361:39097" ph="{&quot;name&quot;: &quot;AutoCAD&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="38678:39074" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="38708:38804" ph="{&quot;text&quot;: &quot;Знакомство с интерфейсом&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="38834:38923" ph="{&quot;text&quot;: &quot;Создание объектов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="38953:39048" ph="{&quot;text&quot;: &quot;Подготовка к распечатке&quot;...}" />
+                    <marker date="1523465524081" expanded="false" signature="39119:39852" ph="{&quot;name&quot;: &quot;3ds Max&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="39433:39829" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="39463:39559" ph="{&quot;text&quot;: &quot;Знакомство с интерфейсом&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="39589:39678" ph="{&quot;text&quot;: &quot;Создание объектов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="39708:39803" ph="{&quot;text&quot;: &quot;Подготовка к распечатке&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="39874:40600" ph="{&quot;name&quot;: &quot;Maya 3d&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="40181:40577" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="40211:40307" ph="{&quot;text&quot;: &quot;Знакомство с интерфейсом&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="40337:40426" ph="{&quot;text&quot;: &quot;Создание объектов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="40456:40551" ph="{&quot;text&quot;: &quot;Подготовка к распечатке&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="40622:41432" ph="//..." />
+                    <marker date="1523465524081" expanded="true" signature="41492:41978" ph="{&quot;name&quot;: &quot;Design&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="42073:47749" ph="{...}" />
+                    <marker date="1523465524081" expanded="true" signature="42100:47744" ph="{&quot;title&quot;: 'Keynote'...}" />
+                    <marker date="1523465524081" expanded="true" signature="42145:47488" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="42159:43977" ph="{&quot;title&quot;: &quot;Начало работы с HTML и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="42504:43963" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="42526:43223" ph="{&quot;name&quot;: &quot;Изучение HTML/CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="42790:43200" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="42820:42916" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="42946:43046" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="43076:43174" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="43245:43945" ph="{&quot;name&quot;: &quot;Углубление в HTML/CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="43513:43922" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="43543:43637" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="43667:43762" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="43792:43896" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="43991:47478" ph="{&quot;title&quot;: &quot;Изучение видов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="44488:47464" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="44510:45195" ph="{&quot;name&quot;: &quot;CSS кросбраузерная-верстка&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="44762:45172" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="44792:44888" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="44918:45018" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="45048:45146" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="45217:45935" ph="{&quot;name&quot;: &quot;Мобильная адаптация&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="45503:45912" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="45533:45627" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="45657:45752" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="45782:45886" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="45957:46694" ph="{&quot;name&quot;: &quot;Понятия о верстке с помощью Flexbox&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="46262:46671" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="46292:46386" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="46416:46511" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="46541:46645" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="46716:47446" ph="{&quot;name&quot;: &quot;Путешествие в мир анимации&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="47014:47423" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="47044:47138" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="47168:47263" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="47293:47397" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="47506:47738" ph="{&quot;name&quot;: &quot;HTML/CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="47812:53488" ph="{...}" />
+                    <marker date="1523465524081" expanded="true" signature="47839:53483" ph="{&quot;title&quot;: 'Keynote'...}" />
+                    <marker date="1523465524081" expanded="true" signature="47884:53227" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="47898:49716" ph="{&quot;title&quot;: &quot;Начало работы с HTML и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="48243:49702" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="48265:48962" ph="{&quot;name&quot;: &quot;Изучение HTML/CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="48529:48939" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="48559:48655" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="48685:48785" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="48815:48913" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="48984:49684" ph="{&quot;name&quot;: &quot;Углубление в HTML/CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="49252:49661" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="49282:49376" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="49406:49501" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="49531:49635" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="49730:53217" ph="{&quot;title&quot;: &quot;Изучение видов&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="50227:53203" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="50249:50934" ph="{&quot;name&quot;: &quot;CSS кросбраузерная-верстка&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="50501:50911" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="50531:50627" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="50657:50757" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="50787:50885" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="50956:51674" ph="{&quot;name&quot;: &quot;Мобильная адаптация&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="51242:51651" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="51272:51366" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="51396:51491" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="51521:51625" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="51696:52433" ph="{&quot;name&quot;: &quot;Понятия о верстке с помощью Flexbox&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="52001:52410" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="52031:52125" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="52155:52250" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="52280:52384" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="52455:53185" ph="{&quot;name&quot;: &quot;Путешествие в мир анимации&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="52753:53162" ph="[...]" />
+                    <marker date="1523465524081" expanded="true" signature="52783:52877" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="52907:53002" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="53032:53136" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+                    <marker date="1523465524081" expanded="true" signature="53245:53477" ph="{&quot;name&quot;: &quot;HTML/CSS&quot;...}" />
                   </folding>
                 </state>
               </provider>
@@ -62,13 +178,10 @@
           <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="537">
-                  <caret line="436" column="0" lean-forward="true" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
                   <folding>
-                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <marker date="1523465659686" expanded="false" signature="47139:47182" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -77,11 +190,12 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="178">
-                  <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+                <state relative-caret-position="1564">
+                  <caret line="179" column="25" lean-forward="false" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
                   <folding>
                     <element signature="e#100#127#0" expanded="false" />
                     <element signature="e#566#796#0" expanded="false" />
+                    <element signature="e#831#967#0" expanded="false" />
                     <element signature="e#1008#1057#0" expanded="false" />
                     <element signature="e#1098#1147#0" expanded="false" />
                     <element signature="e#1190#1239#0" expanded="false" />
@@ -100,9 +214,17 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="357">
+                  <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+                  <folding>
+                    <marker date="1523465523848" expanded="true" signature="294:715" ph="{...}" />
+                    <marker date="1523465523848" expanded="true" signature="318:364" ph="{&quot;proxy&quot;: &quot;http://localhost:4000&quot;...}" />
+                    <marker date="1523465523848" expanded="true" signature="801:1272" ph="{...}" />
+                    <marker date="1523465523848" expanded="true" signature="1019:1071" ph="{...}" />
+                    <marker date="1523465523848" expanded="true" signature="1346:1461" ph="{...}" />
+                    <marker date="1523465523848" expanded="true" signature="1497:1689" ph="{...}" />
+                    <marker date="1523465523848" expanded="true" signature="1549:1647" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -110,7 +232,7 @@
           <file leaf-file-name="telegram.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/javascripts/telegram.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
+                <state relative-caret-position="663">
                   <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
                   <folding />
                 </state>
@@ -120,7 +242,7 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
+                <state relative-caret-position="442">
                   <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
                   <folding>
                     <element signature="e#751#909#0" expanded="false" />
@@ -138,8 +260,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="1000" column="41" lean-forward="false" selection-start-line="1000" selection-start-column="41" selection-end-line="1000" selection-end-column="41" />
+                <state relative-caret-position="17">
+                  <caret line="1302" column="11" lean-forward="false" selection-start-line="1302" selection-start-column="11" selection-end-line="1302" selection-end-column="11" />
                   <folding>
                     <element signature="e#480#505#0" expanded="false" />
                     <element signature="e#519#1819#0" expanded="false" />
@@ -156,9 +278,9 @@
                     <element signature="e#6746#8025#0" expanded="false" />
                     <element signature="e#8028#8194#0" expanded="false" />
                     <element signature="e#8197#8431#0" expanded="false" />
-                    <element signature="e#24825#24829#0" expanded="false" />
-                    <element signature="e#24846#25393#0" expanded="false" />
-                    <element signature="e#25760#26305#0" expanded="false" />
+                    <marker date="1523465523952" expanded="false" signature="24825:24829" ph="{...}" />
+                    <marker date="1523465523952" expanded="false" signature="24846:25393" ph="{...}" />
+                    <marker date="1523465523952" expanded="false" signature="25760:26305" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -283,7 +405,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,39 +413,11 @@
               <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
               <item name="keynote" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="mainpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,6 +443,132 @@
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\lesson" />
       <recent name="C:\Users\hrmnt\Desktop\web_work\public\images\mainpage" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/gulpfile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/abroad/1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/abroad/2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/abroad/3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/mainpage/moscow_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/mainpage/moscow_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/mainpage/moscow_3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/mainpage/moscow_4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/javascripts/main.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/stylesheets/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/stylesheets/style.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/stylesheets/style.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/routes/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/index.hbs</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/lesson/algorithm.svg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/abroad/4.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -457,13 +677,6 @@
       <workItem from="1522006032157" duration="239000" />
       <workItem from="1522059715943" duration="3015000" />
       <workItem from="1522327801032" duration="3289000" />
-    </task>
-    <task id="LOCAL-00003" summary="pre-final">
-      <created>1519570718505</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1519570718505</updated>
     </task>
     <task id="LOCAL-00004" summary="pre-final images">
       <created>1519570813544</created>
@@ -801,11 +1014,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522339228373</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="(Update) - [abroad] - changed css">
+      <created>1523465624754</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1523465624755</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229207000" />
+    <option name="totallyTimeSpent" value="229300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,29 +1037,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13661636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13079223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22905983" sideWeight="0.5119048" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26409903" sideWeight="0.48809522" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2769231" sideWeight="0.48809522" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22905983" sideWeight="0.5119048" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26409903" sideWeight="0.48809522" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13661636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1169,7 +1399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/telegram.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="663">
           <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="22" />
           <folding />
         </state>
@@ -1184,7 +1414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="442">
           <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="e#751#909#0" expanded="false" />
@@ -1210,15 +1440,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1521807580606" expanded="true" signature="5160:5239" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="323">
           <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding />
         </state>
@@ -1246,9 +1478,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <marker date="1523465523848" expanded="true" signature="294:715" ph="{...}" />
+            <marker date="1523465523848" expanded="true" signature="318:364" ph="{&quot;proxy&quot;: &quot;http://localhost:4000&quot;...}" />
+            <marker date="1523465523848" expanded="true" signature="801:1272" ph="{...}" />
+            <marker date="1523465523848" expanded="true" signature="1019:1071" ph="{...}" />
+            <marker date="1523465523848" expanded="true" signature="1346:1461" ph="{...}" />
+            <marker date="1523465523848" expanded="true" signature="1497:1689" ph="{...}" />
+            <marker date="1523465523848" expanded="true" signature="1549:1647" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,32 +1496,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4366">
-          <caret line="874" column="26" lean-forward="false" selection-start-line="874" selection-start-column="26" selection-end-line="874" selection-end-column="26" />
+        <state relative-caret-position="17476">
+          <caret line="1045" column="29" lean-forward="false" selection-start-line="1045" selection-start-column="29" selection-end-line="1045" selection-end-column="29" />
           <folding>
-            <element signature="e#30134#34974#0" expanded="false" />
-            <element signature="e#32365#32953#0" expanded="false" />
-            <element signature="e#32975#33561#0" expanded="false" />
-            <element signature="e#33583#34184#0" expanded="false" />
-            <element signature="e#34206#34930#0" expanded="false" />
-            <element signature="e#39119#39852#0" expanded="false" />
+            <marker date="1523465524081" expanded="true" signature="30062:35313" ph="{...}" />
+            <marker date="1523465524081" expanded="true" signature="30089:35308" ph="{&quot;title&quot;: 'Keynote'...}" />
+            <marker date="1523465524081" expanded="true" signature="30134:30174" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="30148:30174" ph="{&quot;title&quot;: &quot;Начало работы с HTML и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="35290:35302" ph="{&quot;name&quot;: &quot;HTML/CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="35372:41989" ph="{...}" />
+            <marker date="1523465524081" expanded="true" signature="35399:41984" ph="{&quot;title&quot;: 'Keynote'...}" />
+            <marker date="1523465524081" expanded="true" signature="35444:41474" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="35458:37828" ph="{&quot;title&quot;: &quot;Начало работы с дизайном&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="35716:37814" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="35738:36390" ph="{&quot;name&quot;: &quot;Введение в дизайн&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36001:36367" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="36031:36116" ph="{&quot;text&quot;: &quot;Теория цветов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36146:36233" ph="{&quot;text&quot;: &quot;Adobe Photoshop&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36263:36341" ph="{&quot;text&quot;: &quot;Sketch&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36412:37066" ph="{&quot;name&quot;: &quot;Графичиский дизайн&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36673:37043" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="36703:36789" ph="{&quot;text&quot;: &quot;Теория дизайна&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36819:36901" ph="{&quot;text&quot;: &quot;Типография&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="36931:37017" ph="{&quot;text&quot;: &quot;Создание стиля&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="37088:37795" ph="{&quot;name&quot;: &quot;UI/UX&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="37371:37772" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="37401:37488" ph="{&quot;text&quot;: &quot;Понятие о UI/UX&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="37518:37618" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="37648:37746" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="37842:41464" ph="{&quot;title&quot;: &quot;Изучение видов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="38339:41450" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="38361:39097" ph="{&quot;name&quot;: &quot;AutoCAD&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="38678:39074" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="38708:38804" ph="{&quot;text&quot;: &quot;Знакомство с интерфейсом&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="38834:38923" ph="{&quot;text&quot;: &quot;Создание объектов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="38953:39048" ph="{&quot;text&quot;: &quot;Подготовка к распечатке&quot;...}" />
+            <marker date="1523465524081" expanded="false" signature="39119:39852" ph="{&quot;name&quot;: &quot;3ds Max&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="39433:39829" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="39463:39559" ph="{&quot;text&quot;: &quot;Знакомство с интерфейсом&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="39589:39678" ph="{&quot;text&quot;: &quot;Создание объектов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="39708:39803" ph="{&quot;text&quot;: &quot;Подготовка к распечатке&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="39874:40600" ph="{&quot;name&quot;: &quot;Maya 3d&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="40181:40577" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="40211:40307" ph="{&quot;text&quot;: &quot;Знакомство с интерфейсом&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="40337:40426" ph="{&quot;text&quot;: &quot;Создание объектов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="40456:40551" ph="{&quot;text&quot;: &quot;Подготовка к распечатке&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="40622:41432" ph="//..." />
+            <marker date="1523465524081" expanded="true" signature="41492:41978" ph="{&quot;name&quot;: &quot;Design&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="42073:47749" ph="{...}" />
+            <marker date="1523465524081" expanded="true" signature="42100:47744" ph="{&quot;title&quot;: 'Keynote'...}" />
+            <marker date="1523465524081" expanded="true" signature="42145:47488" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="42159:43977" ph="{&quot;title&quot;: &quot;Начало работы с HTML и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="42504:43963" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="42526:43223" ph="{&quot;name&quot;: &quot;Изучение HTML/CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="42790:43200" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="42820:42916" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="42946:43046" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="43076:43174" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="43245:43945" ph="{&quot;name&quot;: &quot;Углубление в HTML/CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="43513:43922" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="43543:43637" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="43667:43762" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="43792:43896" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="43991:47478" ph="{&quot;title&quot;: &quot;Изучение видов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="44488:47464" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="44510:45195" ph="{&quot;name&quot;: &quot;CSS кросбраузерная-верстка&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="44762:45172" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="44792:44888" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="44918:45018" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="45048:45146" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="45217:45935" ph="{&quot;name&quot;: &quot;Мобильная адаптация&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="45503:45912" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="45533:45627" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="45657:45752" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="45782:45886" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="45957:46694" ph="{&quot;name&quot;: &quot;Понятия о верстке с помощью Flexbox&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="46262:46671" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="46292:46386" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="46416:46511" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="46541:46645" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="46716:47446" ph="{&quot;name&quot;: &quot;Путешествие в мир анимации&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="47014:47423" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="47044:47138" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="47168:47263" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="47293:47397" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="47506:47738" ph="{&quot;name&quot;: &quot;HTML/CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="47812:53488" ph="{...}" />
+            <marker date="1523465524081" expanded="true" signature="47839:53483" ph="{&quot;title&quot;: 'Keynote'...}" />
+            <marker date="1523465524081" expanded="true" signature="47884:53227" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="47898:49716" ph="{&quot;title&quot;: &quot;Начало работы с HTML и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="48243:49702" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="48265:48962" ph="{&quot;name&quot;: &quot;Изучение HTML/CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="48529:48939" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="48559:48655" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="48685:48785" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="48815:48913" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="48984:49684" ph="{&quot;name&quot;: &quot;Углубление в HTML/CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="49252:49661" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="49282:49376" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="49406:49501" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="49531:49635" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="49730:53217" ph="{&quot;title&quot;: &quot;Изучение видов&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="50227:53203" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="50249:50934" ph="{&quot;name&quot;: &quot;CSS кросбраузерная-верстка&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="50501:50911" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="50531:50627" ph="{&quot;text&quot;: &quot;Знакомство с HTML5 и CSS&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="50657:50757" ph="{&quot;text&quot;: &quot;Понимание классов и разметки&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="50787:50885" ph="{&quot;text&quot;: &quot;Подключение шрифтов и форм&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="50956:51674" ph="{&quot;name&quot;: &quot;Мобильная адаптация&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="51242:51651" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="51272:51366" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="51396:51491" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="51521:51625" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="51696:52433" ph="{&quot;name&quot;: &quot;Понятия о верстке с помощью Flexbox&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="52001:52410" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="52031:52125" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="52155:52250" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="52280:52384" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="52455:53185" ph="{&quot;name&quot;: &quot;Путешествие в мир анимации&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="52753:53162" ph="[...]" />
+            <marker date="1523465524081" expanded="true" signature="52783:52877" ph="{&quot;text&quot;: &quot;HTML5 элементы и формы&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="52907:53002" ph="{&quot;text&quot;: &quot;Шрифты и взаимодействия&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="53032:53136" ph="{&quot;text&quot;: &quot;Изучение методов стилизации CSS3&quot;...}" />
+            <marker date="1523465524081" expanded="true" signature="53245:53477" ph="{&quot;name&quot;: &quot;HTML/CSS&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="1564">
+          <caret line="179" column="25" lean-forward="false" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
           <folding>
             <element signature="e#100#127#0" expanded="false" />
             <element signature="e#566#796#0" expanded="false" />
+            <element signature="e#831#967#0" expanded="false" />
             <element signature="e#1008#1057#0" expanded="false" />
             <element signature="e#1098#1147#0" expanded="false" />
             <element signature="e#1190#1239#0" expanded="false" />
@@ -1298,8 +1652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="1000" column="41" lean-forward="false" selection-start-line="1000" selection-start-column="41" selection-end-line="1000" selection-end-column="41" />
+        <state relative-caret-position="17">
+          <caret line="1302" column="11" lean-forward="false" selection-start-line="1302" selection-start-column="11" selection-end-line="1302" selection-end-column="11" />
           <folding>
             <element signature="e#480#505#0" expanded="false" />
             <element signature="e#519#1819#0" expanded="false" />
@@ -1316,22 +1670,19 @@
             <element signature="e#6746#8025#0" expanded="false" />
             <element signature="e#8028#8194#0" expanded="false" />
             <element signature="e#8197#8431#0" expanded="false" />
-            <element signature="e#24825#24829#0" expanded="false" />
-            <element signature="e#24846#25393#0" expanded="false" />
-            <element signature="e#25760#26305#0" expanded="false" />
+            <marker date="1523465523952" expanded="false" signature="24825:24829" ph="{...}" />
+            <marker date="1523465523952" expanded="false" signature="24846:25393" ph="{...}" />
+            <marker date="1523465523952" expanded="false" signature="25760:26305" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="436" column="0" lean-forward="true" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1523465659686" expanded="false" signature="47139:47182" ph="..." />
           </folding>
         </state>
       </provider>

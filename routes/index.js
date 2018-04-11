@@ -1028,7 +1028,7 @@ router.get('/lesson/design', function (req, res, next) {
     });
 
 });
-
+//zdes byl Mussin)
 router.get('/lesson/web-intensive', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',

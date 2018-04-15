@@ -119,9 +119,9 @@ body {
       color: $black;
     }
   }
-  &.open {
-    transform: translateY(0);
-  }
+    &.open {
+      transform: translateY(0);
+    }
   .c-layer{
     position: absolute;
     width: 100%;

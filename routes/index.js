@@ -25,6 +25,7 @@ router.get('/main', function (req, res, next) {
 router.get('/lesson/html', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Научись создавать свои веб сайты с помощью HTML, CSS, JavaScript. ',
         sylabus: [
             {
                 title: "Начало работы с HTML и CSS",
@@ -155,6 +156,7 @@ router.get('/lesson/html', function (req, res, next) {
 router.get('/lesson/scratch', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Курс предназначен для детей и школьников. На этом курсе дети будут программировать на известных платформах и играх как: Minecraft, Star Wars, Angry Birds, Холодное Сердце,  Scratch.',
         sylabus: [
             {
                 title: "Програмирование для начинающих",
@@ -290,6 +292,7 @@ router.get('/lesson/scratch', function (req, res, next) {
 router.get('/lesson/python', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'В этом курсе по программированию на языке Python вы познакомитесь с базовыми понятиями программирования. ',
         sylabus: [
             {
                 title: "Начало работы с Python",
@@ -527,6 +530,8 @@ router.get('/lesson/python', function (req, res, next) {
 router.get('/lesson/java', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Научись программировать Android приложения c нуля.',
+
         sylabus: [
             {
                 title: "Начало работы с Java",
@@ -739,6 +744,8 @@ router.get('/lesson/java', function (req, res, next) {
 router.get('/lesson/algorithm', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Курс содержит описание основных алгоритмов и структур данных. Вначале даются базовые понятия и оценка сложности, которые разбираются на примере следующих алгоритмов.',
+
         sylabus: [
             {
                 title: "Введение в алгоритмы",
@@ -874,6 +881,8 @@ router.get('/lesson/algorithm', function (req, res, next) {
 router.get('/lesson/design', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Научись создавать красивый дизайн для разных структур. UI/UX, Графический дизайн.',
+
         sylabus: [
             {
                 title: "Начало работы с дизайном",
@@ -1027,10 +1036,11 @@ router.get('/lesson/design', function (req, res, next) {
     });
 
 });
-//zdes byl Mussin)
+
 router.get('/lesson/web-intensive', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Научись создавать сайты за краткое время. Веб программирование с нуля.',
         sylabus: [
             {
                 title: "Начало работы с HTML и CSS",
@@ -1167,6 +1177,7 @@ router.get('/lesson/web-intensive', function (req, res, next) {
 router.get('/lesson/individual', function (req, res, next) {
     res.render('lesson', {
         title: 'Keynote',
+        description:'Индивидуальные занятия по программированию.',
         sylabus: [
             {
                 title: "Начало работы с HTML и CSS",

@@ -1088,8 +1088,8 @@ router.get('/lesson/web-intensive', function (req, res, next) {
             }
         ],
         lesson: {
-            name: "HTML/CSS",
-            img: "/images/lesson/html.svg",
+            name: "Web-intensive",
+            img: "/images/mainpage/web.svg",
             description: "Изучите основы дизайна, разработки в интерфейсе и создайте пользовательские впечатления, которые легко видны на глазах."
         }
     });

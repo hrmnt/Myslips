@@ -686,13 +686,16 @@ body {
           @media (max-width: 798px) {
             .column-box .item .info-side h4 .course-name {
               margin-bottom: 0.5rem; } }
-        .column-box .item .info-side h4 .course-count {
-          margin-left: 1rem;
-          color: #041125;
-          font-size: 1.6rem; }
-          @media (max-width: 798px) {
-            .column-box .item .info-side h4 .course-count {
-              font-size: 1.8rem !important; } }
+        .column-box .item .info-side h4 .slogan {
+          font-size: 1.8rem;
+          color: #DEAE23; }
+      .column-box .item .info-side .course-count {
+        color: #041125;
+        font-size: 1.6rem;
+        font-weight: 300; }
+        @media (max-width: 798px) {
+          .column-box .item .info-side .course-count {
+            font-size: 1.8rem !important; } }
       .column-box .item .info-side p {
         font-family: "Open Sans";
         color: #041125;

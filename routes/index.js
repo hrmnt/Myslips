@@ -160,130 +160,54 @@ router.get('/lesson/scratch', function (req, res, next) {
         sylabus: [
             {
                 title: "Програмирование для начинающих",
-                description: "Scratch - это визуальная событийно-ориентированная среда программирования для обучения школьников младших и средних классов.",
+                description: "Курс предназначен для детей и школьников. На этом курсе дети будут программировать на известных платформах и играх как: Minecraft, Star Wars, Angry Birds, Холодное Сердце,  Scratch.",
                 lessons: [
                     {
-                        img: "/images/lesson/scratch/1.png",
-                        name: "Знакомство с Scratch",
-                        description: "Привет Scratch",
+                        img: "/images/lesson/minecraft.png",
+                        name: "Minecraft",
+                        description: "Майнкрафт снова с вами и предлагает выполнить новые задания.",
                         connected: false,
 
-                        lesson: [
-                            {
-                                text: "Что такое Scratch?"
-                            },
-                            {
-                                text: "Установка Scratch"
-                            },
-                            {
-                                text: "Знакомство с интерфейсом"
-                            }
-                        ]
 
                     },
                     {
-                        img: "/images/lesson/scratch/2.png",
-                        name: "Углубление в Scratch",
-                        description: "Изучаем scratch более подробно",
+                        img: "/images/lesson/star_wars.png",
+                        name: "Star Wars",
+                        description: "Научись программировать дроидов и создай свою собственную игру по мотивам Звездных войн.",
                         connected: true,
                         lesson: [
-                            {
-                                text: "Понимание спрайтов"
-                            },
-                            {
-                                text: "Работа с цветными блоками"
-                            },
-                            {
-                                text: "Работа с шрифтами"
-                            }
+
                         ]
 
-                    }
+                    },
+                    {
+                        img: "/images/lesson/ice.png",
+                        name: "Холодное сердце",
+                        description: "Давайте использовать код, чтобы присоединиться к Анне и Эльзе, открывающим магию и красоту льда. ",
+                        connected: true,
+                        lesson: [
+
+                        ]
+
+                    },
+                    {
+                        img: "/images/lesson/bird.png",
+                        name: "Angry Birds",
+                        description: "Постигайте азы программирования.",
+                        connected: true,
+                        lesson: [
+
+                        ]
+
+                    },
                 ]
             },
-            {
-                "title": "Изучение функции",
-                description: "Так как програмиование это не только создание объектов а еще и функции и движения, мы начнем изучать основы функции как loop,for,if,else и т.д. ",
-                lessons: [
-                    {
-                        img: "/images/lesson/scratch/3.svg",
-                        name: "Простые функции",
-                        description: "",
-                        connected: false,
 
-                        lesson: [
-                            {
-                                text: "Перемещение объектов"
-                            },
-                            {
-                                text: "Простые циклы"
-                            }, {
-                                text: "Прятки"
-                            }
-                        ]
-
-                    },
-                    {
-                        img: "/images/lesson/scratch/4.svg",
-                        name: "Стилизация",
-                        description: "Придаем вид нашему спрайту",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "Костюмы"
-                            },
-                            {
-                                text: "События"
-                            },
-                            {
-                                text: "Пр"
-                            }
-                        ]
-
-                    },
-                    {
-                        img: "/images/lesson/scratch/5.svg",
-                        name: "Сложные функции",
-                        description: "",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "Циклы"
-                            },
-                            {
-                                text: "Вычесления"
-                            },
-                            {
-                                text: "Координаты"
-                            }
-                        ]
-
-                    },
-                    {
-                        img: "/images/lesson/scratch/6.svg",
-                        name: "Взаимодействие с функциями",
-                        description: "Подключаем словари и понимаем как пользоватся",
-                        connected: false,
-                        lesson: [
-                            {
-                                text: "Кортежи и словари"
-                            },
-                            {
-                                text: "Списки в переменных"
-                            },
-                            {
-                                text: "Переменные и функции"
-                            }
-                        ]
-
-                    }
-                ]
-            }
         ],
         lesson: {
-            name: "Scratch",
+            name: "Code kids",
             img: "/images/lesson/scratch.png",
-            description: "Изучите основы програмирования, понятие об алгоритмах на уроках Scratch."
+            description: "Изучите основы програмирования, понятие об алгоритмах на уроках CodeKids."
         }
     });
 
@@ -535,7 +459,7 @@ router.get('/lesson/java', function (req, res, next) {
         sylabus: [
             {
                 title: "Начало работы с Java",
-                description: "Python - быстрый и мощный язык, который также прост в использовании и чтении, что делает его отличным для начинающих и экспертов. На этих курсах вы познакомитесь с основами Python, помогая вам расширить свои знания и подготовить вас к созданию широкого спектра приложений Python.",
+                description: "Jaba - быстрый и мощный язык, который также прост в использовании и чтении, что делает его отличным для начинающих и экспертов. На этих курсах вы познакомитесь с основами Python, помогая вам расширить свои знания и подготовить вас к созданию широкого спектра приложений Python.",
                 lessons: [
                     {
                         img: "/images/lesson/java/1.svg",
@@ -688,21 +612,21 @@ router.get('/lesson/java', function (req, res, next) {
                 ]
             },
             {
-                "title": "Java FX",
-                description: "Простой CSS может получить вас довольно далеко, но как только вы начинаете серьезно относиться к разработке интерфейса, вам необходимо получить доступ к более продвинутым темам, таким как специфика, плавание, анимация и отзывчивый дизайн. Эти курсы научат вас некоторым передовым методам работы с CSS и созданию адаптивных веб-сайтов, чтобы ваши пользователи двигались в правильном направлении.",
+                "title": "Introduction to Android",
+                description: "Начни создовать свои мобильные приложения",
                 lessons: [
                     {
                         img: "/images/lesson/java/9.svg",
-                        name: "Introduction to FX",
-                        description: "Понимание стилей",
+                        name: "Introduction to Android",
+                        description: "Изучение Android платформы",
                         connected: false,
 
                         lesson: [
                             {
-                                text: "Введение в JavaFX"
+                                text: "Введение в Android"
                             },
                             {
-                                text: "JavaFX Basics"
+                                text: "Android Basics"
                             }
                         ]
 
@@ -710,7 +634,7 @@ router.get('/lesson/java', function (req, res, next) {
                     {
                         img: "/images/lesson/java/10.svg",
                         name: "Создание проекта",
-                        description: "Изучение мобильного, адаптивного и отзывчивого веб-дизайна",
+                        description: "Созадание своего мобильного приложения",
                         connected: false,
                         lesson: [
                             {
@@ -719,9 +643,7 @@ router.get('/lesson/java', function (req, res, next) {
                             {
                                 text: "Управляемая событиями"
                             },
-                            {
-                                text: "JavaFX UI Controls and Multimedia"
-                            }
+
                         ]
 
                     },
@@ -733,7 +655,7 @@ router.get('/lesson/java', function (req, res, next) {
             name: "JAVA",
             bg: "/images/lesson/python-lesson.svg",
             img: "/images/lesson/java/java.svg",
-            description: "Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Python.",
+            description: "Изучите, что значит хранить и обрабатывать данные, принимать решения с вашей программой и использовать возможности Java.",
             preName: "Стань частью нового поколения",
             preDesc: "21 век - век технологий. В будущем языки програмирования будут неотъемлемой частью жизни. Так начинай же учить его сейчас."
         }

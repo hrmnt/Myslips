@@ -722,15 +722,21 @@ body {
           }
 
         }
-        .course-count {
-          margin-left: 1rem;
-          color: $black;
-          font-size: 1.6rem;
-          @media (max-width: 798px) {
-            font-size: 1.8rem!important;
-          }
+        .slogan{
+          font-size: 1.8rem;
+          color: $yellow;
+
         }
 
+      }
+      .course-count {
+        color: $black;
+        font-size: 1.6rem;
+        font-weight: 300;
+
+        @media (max-width: 798px) {
+          font-size: 1.8rem!important;
+        }
       }
       p {
         font-family: "Open Sans";

@@ -66,9 +66,11 @@
           <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="458" column="50" lean-forward="true" selection-start-line="458" selection-start-column="50" selection-end-line="458" selection-end-column="50" />
-                  <folding />
+                <state relative-caret-position="313">
+                  <caret line="443" column="22" lean-forward="true" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
+                  <folding>
+                    <marker date="1525105666287" expanded="false" signature="48311:48354" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -196,8 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navigation</find>
-      <find>abro</find>
       <find>web</find>
       <find>scra</find>
       <find>Зарабаты</find>
@@ -226,6 +226,8 @@
       <find>course-count</find>
       <find>we</find>
       <find>pyhton</find>
+      <find>Data sc</find>
+      <find>Android Developer</find>
     </findStrings>
     <replaceStrings>
       <replace>mb-3</replace>
@@ -236,6 +238,7 @@
       <replace>INSERT</replace>
       <replace>Подробнее</replace>
       <replace>routers</replace>
+      <replace>Android разработчик</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -288,7 +291,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -301,55 +304,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keynote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keynote" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="node" />
@@ -495,14 +450,9 @@
       <workItem from="1524344626470" duration="127000" />
       <workItem from="1524374980436" duration="3772000" />
       <workItem from="1524977813349" duration="530000" />
-      <workItem from="1525002781118" duration="27000" />
-    </task>
-    <task id="LOCAL-00010" summary="mobile adaptation add">
-      <created>1520833370347</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1520833370347</updated>
+      <workItem from="1525002781118" duration="58000" />
+      <workItem from="1525067251748" duration="16000" />
+      <workItem from="1525105414387" duration="258000" />
     </task>
     <task id="LOCAL-00011" summary="mobile adaptation add-(navigation)">
       <created>1520837758182</created>
@@ -840,11 +790,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524977909999</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="(python) - change">
+      <created>1525002823191</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1525002823191</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240298000" />
+    <option name="totallyTimeSpent" value="240603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,13 +819,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13392857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22905983" sideWeight="0.5119048" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3008547" sideWeight="0.48809522" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1371,9 +1328,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="458" column="50" lean-forward="true" selection-start-line="458" selection-start-column="50" selection-end-line="458" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="443" column="22" lean-forward="true" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
+          <folding>
+            <marker date="1525105666287" expanded="false" signature="48311:48354" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

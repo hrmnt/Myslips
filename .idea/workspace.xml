@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/public/javascripts/main.js" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
+    <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="teachers">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
@@ -67,7 +67,7 @@
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="367">
-                  <caret line="904" column="61" lean-forward="false" selection-start-line="904" selection-start-column="61" selection-end-line="904" selection-end-column="61" />
+                  <caret line="904" column="57" lean-forward="false" selection-start-line="904" selection-start-column="57" selection-end-line="904" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
@@ -124,8 +124,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="710" column="9" lean-forward="false" selection-start-line="710" selection-start-column="9" selection-end-line="710" selection-end-column="9" />
+                <state relative-caret-position="179">
+                  <caret line="695" column="4" lean-forward="false" selection-start-line="695" selection-start-column="4" selection-end-line="695" selection-end-column="4" />
                   <folding>
                     <element signature="e#480#505#0" expanded="false" />
                     <element signature="e#519#1819#0" expanded="false" />
@@ -444,14 +444,7 @@
       <workItem from="1525105414387" duration="1264000" />
       <workItem from="1525106697982" duration="99000" />
       <workItem from="1525110463525" duration="71000" />
-      <workItem from="1525168771910" duration="846000" />
-    </task>
-    <task id="LOCAL-00014" summary="Vioelt92">
-      <created>1521007257837</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1521007257838</updated>
+      <workItem from="1525168771910" duration="1089000" />
     </task>
     <task id="LOCAL-00015" summary="Vioelt92">
       <created>1521008178753</created>
@@ -789,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525169284262</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="teachers">
+      <created>1525169630551</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1525169630551</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242625000" />
+    <option name="totallyTimeSpent" value="242868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,7 +885,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java add" />
     <MESSAGE value="mobile adaptation add" />
     <MESSAGE value="mobile adaptation add-(navigation)" />
     <MESSAGE value="image compress" />
@@ -910,7 +909,8 @@
     <MESSAGE value="description add" />
     <MESSAGE value="web-intensive" />
     <MESSAGE value="(python) - change" />
-    <option name="LAST_COMMIT_MESSAGE" value="(python) - change" />
+    <MESSAGE value="teachers" />
+    <option name="LAST_COMMIT_MESSAGE" value="teachers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1219,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="710" column="9" lean-forward="false" selection-start-line="710" selection-start-column="9" selection-end-line="710" selection-end-column="9" />
+        <state relative-caret-position="179">
+          <caret line="695" column="4" lean-forward="false" selection-start-line="695" selection-start-column="4" selection-end-line="695" selection-end-column="4" />
           <folding>
             <element signature="e#480#505#0" expanded="false" />
             <element signature="e#519#1819#0" expanded="false" />
@@ -1318,7 +1318,7 @@
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="904" column="61" lean-forward="false" selection-start-line="904" selection-start-column="61" selection-end-line="904" selection-end-column="61" />
+          <caret line="904" column="57" lean-forward="false" selection-start-line="904" selection-start-column="57" selection-end-line="904" selection-end-column="57" />
           <folding />
         </state>
       </provider>

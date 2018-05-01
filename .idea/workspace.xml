@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/lesson.hbs" afterPath="$PROJECT_DIR$/views/lesson.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,10 +23,11 @@
       <file leaf-file-name="lesson.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="323">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <marker date="1525201152942" expanded="true" signature="5784:5863" ph="..." />
+                <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1525201626261" expanded="true" signature="6252:6331" ph="..." />
               </folding>
             </state>
           </provider>
@@ -65,7 +65,7 @@
       <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="340">
               <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
@@ -404,14 +404,8 @@
       <workItem from="1525106697982" duration="99000" />
       <workItem from="1525110463525" duration="71000" />
       <workItem from="1525168771910" duration="1242000" />
-      <workItem from="1525201102764" duration="52000" />
-    </task>
-    <task id="LOCAL-00016" summary="Vioelt92">
-      <created>1521008646628</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1521008646628</updated>
+      <workItem from="1525201102764" duration="106000" />
+      <workItem from="1525201482156" duration="146000" />
     </task>
     <task id="LOCAL-00017" summary="Vioelt92">
       <created>1521010030269</created>
@@ -749,11 +743,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525169868140</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="adwords">
+      <created>1525201167304</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1525201167304</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243073000" />
+    <option name="totallyTimeSpent" value="243273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,16 +769,16 @@
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13353565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13201821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22905983" sideWeight="0.5119048" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3008547" sideWeight="0.48809522" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -845,7 +846,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mobile adaptation add" />
     <MESSAGE value="mobile adaptation add-(navigation)" />
     <MESSAGE value="image compress" />
     <MESSAGE value="Vioelt92" />
@@ -870,7 +870,8 @@
     <MESSAGE value="web-intensive" />
     <MESSAGE value="(python) - change" />
     <MESSAGE value="teachers" />
-    <option name="LAST_COMMIT_MESSAGE" value="teachers" />
+    <MESSAGE value="adwords" />
+    <option name="LAST_COMMIT_MESSAGE" value="adwords" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,26 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="695" column="4" lean-forward="false" selection-start-line="695" selection-start-column="4" selection-end-line="695" selection-end-column="4" />
-          <folding>
-            <element signature="e#480#505#0" expanded="false" />
-            <element signature="e#519#1819#0" expanded="false" />
-            <element signature="e#892#1028#0" expanded="false" />
-            <element signature="e#1038#1073#0" expanded="false" />
-            <element signature="e#1081#1549#0" expanded="false" />
-            <element signature="e#1557#1706#0" expanded="false" />
-            <element signature="e#1715#1817#0" expanded="false" />
-            <element signature="e#2224#2360#0" expanded="false" />
-            <element signature="e#2372#2411#0" expanded="false" />
-            <element signature="e#3012#3161#0" expanded="false" />
-            <element signature="e#3170#3272#0" expanded="false" />
-            <element signature="e#3808#3858#0" expanded="false" />
-            <element signature="e#6752#8031#0" expanded="false" />
-            <element signature="e#8034#8200#0" expanded="false" />
-            <element signature="e#8203#8437#0" expanded="false" />
-            <element signature="e#24898#24902#0" expanded="false" />
-            <element signature="e#24919#25466#0" expanded="false" />
-            <element signature="e#25833#26378#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,13 +1241,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="340">
           <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
@@ -1274,10 +1254,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/lesson.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="323">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1525201152942" expanded="true" signature="5784:5863" ph="..." />
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1525201626261" expanded="true" signature="6252:6331" ph="..." />
           </folding>
         </state>
       </provider>

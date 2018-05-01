@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add089c2-799f-45c3-bf3b-a79d19bd0278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/teachers/bota.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/teachers/fariza.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
     </list>
@@ -65,11 +63,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.hbs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="902" column="22" lean-forward="true" selection-start-line="902" selection-start-column="22" selection-end-line="902" selection-end-column="22" />
+                <state relative-caret-position="367">
+                  <caret line="904" column="61" lean-forward="false" selection-start-line="904" selection-start-column="61" selection-end-line="904" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -95,11 +93,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+                <state relative-caret-position="-13">
+                  <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -242,9 +240,9 @@
         <option value="$PROJECT_DIR$/views/lesson.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.scss" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
       </list>
     </option>
   </component>
@@ -446,14 +444,7 @@
       <workItem from="1525105414387" duration="1264000" />
       <workItem from="1525106697982" duration="99000" />
       <workItem from="1525110463525" duration="71000" />
-      <workItem from="1525168771910" duration="504000" />
-    </task>
-    <task id="LOCAL-00013" summary="image compress">
-      <created>1520856756428</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1520856756428</updated>
+      <workItem from="1525168771910" duration="846000" />
     </task>
     <task id="LOCAL-00014" summary="Vioelt92">
       <created>1521007257837</created>
@@ -791,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525110484952</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="(python) - change">
+      <created>1525169284262</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1525169284262</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242283000" />
+    <option name="totallyTimeSpent" value="242625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1301,14 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="902" column="22" lean-forward="true" selection-start-line="902" selection-start-column="22" selection-end-line="902" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1319,8 +1309,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="-13">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="904" column="61" lean-forward="false" selection-start-line="904" selection-start-column="61" selection-end-line="904" selection-end-column="61" />
           <folding />
         </state>
       </provider>

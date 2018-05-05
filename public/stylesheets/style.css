@@ -132,8 +132,8 @@ body {
   z-index: 9;
   display: flex;
   align-items: center;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   transition: 0.3s ease;
   z-index: 51; }
   .register-drop .lent {

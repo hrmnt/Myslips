@@ -103,8 +103,8 @@ body {
   z-index: 9;
   display: flex;
   align-items: center;
-  transform: translateY(-100%);
-  //transform: translateY(0);
+  //transform: translateY(-100%);
+  transform: translateY(0);
 
   transition: 0.3s ease;
   z-index: 51;
@@ -129,49 +129,91 @@ body {
     z-index: 51;
   }
   .form-element{
-    width: 30%;
-    padding: 2rem;
+    width: 46rem;
+    padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
     z-index: 52;
     @media (max-width: 798px) {
       width: 80%;
     }
 
-    background-color: #313439;
-    //border-radius: 1rem;
-    color:#fcfcfc;
+    background-color: #ffffff;
+    border-radius: 6px;
+    //color:#fcfcfc;
     .logo{
       height: 2.5rem;
       width: auto;
       margin-bottom: 4rem;
     }
-
-    input{
-      border:none;
-      border-bottom: 1px solid #ccc;
-      background-color: transparent;
-      outline: none;
-      color: #fcfcfc;
+    h3{
+      color: $black;
+      text-align: center;
+      font-size:2.2rem;
+      margin-bottom: 4rem;
+    }
+    .place-ss{
+      width: 6rem;
+      border: none;
+      padding: .8rem 0;
+      background: #f0f0f0;
+      outline-color: #6f729b;
+      color: #929292;
+      border-radius: 5px;
+      font-size: 1.3rem;
+      font-family: Open Sans;
+      margin-right: 2rem;
       &::placeholder{
-        color: #cccccc;
+        color: #929292;
 
       }
     }
+    .tel-all,.name_pa{
+      border: none;
+      padding: .8rem 0;
+      background: #f0f0f0;
+      outline-color: #6f729b;
+      color: #929292;
+      border-radius: 5px;
+      font-size: 1.4rem;
+      padding-left: 1rem;
+      font-family: Open Sans;
+      &::placeholder{
+        color: #929292;
+
+      }
+    }
+  }
+  .name{
+    width: 45%;
+  }
+  .surname{
+    width: 55%;
   }
   .wrap{
     margin-bottom: 2rem;
 
     p{
       font-family: Montserrat;
-      color: #fcfcfc;
-      font-size: 1.4rem;
+      font-weight: 500;
+      color: $black;
+      font-size: 1.3rem;
       margin-bottom: 4px;
 
     }
   }
+  select{
+    border-radius: 5px;
+    padding: 0.8rem 0;
+  }
   .s-btn{
-    justify-self: flex-end;
+    border-radius: 5px;
+    padding: 0.8rem;
     border: none!important;
     background-color: $yellow!important;
+    color: #Fcfcfc;
+    cursor: pointer;
   }
 }
 .sticky {

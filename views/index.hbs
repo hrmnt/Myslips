@@ -80,23 +80,25 @@
 </navigation>
 <div class="register-drop flex-column align-items-center justify-content-center">
     <div class="c-layer"></div>
-    <form class="form-element">
-        <img class="logo" src="/images/logo_white.png" alt="">
+    <form class="form-element ">
+        <img class="logo d-none" src="/images/logo_white.png" alt="">
+        <h3>Записаться на курсы</h3>
         <div class="w-100 d-flex">
-            <div class="wrap d-flex flex-column w-50 pr-3">
+            <div class="wrap name d-flex flex-column pr-3">
                 <p>Имя:</p>
-                <input id="name-form" type="text" name="name" placeholder="Марлен" required>
+                <input class="name_pa" id="name-form" type="text" name="name" placeholder="Марлен" required>
             </div>
-            <div class="wrap d-flex flex-column w-50 pl-2">
+            <div class="wrap surname d-flex flex-column  pl-2">
                 <p>Фамилия:</p>
-                <input id="surname-form" type="text" name="surname" placeholder="Марлен" required>
+                <input class="name_pa" id="surname-form" type="text" name="surname" placeholder="Марлен" required>
             </div>
         </div>
 
-        <div class="wrap d-flex flex-column pr-3 w-50">
+        <div class="wrap d-flex flex-column pr-3 w-75">
             <p>Номер телефона:</p>
             <div class="d-flex">
-                <input id="tel-form" name="phone" type="text" class="w-100" required placeholder="+7 (000) 000-00-00">
+                <input  class="rounded px-3 text-center place-ss" placeholder="+7" readonly="">
+                <input id="tel-form" name="phone" type="text" class="w-75 tel-all" required placeholder="(000) 000-00-00">
 
             </div>
         </div>
@@ -112,9 +114,12 @@
                 <option value="Web-intensive">Web-Intensive</option>
             </select>
         </div>
-        <button class="s-btn m-auto" type="submit">
-            Отправить
-        </button>
+        <div class="w-100 d-flex align-items-center">
+            <button class="s-btn m-auto" type="submit">
+                Записаться
+            </button>
+        </div>
+
 
     </form>
 </div>

@@ -132,8 +132,8 @@ body {
   z-index: 9;
   display: flex;
   align-items: center;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   transition: 0.3s ease;
   z-index: 51; }
   .register-drop .lent {
@@ -152,11 +152,13 @@ body {
     height: 100%;
     z-index: 51; }
   .register-drop .form-element {
-    width: 30%;
-    padding: 2rem;
+    width: 46rem;
+    padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     z-index: 52;
-    background-color: #313439;
-    color: #fcfcfc; }
+    background-color: #ffffff;
+    border-radius: 6px; }
     @media (max-width: 798px) {
       .register-drop .form-element {
         width: 80%; } }
@@ -164,31 +166,70 @@ body {
       height: 2.5rem;
       width: auto;
       margin-bottom: 4rem; }
-    .register-drop .form-element input {
+    .register-drop .form-element h3 {
+      color: #041125;
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 4rem; }
+    .register-drop .form-element .place-ss {
+      width: 6rem;
       border: none;
-      border-bottom: 1px solid #ccc;
-      background-color: transparent;
-      outline: none;
-      color: #fcfcfc; }
-      .register-drop .form-element input::-webkit-input-placeholder {
-        color: #cccccc; }
-      .register-drop .form-element input:-ms-input-placeholder {
-        color: #cccccc; }
-      .register-drop .form-element input::-ms-input-placeholder {
-        color: #cccccc; }
-      .register-drop .form-element input::placeholder {
-        color: #cccccc; }
+      padding: .8rem 0;
+      background: #f0f0f0;
+      outline-color: #6f729b;
+      color: #929292;
+      border-radius: 5px;
+      font-size: 1.3rem;
+      font-family: Open Sans;
+      margin-right: 2rem; }
+      .register-drop .form-element .place-ss::-webkit-input-placeholder {
+        color: #929292; }
+      .register-drop .form-element .place-ss:-ms-input-placeholder {
+        color: #929292; }
+      .register-drop .form-element .place-ss::-ms-input-placeholder {
+        color: #929292; }
+      .register-drop .form-element .place-ss::placeholder {
+        color: #929292; }
+    .register-drop .form-element .tel-all, .register-drop .form-element .name_pa {
+      border: none;
+      padding: .8rem 0;
+      background: #f0f0f0;
+      outline-color: #6f729b;
+      color: #929292;
+      border-radius: 5px;
+      font-size: 1.4rem;
+      padding-left: 1rem;
+      font-family: Open Sans; }
+      .register-drop .form-element .tel-all::-webkit-input-placeholder, .register-drop .form-element .name_pa::-webkit-input-placeholder {
+        color: #929292; }
+      .register-drop .form-element .tel-all:-ms-input-placeholder, .register-drop .form-element .name_pa:-ms-input-placeholder {
+        color: #929292; }
+      .register-drop .form-element .tel-all::-ms-input-placeholder, .register-drop .form-element .name_pa::-ms-input-placeholder {
+        color: #929292; }
+      .register-drop .form-element .tel-all::placeholder, .register-drop .form-element .name_pa::placeholder {
+        color: #929292; }
+  .register-drop .name {
+    width: 45%; }
+  .register-drop .surname {
+    width: 55%; }
   .register-drop .wrap {
     margin-bottom: 2rem; }
     .register-drop .wrap p {
       font-family: Montserrat;
-      color: #fcfcfc;
-      font-size: 1.4rem;
+      font-weight: 500;
+      color: #041125;
+      font-size: 1.3rem;
       margin-bottom: 4px; }
+  .register-drop select {
+    border-radius: 5px;
+    padding: 0.8rem 0; }
   .register-drop .s-btn {
-    justify-self: flex-end;
+    border-radius: 5px;
+    padding: 0.8rem;
     border: none !important;
-    background-color: #DEAE23 !important; }
+    background-color: #DEAE23 !important;
+    color: #Fcfcfc;
+    cursor: pointer; }
 
 .sticky {
   width: 100%;

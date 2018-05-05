@@ -128,7 +128,7 @@ $(document).ready(function () {
         $(".navigation").toggleClass("open")
     })
 
-    $("#tel-form").mask('+7 (000) 000-00-00')
+    $("#tel-form").mask('(000) 000-00-00')
     timeout();
     var i = 0;
     var timer = 1000;

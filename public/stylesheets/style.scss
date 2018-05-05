@@ -137,6 +137,7 @@ body {
     z-index: 52;
     @media (max-width: 798px) {
       width: 80%;
+      padding: 2rem;
     }
 
     background-color: #ffffff;
@@ -169,6 +170,7 @@ body {
 
       }
     }
+
     .tel-all,.name_pa{
       border: none;
       padding: .8rem 0;
@@ -179,10 +181,16 @@ body {
       font-size: 1.4rem;
       padding-left: 1rem;
       font-family: Open Sans;
+
       &::placeholder{
         color: #929292;
 
       }
+    }
+  }
+  .tel-w{
+    @media (max-width: 798px) {
+      width: 100%!important;
     }
   }
   .name{
@@ -214,6 +222,17 @@ body {
     background-color: $yellow!important;
     color: #Fcfcfc;
     cursor: pointer;
+  }
+
+  .tss-sd{
+    @media (max-width: 798px) {
+      flex-direction: column;
+      .wrap{
+        width: 100%;
+        padding: 0!important;
+      }
+
+    }
   }
 }
 .sticky {

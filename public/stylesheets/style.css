@@ -161,7 +161,8 @@ body {
     border-radius: 6px; }
     @media (max-width: 798px) {
       .register-drop .form-element {
-        width: 80%; } }
+        width: 80%;
+        padding: 2rem; } }
     .register-drop .form-element .logo {
       height: 2.5rem;
       width: auto;
@@ -208,6 +209,9 @@ body {
         color: #929292; }
       .register-drop .form-element .tel-all::placeholder, .register-drop .form-element .name_pa::placeholder {
         color: #929292; }
+  @media (max-width: 798px) {
+    .register-drop .tel-w {
+      width: 100% !important; } }
   .register-drop .name {
     width: 45%; }
   .register-drop .surname {
@@ -230,6 +234,12 @@ body {
     background-color: #DEAE23 !important;
     color: #Fcfcfc;
     cursor: pointer; }
+  @media (max-width: 798px) {
+    .register-drop .tss-sd {
+      flex-direction: column; }
+      .register-drop .tss-sd .wrap {
+        width: 100%;
+        padding: 0 !important; } }
 
 .sticky {
   width: 100%;

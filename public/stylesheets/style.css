@@ -251,7 +251,7 @@ body {
   top: 1px;
   z-index: 50;
   padding-left: 4rem !important;
-  padding-right: 6rem !important; }
+  padding-right: 40rem !important; }
   @media (max-width: 798px) {
     .sticky {
       padding-left: 2rem !important;
@@ -1120,7 +1120,19 @@ body {
 .lesson-page .path {
   height: 35rem;
   padding: 0 5rem;
-  background: linear-gradient(to left, #21abc7, #616db3); }
+  background: linear-gradient(to left, #21abc7, #616db3);
+  position: relative;
+  overflow: hidden; }
+  .lesson-page .path .time-table {
+    position: absolute;
+    top: -13rem;
+    right: -13rem;
+    border-radius: 50%;
+    height: 26rem;
+    width: 26rem;
+    background-color: white; }
+    .lesson-page .path .time-table p {
+      color: #041125; }
   .lesson-page .path .info {
     padding: 0 2.5rem;
     background-repeat: no-repeat;

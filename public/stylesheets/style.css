@@ -256,6 +256,8 @@ body {
     .sticky {
       padding-left: 2rem !important;
       padding-right: 2rem !important; } }
+  .sticky.camp {
+    background-color: #041125; }
   .sticky a {
     display: none; }
   .sticky .lent {
@@ -405,8 +407,35 @@ body {
     background-color: transparent; }
 
 .main-page {
-  height: 100vh;
+  height: 70vh;
   position: relative; }
+  .main-page .back-graiu {
+    position: absolute;
+    z-index: -2;
+    background-color: #68ADFF;
+    top: -10%;
+    left: -10%;
+    width: 150%;
+    height: 90%;
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+    background-image: url("/images/bg_t.jpg");
+    background-size: contain; }
+  .main-page .info-camp h3 {
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+    font-family: Mont-Light; }
+  .main-page .info-camp p {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: Rubik; }
+  .main-page .info-camp span {
+    width: 10%;
+    height: 2px;
+    background-color: white; }
   .main-page .background-layer {
     position: absolute;
     z-index: -2;
@@ -591,6 +620,29 @@ body {
       .main-page .info button a {
         color: white; }
 
+.body.camp {
+  overflow-x: hidden; }
+  .body.camp .about {
+    padding: 4rem 0; }
+    .body.camp .about h3 {
+      font-size: 3.8rem;
+      color: black;
+      font-weight: 300;
+      font-family: Mont-Light;
+      margin-bottom: 2rem; }
+    .body.camp .about p {
+      font-size: 1.6rem;
+      text-align: center;
+      color: black;
+      font-weight: 300;
+      font-family: Mont-Light;
+      width: 60%;
+      margin-bottom: 2rem; }
+    .body.camp .about span {
+      width: 10%;
+      height: 2px;
+      background-color: #68adff; }
+
 .fee-in-kz {
   height: 71rem;
   background-color: white;
@@ -611,6 +663,9 @@ body {
     font-size: 2rem; }
   .fee-in-kz .kz1 {
     margin-bottom: 5rem; }
+    @media (max-width: 798px) {
+      .fee-in-kz .kz1 p {
+        text-align: center; } }
   .fee-in-kz .circle {
     height: 12rem;
     width: 12rem;
@@ -977,7 +1032,7 @@ body {
     color: #041125; }
     @media (max-width: 798px) {
       .learn-more h3 {
-        font-size: 4rem; } }
+        font-size: 3rem; } }
 
 .mentors {
   background-color: #fafafa; }
@@ -1047,7 +1102,8 @@ body {
   @media (max-width: 798px) {
     .footer {
       flex-direction: column;
-      height: auto; } }
+      height: auto;
+      text-align: center; } }
   .footer .logo {
     height: 3rem; }
     @media (max-width: 798px) {

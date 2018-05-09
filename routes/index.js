@@ -20,7 +20,10 @@ router.get('/',function (req,res) {
 
 /* GET home page. */
 router.get('/main', function (req, res, next) {
-    res.render('index', {title: 'Keynote | Школа программирования и дизайна'});
+    res.render('index', {title: 'KEYNOTE | Курсы программирования и дизайна'});
+});
+router.get('/camp', function (req, res, next) {
+    res.render('camp', {title: 'Keynote | Школа программирования и дизайна'});
 });
 router.get('/lesson/html', function (req, res, next) {
     res.render('lesson', {

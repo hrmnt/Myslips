@@ -442,8 +442,12 @@ body {
 }
 
 .main-page {
-  height: 70vh;
+  height: 100vh;
   position: relative;
+  &.camp{
+    height: 70vh;
+
+  }
   .back-graiu{
     position: absolute;
     z-index: -2;
